@@ -1,5 +1,5 @@
 *NEW! Updated Wednesday, January 11, 2017*
-##IMPORTANT: We're Moving to Microsoft Azure
+##IMPORTANT: We’re Moving to Microsoft Azure
 TrackAbout is moving its server operations to Microsoft Azure, Microsoft’s cloud services division.
 
 We plan to migrate customers **over the weekend of January 28th, 2017**. If this date changes, we will update this message.
