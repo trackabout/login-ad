@@ -1,6 +1,6 @@
 *Updated Friday, January 27, 2017*
 ##CHANGE OF MIGRATION PLANS FOR THIS WEEKEND
-We are announcing a change to our Azure migration plan. Instead of migrating all customers in one weekend, we will instead migrate customers to Azure in two waves spanning two weekends. This weekend of Jan 28, we will move a handful of small customers, demo accounts and free trial accounts. Next weekend, Feb 4, we plan to move the remainder.
+We are announcing a change to our Azure migration plan. Instead of migrating all customers in one weekend, we will migrate customers to Azure in two waves spanning two weekends. This weekend of Jan 28, we will move a handful of small customers, demo accounts and free trial accounts. Next weekend, Feb 4, we plan to move the remainder.
 
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 <hr>
