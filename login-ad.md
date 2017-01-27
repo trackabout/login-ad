@@ -1,10 +1,6 @@
-*NEW! Updated Wednesday, January 11, 2017*
-##IMPORTANT: We’re Moving to Microsoft Azure
-TrackAbout is moving its server operations to Microsoft Azure, Microsoft’s cloud services division.
-
-We plan to migrate customers **over the weekend of January 28th, 2017**. If this date changes, we will update this message.
-
-Most customers will experience a period of service unavailability of 15-30 minutes while we migrate your account.
+*Updated Friday, January 27, 2017*
+##CHANGE OF MIGRATION PLANS FOR THIS WEEKEND
+We are announcing a change to our Azure migration plan. Instead of migrating all customers in one weekend, we will instead migrate customers to Azure in two waves spanning two weekends. This weekend of Jan 28, we will move a handful of small customers, demo accounts and free trial accounts. Next weekend, Feb 4, we plan to move the remainder.
 
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 <hr>
