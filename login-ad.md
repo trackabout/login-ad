@@ -7,9 +7,15 @@ For full details, [please read this document](https://meta.trackabout.com/wiki/A
 ##Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
 This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds.
 
+###How does this benefit me?
+Data integrity is very important to TrackAbout. Allowing a stolen device or rogue user to make changes to your data is a huge issue - for you and for TrackAbout. By verifying you before letting a handheld send data to TrackAbout's servers, we can better ensure the integrity of that data.
+
+###How does it work?
+
 If you are connected to the internet when you login, the handheld will talk to TrackAbout's website to verify your information. After that, you'll be able to use the handheld as you do today. 
 
 If you're not connected to a network when you login, you'll still be able to use the handheld like you do today. Once you come back online and do anything that needs to talk to TrackAbout's servers (like save a record), you'll need to enter your PIN so we can verify you. 
+
 
 ###Session Duration
 
