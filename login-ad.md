@@ -4,8 +4,14 @@ Hosting migration to Microsoft Azure **will take place** this coming weekend beg
 
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 
-##Changes to Mobile Device Authorization for TAMobile 6 Clients
-For our clients that are currently using TAMobile 6 on handheld devices and mobile unit passwords, TrackAbout is enhancing the way we authenticate users. 
+##Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
+This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds.
+
+_Joel wordsmith this_ When in online mode, logging in will confirm the user with the server.
+
+When users log in, their access and permissions will be authenticated with the site, to ensure that the user is valid.  TrackAbout will also verify that a user has permissions to save action records upon a wireless save. 
+
+For example, if Joe Smith saves a Fill record, when the record is saved wirelessly, TrackAbout will verify that Joe is indeed a Filler with the appropriate rights to use the Fill action.
 
 ###What does this mean?
 
@@ -13,7 +19,7 @@ When users log in, their access and permissions will be authenticated with the s
 
 For example, if Joe Smith saves a Fill record, when the record is saved wirelessly, TrackAbout will verify that Joe is indeed a Filler with the appropriate rights to use the Fill action.
 
-###Session Length
+###Session Duration
 
 Once a user in logged into TrackAbout on a handheld, they have **30 idle minutes** before TrackAbout will ask them to enter their PIN again.  **This session time only applies to online/wireless save actions**.  Each time a user saves an action or the system does a lookup to the TrackAbout server the session length will start again.  
 
