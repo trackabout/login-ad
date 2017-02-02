@@ -1,4 +1,4 @@
-*Updated Thursday, Feb 2, 2017*
+*Updated Tuesday, January 31, 2017*
 ##Hosting Migration February 3 Weekend
 Hosting migration to Microsoft Azure **will take place** this coming weekend beginning the evening of Friday, Feb 3 and continuing through the weekend.
 
