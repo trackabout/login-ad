@@ -8,7 +8,8 @@ For full details, [please read this document](https://meta.trackabout.com/wiki/A
 This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds.
 
 ###How does this benefit me?
-Data integrity is very important to TrackAbout. Allowing a stolen device or rogue user to make changes to your data is a huge issue - for you and for TrackAbout. By verifying you before letting a handheld send data to TrackAbout's servers, we can better ensure the integrity of that data.
+
+This change increases security by more frequently checking that users are who they say they are before they are allowed to save records and change data in your TrackAbout system. This change significantly reduces the amount of damage that could be done should a device become lost, stolen, or otherwise fall into the wrong hands.
 
 ###How does it work?
 
