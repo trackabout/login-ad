@@ -5,7 +5,7 @@ Hosting migration to Microsoft Azure **will take place** this coming weekend beg
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 
 ##Changes to Mobile Device Authorization for TAMobile 6 Clients
-For our clients that are currently using TA6 on handheld devices and mobile unit passwords, TrackAbout is enhancing the way we authenticate users. 
+For our clients that are currently using TAMobile 6 on handheld devices and mobile unit passwords, TrackAbout is enhancing the way we authenticate users. 
 
 ###What does this mean?
 
