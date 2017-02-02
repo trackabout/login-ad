@@ -5,9 +5,9 @@ Hosting migration to Microsoft Azure **will take place** this coming weekend beg
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 
 ##Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
-This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds.
+This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds. If you log into the TrackAbout application on your device, and you are prompted to **"Enter your PIN"**, your authentication process will be changing.
 
-###How does this benefit me?
+###How does the change benefit me?
 
 This change increases security by more frequently checking that users are who they say they are before they are allowed to save records and change data in your TrackAbout system. This change significantly reduces the amount of damage that could be done should a device become lost, stolen, or otherwise fall into the wrong hands.
 
@@ -25,10 +25,6 @@ Like when using a web site, a user's handheld session can now time out if the us
 ###What if I only use actions offline, like Delivery?
 
 The change will not affect you, as your records will be saved locally on the device for later syncing. This change only affects **online save actions**. You'll only be prompted for your PIN when you sync your records to the server at the end of the day.
-
-###How do I know if I use a PIN?
-
-If you log into the TrackAbout application on your device, and you are asked to **"Enter your PIN"**, your authentication process will change as stated above.
 
 Should you have any questions or concerns about this new process please feel free to contact TrackAbout Support at [support@trackabout.com](mailto:support@trackabout.com) or 412-269-1872 ext 8.
 
