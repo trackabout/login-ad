@@ -7,6 +7,11 @@ For full details, [please read this document](https://meta.trackabout.com/wiki/A
 ##Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
 This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds. If you log into the TrackAbout application on your device, and you are prompted to **"Enter your PIN"**, your authentication process will be changing.
 
+###When will this change take place?
+This change will go live in production on **February 14th**.
+
+The change is already available in the Test environment.
+
 ###How does the change benefit me?
 
 This change increases security by more frequently checking that users are who they say they are before they are allowed to save records and change data in your TrackAbout system. This change significantly reduces the amount of damage that could be done should a device become lost, stolen, or otherwise fall into the wrong hands.
