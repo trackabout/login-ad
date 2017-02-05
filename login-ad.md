@@ -1,10 +1,10 @@
-*Updated Thursday, February 2, 2017*
-##Hosting Migration February 3 Weekend
-Hosting migration to Microsoft Azure **will take place** this coming weekend beginning the evening of Friday, Feb 3 and continuing through the weekend.
+*Updated Saturday 9:00 PM Eastern US, February 4, 2017*
+##Hosting Migration is Complete
+We're pleased to announce our hosting migration to Microsoft Azure is now complete. The migration went smoothly.
 
 For full details, [please read this document](https://meta.trackabout.com/wiki/Azure_Migration_Announcement).
 
-##Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
+##Upcoming Security Enhancement - Change to Mobile Device Login for TAMobile 6 Clients
 This change applies to clients using PIN-based login with TAMobile 6 on rugged handhelds. If you log into the TrackAbout application on your device, and you are prompted to **"Enter your PIN"**, your authentication process will be changing.
 
 ###When will this change take place?
