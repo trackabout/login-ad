@@ -1,4 +1,4 @@
-*Updated Thursday 11:00 AM Eastern US, March,2, 2017*
+*Updated Thursday 11:00 AM Eastern US, March 2, 2017*
 ##TrackAbout Release Notes – February 2017
 
 The February 2017 release is out! Read the latest [blog post](https://corp.trackabout.com/blog/trackabout-release-notes-february-2017) for more information about the changes in the most current software release:
