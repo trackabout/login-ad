@@ -1,18 +1,15 @@
-*Updated Thursday 11:00 AM Eastern US, March 2, 2017*
-##TrackAbout Release Notes – February 2017
+*Updated Monday 12:00 PM Eastern US, April 17, 2017*
 
-The February 2017 release is out! Read the latest [blog post](https://corp.trackabout.com/blog/trackabout-release-notes-february-2017) for more information about the changes in the most current software release:
+## TrackAbout Release Notes – March/April 2017
 
-* Current Inventory – Saved Custom Searches
-* Customer Audits – Improved Filtering
-* Truck Reconciliation – Support for Return Only Trips
-* TAMobile 6 – Security Enhancements
-* New Ownership Type
-* Smartphone – Support for Scanning Lost Assets during Order Creation
-* Removed Trucks from Add New Order drop down
-* Search by Trips during Find Trip Load
-* Alphabetized Asset Family page
-* Performance improvement for the Ramp Lots page
+The March/April 2017 release is out! Read the latest [blog post](https://corp.trackabout.com/blog/trackabout-release-notes-marchapril-2017/) for more information about the changes in the most current software release:
+
+* Security enhancement - Session Length timeout on TAMobile 6 is now configurable
+* Website enhancement - Adding the “Email this page” link to website pages
+* Website enhancements - Updates to the Customer Profile page
+* Feature - Allowing Customers to be Deactivated
+* Website enhancement - Usability Updates for Order Viewing
+* Fix - Trip Numbers were being incorrectly generated
+* Feature - Printing available on TAMobile 6 for Basic Delivery
 
 If you have questions about how you can start using any of these new features, please reach out to TrackAbout Support at [support@trackabout.com](mailto:support@trackabout.com) or 412-269-1872 ext 8.
-
