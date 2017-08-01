@@ -1,4 +1,17 @@
-*Updated Monday 12:00 PM Eastern US, April 17, 2017*
+*Updated Tuesday, 2:30 PM Eastern US, August 1, 2017*
+
+## Announcing TrackAbout OpenData
+Today we are announcing a new feature that will let you to query your TrackAbout data using SQL (Structured Query Language). SQL is the most popular database query language in the world. We’re calling this offering TrackAbout OpenData.
+
+We have several pilot customers who have helped us shape this new feature. These customers have had success:
+
+* Pulling asset and transaction data into local databases and applications
+* Building data warehouses by combining TrackAbout data with other in-house data
+* Generating their own dashboards, reports and visualizations by using tools and skills they already have in house like Excel, Tableau and Power BI.
+
+You can find more information, pricing and technical documentation in our [public wiki on the OpenData page](https://meta.trackabout.com/wiki/OpenData).
+
+When you’re ready to get started, reach out to your Support representative or email us at [support@trackabout.com](mailto:support@trackabout.com).
 
 ## TrackAbout Release Notes – March/April 2017
 
