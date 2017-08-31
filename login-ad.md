@@ -7,6 +7,7 @@ For non-urgent requests, please contact support@trackabout.com and we will reply
 
 We thank you for your business and wish you and your family a very happy holiday.
 
+---------
 
 *Tuesday, 2:30 PM Eastern US, August 1, 2017*
 ## Query Your Data!
