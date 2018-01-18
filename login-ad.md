@@ -1,13 +1,15 @@
-*September 9, 2017*
-## Query Your Data!
-We are very pleased to announce a new feature that will let you to query your TrackAbout data using SQL (Structured Query Language). SQL is the most popular database query language in the world. We’re calling this offering **TrackAbout OpenData**.
+*January 18, 2018*
+## Save the Date!
 
-We have several pilot customers who have helped us shape this new feature. These customers have had success:
+![Trckapalooza2018](https://gallery.mailchimp.com/63b99b6c28198bcc2d19dcbbb/images/71edcbb7-7bce-4ecd-9029-34616965e2e0.jpg)
 
-* Fetching asset and transaction data into local databases and applications
-* Building data warehouses by combining TrackAbout data with other in-house data
-* Generating their own dashboards, reports and visualizations by using tools and skills they already have in house like Excel, Tableau and Power BI.
+Join us for two full days:
+* Learn about new TrackAbout features 
+* Get an exclusive sneak peek at what's happening with TrackAbout in 2018-2019
+* Provide input on what features TrackAbout will work on next
+* Share best practices with other TrackAbout customers
+* Mingle with TrackAbout partners to view new products and technology
 
-You can find more information, pricing and technical documentation in our [public wiki on the OpenData page](https://meta.trackabout.com/wiki/OpenData).
+There will be more details to follow.  In the meantime, take a look at the fun things to do and see at [Station Square](https://www.stationsquare.com/), and in [Downtown Pittsburgh](http://downtownpittsburgh.com/visit/), only a 10 minute walk from the event. 
 
-When you’re ready to get started, reach out to your Support representative or email us at [support@trackabout.com](mailto:support@trackabout.com).
+If you have any immediate questions, please feel free to reach out to our Support Team at [support@trackabout.com](mailto:support@trackabout.com).
