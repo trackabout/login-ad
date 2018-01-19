@@ -5,7 +5,8 @@
 
 <strong>TrackApalooza - TrackAbout's User Conference<br>
 2-4 October 2018<br>
-Sheraton Station Square<br></strong>
+Sheraton Hotel at Station Square<br>
+Pittsburgh, PA<br></strong>
 
 Join us for two full days:
 
