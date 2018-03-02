@@ -6,8 +6,16 @@
 Sheraton Hotel at Station Square<br>
 Pittsburgh, PA<br></strong>
 
-Early bird pricing will be available until 2 July 2018. 
+Early bird pricing will be available until 2 July 2018.
 
-Click [here](https://www.surveymonkey.com/r/Trackapalooza2018) to get more event details and complete your registration form.
+<button id="myButton" class="float-left submit-button" >REGISTER NOW!</button>
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://www.surveymonkey.com/r/Trackapalooza2018";
+    };
+</script>
+
+
+[Get more event details and complete your registration form.](https://www.surveymonkey.com/r/Trackapalooza2018)
 
 If you have any questions, please feel free to reach out to our Support Team at [support@trackabout.com](mailto:support@trackabout.com).
