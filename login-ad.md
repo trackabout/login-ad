@@ -8,13 +8,7 @@ Pittsburgh, PA<br></strong>
 
 Early bird pricing will be available until 2 July 2018.
 
-<button id="myButton" class="float-left submit-button" >REGISTER NOW!</button>
-<script type="text/javascript">
-    document.getElementById("myButton").onclick = function () {
-        location.href = "https://www.surveymonkey.com/r/Trackapalooza2018";
-    };
-</script>
-
+<a href="https://www.surveymonkey.com/r/Trackapalooza2018" class="btn btn-default">REGISTER NOW!</a>
 
 [Get more event details and complete your registration form.](https://www.surveymonkey.com/r/Trackapalooza2018)
 
