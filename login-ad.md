@@ -12,4 +12,4 @@ Early bird pricing will be available until 2 July 2018.
 
 [Get more event details and complete your registration form.](https://www.surveymonkey.com/r/Trackapalooza2018)
 
-If you have any questions, please feel free to reach out to our Support Team at [support@trackabout.com](mailto:support@trackabout.com).
+If you have any questions, please feel free to reach out to our Support Team at <a href="mailto:support@trackabout.com">support@trackabout.com</a>.
