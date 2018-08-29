@@ -4,7 +4,7 @@
 
 **There is just over a month until TrackApalooza and there is still plenty of time to register.**  
 
-[![Register Now](https://gallery.mailchimp.com/63b99b6c28198bcc2d19dcbbb/images/15317c33-875a-45cf-aa00-836275f28a9e.png)](www.surverymonkey.com/r/TrackApalooza2018)  
+[![Register Now](http://gallery.mailchimp.com/63b99b6c28198bcc2d19dcbbb/images/15317c33-875a-45cf-aa00-836275f28a9e.png)](https://www.surveymonkey.com/r/Trackapalooza2018)  
 
 [Or get more event details](https://www.surveymonkey.com/r/Trackapalooza2018)
 
