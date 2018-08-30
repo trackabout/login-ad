@@ -1,8 +1,8 @@
 *Published 29 August 2018*
 
-## TrackApalooza 2018 is almost here
+## TrackApalooza 2018 is almost here!
 
-**There is just over a month until TrackApalooza and there is still plenty of time to register.**  
+**Just one month left, register now.**  
 
 [![Register Now](http://gallery.mailchimp.com/63b99b6c28198bcc2d19dcbbb/images/15317c33-875a-45cf-aa00-836275f28a9e.png)](https://www.surveymonkey.com/r/Trackapalooza2018)  
 
