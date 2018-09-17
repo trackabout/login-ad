@@ -1,4 +1,4 @@
-*Published 29 August 2018*
+*Published 17 September 2018*
 
 ## TrackApalooza 2018 is almost here!
 
