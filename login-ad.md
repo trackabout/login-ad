@@ -2,18 +2,16 @@
 
 ## TrackApalooza 2018 is almost here!
 
-**Just one month left, register now.**  
+**Join us on 2-4 October 2018, register now.**  
 
 [![Register Now](http://gallery.mailchimp.com/63b99b6c28198bcc2d19dcbbb/images/15317c33-875a-45cf-aa00-836275f28a9e.png)](https://www.surveymonkey.com/r/Trackapalooza2018)  
 
 [Or get more event details](https://www.surveymonkey.com/r/Trackapalooza2018)
 
-We are using an exciting new event format this year...one you won't want to miss.
-
-Here's a message from TrackAbout's CEO, Tim Fusco, to explain how the conference will work and why you'll want to be there. 
+TrackApalooza brings together a team of companies focused on improving your business.  Check out some of our partners coming to TrackApalooza in October. 
 
 
-<iframe id="vp1hWxsk" title="Video Player" width="544" height="306" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1535561444&f=hWxskDhafRtDiP5VAMQJNA&d=0&m=p&r=360p+480p+720p&volume=100&start_res=720p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=autostart/loop" allowfullscreen></iframe>
+<iframe id="vp17QNm7" title="Video Player" width="640" height="360" frameborder="0" src="https://s3.amazonaws.com/embed.animoto.com/play.html?w=swf/production/vp1&e=1537189830&f=7QNm7I2sm1i2oFOpcCkBww&d=0&m=p&r=360p+480p+720p&volume=100&start_res=0p&i=m&asset_domain=s3-p.animoto.com&animoto_domain=animoto.com&options=autostart/loop" allowfullscreen></iframe>
   
   
 If you have any questions, please feel free to reach out to our Support Team at <a href="mailto:support@trackabout.com">support@trackabout.com</a>.
