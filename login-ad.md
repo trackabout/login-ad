@@ -2,13 +2,9 @@
 
 ## iOS Login Problems for TAMobile 7
 
-We are currently investigating reports of login failures on iOS. **[See this post for a walkthrough of the fix with screenshots.](https://corp.trackabout.com/blog/fix-for-ios-login-error)**
+If you are experiencing login problems for TrackAbout on iOS, please first try updating to the latest version in the app store, version 7.310.76.
 
-Quick Fix:<br/>
-From the login screen, please check the application's built-in Settings link at the bottom. If the "Hostname" field is anything but "www.trackabout.com", change it to "www.trackabout.com" and try to log in again. Other settings on this screen should read Port 443 and Use SSL Encryption ON or Checked.
-
-[Follow the progress of this incident on our status page](https://status.trackabout.com/incidents/k493r4s2fp23).
-
+If that doesn't work, **[see this post for a walkthrough of a workaround with screenshots.](https://corp.trackabout.com/blog/fix-for-ios-login-error)**
 
 ## Announcing TrackApalooza 2019
 *Published 14 January 2019*
