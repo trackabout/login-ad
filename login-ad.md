@@ -1,3 +1,10 @@
+*Published 28 January 2019*
+
+** iOS Login Incident **
+
+We are currently investigating reports of login failures on iOS. From the login screen, please check the application's built-in Settings link at the bottom. If the "Hostname" field is anything but "www.trackabout.com", change it to "www.trackabout.com" and try to log in again. Other settings on this screen should read Port 443 and Use SSL Encryption ON or Checked.
+
+
 *Published 14 January 2019*
 
 TrackAbout is pleased to announce the date and location for TrackApalooza 2019.
