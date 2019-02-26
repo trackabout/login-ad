@@ -1,11 +1,3 @@
-*Published 28 January 2019*
-
-## iOS Login Problems for TAMobile 7
-
-If you are experiencing login problems for TrackAbout on iOS, please first try updating to the latest version in the app store, version 7.310.76.
-
-If that doesn't work, **[see this post for a walkthrough of a workaround with screenshots.](https://corp.trackabout.com/blog/fix-for-ios-login-error)**
-
 ## Announcing TrackApalooza 2019
 *Published 14 January 2019*
 
