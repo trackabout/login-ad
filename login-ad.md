@@ -6,8 +6,8 @@
 
 Here are the details:
 
-**12-14 November 2019**
-Sheraton Hotel at Station Square,
+**12-14 November 2019** <br/>
+Sheraton Hotel at Station Square<br/>
 Pittsburgh PA
 
 Please join us for the Tuesday evening Welcome Reception and then two full days of great content and networking:
