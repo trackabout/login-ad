@@ -1,9 +1,10 @@
 ## Early Bird Registration for TrackApalooza 2019 is Open
+
 *Published 18 March 2019*
 
 ![TrackApalooza 2019](https://corp.trackabout.com/hs-fs/hubfs/TrackApalooza%20logo.jpg?width=347&name=TrackApalooza%20logo.jpg)
 
-Here are the details: 
+Here are the details:
 
 **12-14 November 2019
 Sheraton Hotel at Station Square,
@@ -24,6 +25,7 @@ Please join us for the Tuesday evening Welcome Reception and then two full days 
 We look forward to seeing you in November.
 
 Sincerely,
+
 The TrackAbout Team
 
 If you have any questions, please feel free to reach out to our Support Team at <a href="mailto:support@trackabout.com">support@trackabout.com</a>.
