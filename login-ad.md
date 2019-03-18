@@ -1,30 +1,29 @@
-## Announcing TrackApalooza 2019
-*Published 14 January 2019*
+## Early Bird Registration for TrackApalooza 2019 is Open
+*Published 18 March 2019*
 
-TrackAbout is pleased to announce the date and location for TrackApalooza 2019.
+![TrackApalooza 2019](https://corp.trackabout.com/hs-fs/hubfs/TrackApalooza%20logo.jpg?width=347&name=TrackApalooza%20logo.jpg)
 
-Here are the details:
+Here are the details: 
 
-**12-14 November 2019** <br>
-**Sheraton Hotel at Station Square** <br>
-**Pittsburgh, Pennsylvania, USA** <br>
+**12-14 November 2019
+Sheraton Hotel at Station Square,
+Pittsburgh PA
 
-Please join us for the Evening Welcome Reception and two full days of great content and networking.
+Please join us for the Tuesday evening Welcome Reception and then two full days of great content and networking:
 
-* Learn about new TrackAbout features.
-* Get an exclusive sneak peek at what's happening with TrackAbout in 2019-2020.
-* Provide input on what features TrackAbout will work on next.
-* Share best practices with other TrackAbout customers.
-* Mingle with TrackAbout partners to view new products and technology.
+<ul>
+<li>Learn about new TrackAbout features</li>
+<li>Get an exclusive sneak peek at what's happening with TrackAbout in 2019-2020</li>
+<li>Provide input on what features TrackAbout will work on next</li>
+<li>Share best practices with other TrackAbout customers</li>
+<li>Mingle with TrackAbout partners to view new products and technology</li>
+</ul>
 
-Stay tuned for more details and how to register! 
-
-[Pittsburgh, Pennsylvania](http://downtownpittsburgh.com/visit/?utm_campaign=Trackapalooza&utm_source=hs_email&utm_medium=email&utm_content=68839185&_hsenc=p2ANqtz--cZz6jWvU0K0OPAHojOnETNazcUzMjbrRP-pjSYmUfaV9O5ZjlfPOSCmhEp00_zJQ0SokgkjkUY71FvUqUbdGTSl6AVBZ0d-LJthHfOqNrCXypdRE&_hsmi=68839185), regularly touted as one of the most livable cities, has much to offer visitors. 
+[Click here to register and get more information about the event.](https://corp.trackabout.com/trackapalooza-2019-registration "Click here to register and get more information about the event.")
 
 We look forward to seeing you in November.
 
 Sincerely,
-
 The TrackAbout Team
 
 If you have any questions, please feel free to reach out to our Support Team at <a href="mailto:support@trackabout.com">support@trackabout.com</a>.
