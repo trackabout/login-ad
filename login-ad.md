@@ -1,29 +1,21 @@
-## Early Bird Registration for TrackApalooza 2019 is Open
+## Early Bird Pricing is Ending Soon
 
-*Published 18 March 2019*
+*Published 18 July 2019*
 
 ![TrackApalooza 2019](https://corp.trackabout.com/hs-fs/hubfs/TrackApalooza%20logo.jpg?width=347&name=TrackApalooza%20logo.jpg)
 
-Here are the details:
 
-**12-14 November 2019** <br/>
-Sheraton Hotel at Station Square<br/>
-Pittsburgh PA
+Join us in Pittsburgh, Pennsylvania from 12-14 November 2019 for TrackApalooza, TrackAbout’s Customer Success event. Early bird pricing is ending on August 1, 2019 
 
-Please join us for the Tuesday evening Welcome Reception and then two full days of great content and networking:
+- Early Bird Registration: $499
+- Regular Registration after 1 August: $599
 
-- Learn about new TrackAbout features
-- Get an exclusive sneak peek at what's happening with TrackAbout in 2019-2020
-- Provide input on what features TrackAbout will work on next
-- Share best practices with other TrackAbout customers
-- Mingle with TrackAbout partners to view new products and technology
+Follow the Register link for more information about the event:
 
 [Click here to register and get more information about the event.](https://corp.trackabout.com/trackapalooza-2019-registration "Click here to register and get more information about the event.")
 
-We look forward to seeing you in November.
+There is a tentative agenda available for download on the registration page.  The agenda content is subject to change but days and times should remain consistent. 
 
-Sincerely,
+We look forward to seeing you in November!
 
-The TrackAbout Team
-
-If you have any questions, please feel free to reach out to our Support Team at [support@trackabout.com](mailto:support@trackabout.com).
+support@trackabout.com
