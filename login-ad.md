@@ -1,25 +1,20 @@
-![TrackApalooza 2019](https://corp.trackabout.com/hs-fs/hubfs/TrackApalooza%20logo.jpg?width=347&name=TrackApalooza%20logo.jpg)
+![TrackAbout FiguredOut](https://corp.trackabout.com/hs-fs/hubfs/TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png?width=170&name=TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png)
 
-## Don’t miss your chance! 
-![Walk Don't Rul](https://cdn2.hubspot.net/hubfs/5113190/Walk%20Dont%20Run.png)
+TrackAbout FiguredOut
+===
 
-## Join this year’s TrackApolooza users group meeting from November 12-14, 2019.
-*Published 22 October 2019*
+At TrackAbout, we are constantly improving and evolving with new and improved features. 
+We want to make sure that you’re in the passenger seat right next to us.
 
-[Click here to register and get more information about the event.](https://corp.trackabout.com/trackapalooza-2019-registration "Click here to register and get more information about the event.")
+We'll be using this space to share:
 
-New this year we’re including ERP integration discussions on Tuesday 12 November, prior to the main event, broken into three separate one-hour examinations:
-<ul><li> 2-3 pm - <strong>Epicor</strong> (Prophet 21)</li>
-   <li> 3-4 pm - <strong>NetSuite</strong> (Solution Source)</li>
-   <li> 4-5 pm - <strong>Datacor</strong> (Datacor ERP)</li>
-   <li>A QuickBooks integration review is available upon request.</li></ul>
-   
-Evening Welcome Reception and two full days of great content and networking.
-Learn about <strong>new TrackAbout features</strong>:
-<ul><li> Get an exclusive <strong>sneak peek</strong> at what's happening with       
-        TrackAbout in 2019-2020</li>
-    <li> <strong>Provide input</strong> on what features TrackAbout will work on
-        next</li>
-    <li> Share <strong>best practices</strong> with other TrackAbout customers</li>
-    <li> Mingle with TrackAbout partners to view <strong>new products</strong> and
-        <strong>technology</strong></li></ul>
+* Tips, tricks, and shortcuts
+* New enhancements
+* News
+* New product announcements
+
+**Tip 1**: Be sure to schedule your free Customer Success call for additional training, guidance, or just questions in general. Write to [customersuccess@trackabout.com](mailto:customersuccess@trackabout.com).
+
+**Tip 2**: [Customize Your Personal Settings](https://corp.trackabout.com/blog/trackabout-figured-out-personal-settings)
+ 
+ **Tip 3**: Take a moment and [subscribe to our blog](https://corp.trackabout.com/blog). Look for the Subscribe section on the right hand side of the page. Our blog posts will keep you up to date on Release Notes, How To's, Revenue Builder lessons, and much more.
