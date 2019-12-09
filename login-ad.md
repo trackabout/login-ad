@@ -13,6 +13,8 @@ We'll be using this space to share:
 * News
 * New product announcements
 
-**Your first tip**: [Customize Your Personal Settings](https://corp.trackabout.com/blog/trackabout-figured-out-personal-settings)
+**Tip 1**: Be sure to schedule your free Customer Success call for additional training, guidance, or just questions in general. Write to [customersuccess@trackabout.com](mailto:customersuccess@trackabout.com).
+
+**Tip 2**: [Customize Your Personal Settings](https://corp.trackabout.com/blog/trackabout-figured-out-personal-settings)
  
- **Your second tip**: Take a moment and [subscribe to our blog](https://corp.trackabout.com/blog). Look for the Subscribe section on the right hand side of the page. Our blog posts will keep you up to date on Release Notes, How To's, Revenue Builder lessons, and much more.
+ **Tip 3**: Take a moment and [subscribe to our blog](https://corp.trackabout.com/blog). Look for the Subscribe section on the right hand side of the page. Our blog posts will keep you up to date on Release Notes, How To's, Revenue Builder lessons, and much more.
