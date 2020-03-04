@@ -1,20 +1,19 @@
+*Last Updated 4 March 2020*
+
 ![TrackAbout FiguredOut](https://corp.trackabout.com/hs-fs/hubfs/TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png?width=170&name=TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png)
 
-TrackAbout FiguredOut
-===
+# TrackAbout FiguredOut
 
-At TrackAbout, we are constantly improving and evolving with new and improved features. 
-We want to make sure that you’re in the passenger seat right next to us.
+## Important reminder: Daylight Saving Time in TrackAbout
 
-We'll be using this space to share:
+For those countries who observe daylight saving time, it is **very important** to make sure to dock or sync your Windows CE or Windows Mobile devices to ensure correct clock time. This should be done first thing the morning after the Daylight Saving Time change-over. This will help prevent time sync issues.
 
-* Tips, tricks, and shortcuts
-* New enhancements
-* News
-* New product announcements
+Smartphones and tablets running iOS and Android will automatically update their clocks for Daylight Saving Time, provided they have been properly configured for the country and time zone in which they operate.
 
-**Tip 1**: Be sure to schedule your free Customer Success call for additional training, guidance, or just questions in general. Write to [customersuccess@trackabout.com](mailto:customersuccess@trackabout.com).
+In the United States, Daylight Saving Time begins at *2:00 AM local time on Sunday, March 8th*. It continues until *2:00 AM local time on Sunday, November 1st*.
 
-**Tip 2**: [Customize Your Personal Settings](https://corp.trackabout.com/blog/trackabout-figured-out-personal-settings)
- 
- **Tip 3**: Take a moment and [subscribe to our blog](https://corp.trackabout.com/blog). Look for the Subscribe section on the right hand side of the page. Our blog posts will keep you up to date on Release Notes, How To's, Revenue Builder lessons, and much more.
+Other parts of the world participate in Daylight Saving during different times of the year. You can find your country's policy [Daylight Saving Time by Country](https://en.wikipedia.org/wiki/Daylight_saving_time_by_country).
+
+## Countries Observing Daylight Saving Time
+
+<img src="https://cdn2.hubspot.net/hubfs/5113190/Daylight%20Savings%20Map.png" class="img-responsive" alt="Daylight Saving Time Map" />
