@@ -1,20 +1,20 @@
+*Last Updated 4 March 2020*
+
+
 ![TrackAbout FiguredOut](https://corp.trackabout.com/hs-fs/hubfs/TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png?width=170&name=TrackAbout%20Figured%20Out%20-%20Personal%20Settings%20111119.png)
 
 TrackAbout FiguredOut
 ===
+**Daylight Savings Time in TrackAbout**
 
-At TrackAbout, we are constantly improving and evolving with new and improved features. 
-We want to make sure that you’re in the passenger seat right next to us.
+**Important reminder:**
 
-We'll be using this space to share:
 
-* Tips, tricks, and shortcuts
-* New enhancements
-* News
-* New product announcements
+For those countries who observe daylight savings time, no matter when it is, it is very important to make sure to dock or sync your device to make sure that it has pulled in the correct new time. This should be done before using your devices; handhelds, smartphones, or tablets, for the first time after the time change.  This will prevent time sync issues.
 
-**Tip 1**: Be sure to schedule your free Customer Success call for additional training, guidance, or just questions in general. Write to [customersuccess@trackabout.com](mailto:customersuccess@trackabout.com).
+![Daylight Savings Map](https://cdn2.hubspot.net/hubfs/5113190/Daylight%20Savings%20Map.png)
 
-**Tip 2**: [Customize Your Personal Settings](https://corp.trackabout.com/blog/trackabout-figured-out-personal-settings)
+In the United States, Daylight Savings Time begins at 2:00 am local time on the second Sunday in March and continues until the first Sunday in November, when it returns to standard time at 2:00 am.  Other parts of the world also participate in Daylight Savings during different times of the year. 
+
+You can find them here [Daylight Savings Time by Country](https://en.wikipedia.org/wiki/Daylight_saving_time_by_country).
  
- **Tip 3**: Take a moment and [subscribe to our blog](https://corp.trackabout.com/blog). Look for the Subscribe section on the right hand side of the page. Our blog posts will keep you up to date on Release Notes, How To's, Revenue Builder lessons, and much more.
