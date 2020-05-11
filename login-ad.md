@@ -3,7 +3,7 @@
 # TrackAbout Blog 
 ## May 2020
 
-# Cracking the Code for Creating Effective TrackAbout Support Requests
+## Cracking the Code for Creating Effective TrackAbout Support Requests
 
 When you’re having a problem in TrackAbout and need answers now, the best way to get a resolution is to open a Support Request/Ticket via phone or email. 
 
