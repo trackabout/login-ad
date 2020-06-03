@@ -1,9 +1,7 @@
 *Last Updated 3 June 2020*
 
-# TrackAbout Blog 
+# TrackAbout Release Notes 
 ## May 2020
-
-## TrackAbout Release Notes - May 2020
 
 TrackAbout regularly puts out new features and improves existing ones. Here is a brief summary of the latest changes to expect in production within the next month
 
