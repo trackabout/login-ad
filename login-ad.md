@@ -1,15 +1,20 @@
-*Last Updated 5 June 2020*
+*Last Updated 25 June 2020*
 
-# TrackAbout Release Notes
-## May 2020
+# Free Webinar - Customize Your Inventory Reports
+with Sonya Becker - TrackAbout Customer Success Specialist 
 
-TrackAbout regularly puts out new features and improves existing ones. Here is a brief summary of the latest changes to expect in production within the next month.
+*Tuesday, July 14th, 2020 at 2:00 p.m. (Eastern Standard Time)*
 
-* TAM7 (Android / iOS): Fill for Customer
-* TAM6 (Windows): Sort Assets - new columns added
-* Website:  API performance optimizations
-* Feature Enhancement: Two-Way Linked Exchange
+In the past, you would have often needed TrackAbout Support’s assistance to obtain information about the details of your barcoded/tagged asset inventory.  TrackAbout took note of your requests to make this information more accessible and now provides the ability to customize and save Inventory Searches. Let us show you how:
 
-Release our full blog post for additional details:
+## Customized Inventory Reporting And Saved Inventory Searches
+* Pull customized reports regarding your tracked asset inventory 
+* Understand the status of your asset inventory in more detail
+* Export the data anytime you want it
+* How to share the information with your team
 
-[![button](https://cdn2.hubspot.net/hubfs/5113190/Release%20Notes%20Icon-1.png)](https://corp.trackabout.com/releasenotes/release-notes-blog-may-2020)
+[![button](https://f.hubspotusercontent40.net/hubfs/5113190/Register%20Now_White%20Letters.png)](https://trackabout.zoom.us/meeting/register/tJYocuCqrzktH9e1uZeb21bmxDXUQ_ypPrYL)
+
+### Cannot attend at the scheduled time? Register and we will send you the recording of the complete webinar. 
+
+
