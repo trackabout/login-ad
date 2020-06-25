@@ -17,5 +17,3 @@ In the past, you would have often needed TrackAbout Support’s assistance to ob
 [![button](https://f.hubspotusercontent40.net/hubfs/5113190/Register%20Now_White%20Letters.png)](https://trackabout.zoom.us/meeting/register/tJYocuCqrzktH9e1uZeb21bmxDXUQ_ypPrYL)
 
 ### Cannot attend at the scheduled time? Register and we will send you the recording of the complete webinar.
-
-
