@@ -1,7 +1,22 @@
-*Last Updated 16 July 2020*
+*Last Updated 19 August 2020*
 
-# Release Notes - July 2020
+# Upcoming Free Training Webinar mid-September
 
-TrackAbout regularly puts out new features and improves existing ones. Check out the latest [Release Notes](https://corp.trackabout.com/releasenotes/trackabout-release-notes-july-2020) for more information: 
+## [Please vote](https://docs.google.com/forms/d/e/1FAIpQLSd8JlL7eO2d6QdokZ3eWIGa3zCQ5pFcaHgxZEVUwincexLv5w/viewform) for what you would like to learn next
 
-[![button](https://f.hubspotusercontent40.net/hubfs/5113190/TA%20-%20Release%20Notes%20July%202020%20(1)-1.png)](https://corp.trackabout.com/releasenotes/trackabout-release-notes-july-2020)
+1. Managing Stale Inventory - including Marking lost and Quick maps
+2. Prevent unregistered assets from being scanned in TAMobile 7 (Android & iOS) actions
+    * No more unclassifieds
+3. Revisit Getting Started - Adding, Editing, Deleting
+    * Internal Users: Roles and Permissions
+    * Locations: Branch, Reseller, Vender/Supplier, Trucks
+    * Mobile Roles: Device set up and customizing action buttons
+4. Bulk Loading – Adding, Editing, Deleting (You can do this yourselves without waiting on us)
+    * Locations
+    * Ownerships
+    * Users
+5. Customizing your personal and company settings
+
+[Please take our survey here.](https://docs.google.com/forms/d/e/1FAIpQLSd8JlL7eO2d6QdokZ3eWIGa3zCQ5pFcaHgxZEVUwincexLv5w/viewform)
+
+If you haven’t already, email [customersuccess@trackabout.com](mailto:customersuccess@trackabout.com) to schedule your personal Customer Success call for you and your company.
