@@ -5,7 +5,7 @@
 ## [Please vote](https://docs.google.com/forms/d/e/1FAIpQLSd8JlL7eO2d6QdokZ3eWIGa3zCQ5pFcaHgxZEVUwincexLv5w/viewform) for what you would like to learn next
 
 1. Managing Stale Inventory - including Marking lost and Quick maps
-2. Prevent unregistered assets from being scanned in TAM7 actions
+2. Prevent unregistered assets from being scanned in TAMobile 7 (smartphone) actions
     * No more unclassifieds
 3. Revisit Getting Started - Adding, Editing, Deleting
     * Internal Users: Roles and Permissions
