@@ -8,6 +8,7 @@
 <h1 style="margin:0;line-height:175%;font-family:Arial,sans-serif;font-size:24px;text-align:center" align="center"><span style="font-size:20pt;color:#000000">Preventing Unknown and Unclassified Assets</span></h1>
 
 Do you find yourself struggling to manage, research, and fix Unknown and Unclassified assets within your TrackAbout environment?
+
  - An Unclassified Asset is an Asset that is being tracked in TrackAbout, but it has not been defined or classified. The Asset has been scanned or recorded within TrackAbout without any details regarding what kind of Asset it is (Cylinder, Dumpster, Generator, Tote, Trailer, Wheelchair?)
  - An Unknown Asset is the step before it is even unclassified, meaning the asset has never been scanned or recorded into TrackAbout at all.
 
