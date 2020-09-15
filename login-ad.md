@@ -2,7 +2,7 @@
 
 ***Note:** Thank you to everyone who took the time to vote on what you wanted to see for our next Live Webinar.  Your winner is:*
 
-![Prventing Unknown & Unclaimed Assets](https://iefthems.blob.core.windows.net/theme/webinar_title.png)
+<img src="https://iefthems.blob.core.windows.net/theme/webinar_title.png" alt="Prventing Unknown & Unclaimed Assets" width="100%"/>
 
 <div style="line-height:175%;text-align:center" align="center">[Free Live Webinar]</div>
 <h1 style="margin:0;line-height:175%;font-family:Arial,sans-serif;font-size:24px;text-align:center" align="center"><span style="font-size:20pt;color:#000000">Preventing Unknown and Unclassified Assets</span></h1>
