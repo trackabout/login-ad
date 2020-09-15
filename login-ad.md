@@ -19,7 +19,7 @@ Additionally, we’ll cover the following bonus items:
  - Key Fields - Require key fields for uniqueness, cutting down on collisions. "Key Fields" include Serial Number, Manufacturer, and Manufacturer Date.
  - Secondary Add New - An Add New can also be performed from within other actions.
 
-  **We’re hosting this webinar at two separate times (9:00 AM EST and 2:00 PM EST) for your convenience! Please choose one (content will be identical) by clicking the buttons below.**
+  **We’re hosting this webinar at two separate times (9:00 AM EDT and 2:00 PM EDT) for your convenience! Please choose one (content will be identical) by clicking the buttons below.**
 
-<a href="https://trackabout.zoom.us/meeting/register/tJUlc-iprT4oHtVN3lZd2qEAyjLzLdIc64cP">![Wednesday Sept. 23rd 9 AM EST (USA)](https://iefthems.blob.core.windows.net/theme/webinar_morning.png)</a>
-<a href="https://trackabout.zoom.us/meeting/register/tJwkd-GqqjwiH9UR84Rc9zyovmdWt9sxTpss">![Wednesday Sept. 23rd 2 PM EST (USA)](https://iefthems.blob.core.windows.net/theme/webinar_afternoon.png)</a>
+<a href="https://trackabout.zoom.us/meeting/register/tJUlc-iprT4oHtVN3lZd2qEAyjLzLdIc64cP">![Wednesday Sept. 23rd 9 AM EDT (USA)](https://iefthems.blob.core.windows.net/theme/webinar_morning.png)</a>
+<a href="https://trackabout.zoom.us/meeting/register/tJwkd-GqqjwiH9UR84Rc9zyovmdWt9sxTpss">![Wednesday Sept. 23rd 2 PM EDT (USA)](https://iefthems.blob.core.windows.net/theme/webinar_afternoon.png)</a>
