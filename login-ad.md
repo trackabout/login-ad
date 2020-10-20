@@ -31,7 +31,7 @@ Rack Filling can be done for both Tracked and Not Scanned Assets. Some of the fe
  <li>Restricting rack access by user</li>
  <li>Restricting available asset families by rack</li>
  <li>Fill by Method (for example: pressure, volume, quantity)</li>
- <li>Checking pressure versus max pressure of the rack Product Code Generation *(for use with many full codes to 1 empty code mapping: UseCapacityInProductCodeSelection, EnableSelectionOfProductCodeInContainerFill)*</li>
+ <li>Checking pressure versus max pressure of the rack Product Code Generation <i>(for use with many full codes to 1 empty code mapping: UseCapacityInProductCodeSelection, EnableSelectionOfProductCodeInContainerFill)</i></li>
  <li>Automatically creating ramp lot numbers</li>
  <li>Secondary Add New Allowing NS and tagged assets to be added to a record</li>
  <li>Next Rack functionality (AllowNextRackOnContainerFill)</li>
