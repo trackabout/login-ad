@@ -13,5 +13,6 @@ TrackAbout regularly puts out new features and improves existing ones. Here is a
 During TrackAbout's registration process (some call this Add New, Register Assets) we now provide user permission to edit the Serial Number on existing assets.
 
 This permission can be restricted to specific users so that this key master data cannot be changed under normal circumstances.
-- This feature is not automatically turned on, but you can request to have this feature turned on by emailing [support@trackabout.com](mailto:support@trackabout.com).
-- This can be turned on to allow all users to edit this field or only allow certain users based on their user profile setting (Internal Users).
+ - This feature is not automatically turned on, but you can request to have this feature turned on by emailing [support@trackabout.com](mailto:support@trackabout.com).
+ - This can be turned on to allow all users to edit this field or only allow certain users based on their user profile setting (Internal Users).
+
