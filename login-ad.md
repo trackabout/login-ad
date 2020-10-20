@@ -1,8 +1,3 @@
-
-<div align="center">
-    <img width="100%" src="https://lh3.googleusercontent.com/JUMbamFu9ZQjZ0ozsBze6QsBj_yetbHJmXZLPCG4qz7G2rnR1gIsWIQ1VnXJI0glxB_L7k4NVmFRWiWn4a2HK7-deDTTeNeovROfjdpbzSb-40LengiouCmdawWEJ45lPSMVEnC2" alt="Release Notes"/>
-</div>
-
 TrackAbout Release Notes - October 2020
 
 TrackAbout regularly puts out new features and improves existing ones. Here is a brief summary of the latest changes to expect in the release expected to be in production within the next month:
@@ -21,7 +16,7 @@ You can now "pinch to zoom" during camera barcode scanning, just like your phone
 
 #### Rack Filling
 Rack Filling is now available on TrackAbout TAM7. Racks (typically manifolds for filling groups of assets at the same time) can be configured in TrackAbout for use during Filling. Racks are configured to relate to:
- -  Tanks 
+ - Tanks 
  - Asset Families (Filling Families)
 
 Rack Filling can be done for both Tracked and Not Scanned Assets. Some of the features of Rack Filling include:
@@ -47,4 +42,5 @@ During Wireless Lookup (also called Asset Lookup), users can now:
 
 ### TrackAbout Website Changes:
 #### Through our API Customer Order Integration, we now support the ability to set a Delivery Window. This controls the period in which your drivers will see pending deliveries on their devices. (This is only available through TrackAbout Proof of Delivery.)
+
 If you would like to add any of these new features or have questions about how to use them please contact your TrackAbout Support team at [support@trackabout.com](mailto:support@trackabout.com)
