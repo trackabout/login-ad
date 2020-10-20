@@ -1,5 +1,5 @@
 <div align="center">
-    <img style="max-width:100%;max-height:100%;" src="https://lh3.googleusercontent.com/JUMbamFu9ZQjZ0ozsBze6QsBj_yetbHJmXZLPCG4qz7G2rnR1gIsWIQ1VnXJI0glxB_L7k4NVmFRWiWn4a2HK7-deDTTeNeovROfjdpbzSb-40LengiouCmdawWEJ45lPSMVEnC2" alt="Release Notes"/>
+    <img width="100%" src="https://lh3.googleusercontent.com/JUMbamFu9ZQjZ0ozsBze6QsBj_yetbHJmXZLPCG4qz7G2rnR1gIsWIQ1VnXJI0glxB_L7k4NVmFRWiWn4a2HK7-deDTTeNeovROfjdpbzSb-40LengiouCmdawWEJ45lPSMVEnC2" alt="Release Notes"/>
 </div>
 TrackAbout Release Notes - October 2020
 
