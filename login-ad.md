@@ -1,7 +1,7 @@
 <div align="center">
     <img width="100%" src="https://lh3.googleusercontent.com/JUMbamFu9ZQjZ0ozsBze6QsBj_yetbHJmXZLPCG4qz7G2rnR1gIsWIQ1VnXJI0glxB_L7k4NVmFRWiWn4a2HK7-deDTTeNeovROfjdpbzSb-40LengiouCmdawWEJ45lPSMVEnC2" alt="Release Notes"/>
 </div>
-
+<br />
 TrackAbout Release Notes - October 2020
 
 TrackAbout regularly puts out new features and improves existing ones. Here is a brief summary of the latest changes to expect in the release expected to be in production within the next month:
@@ -13,7 +13,7 @@ TrackAbout regularly puts out new features and improves existing ones. Here is a
 
 During TrackAbout’s registration process (some call this Add New, Register Assets) we now provide user permission to edit the Serial Number on existing assets. This permission can be restricted to specific users so that this key master data cannot be changed under normal circumstances.
 <ul>
- <li>This feature is not automatically turned on, but you can request to have this feature turned on by emailing [support@trackabout.com](mailto:support@trackabout.com).</li>
+ <li>This feature is not automatically turned on, but you can request to have this feature turned on by emailing <a href="mailto:support@trackabout.com">support@trackabout.com</a>.</li>
  <li>This can be turned on to allow all users to edit this field or only allow certain users based on their user profile setting (Internal Users).</li>
 </ul>
 #### Pinch to Zoom
@@ -50,7 +50,8 @@ During Wireless Lookup (also called Asset Lookup), users can now:
  <li>Edit Serial Numbers: provide user permission to edit the Serial Number on existing assets. This permission can be restricted to specific users so that this key master data cannot be changed under normal circumstances.</li>
  <li>See what assets are contained in a Pallet (only available if using Palletization)</li>
 </ul>
+
 ### TrackAbout Website Changes:
-#### Through our API Customer Order Integration, we now support the ability to set a Delivery Window. This controls the period in which your drivers will see pending deliveries on their devices. (This is only available through TrackAbout Proof of Delivery.)
+Through our API Customer Order Integration, we now support the ability to set a Delivery Window. This controls the period in which your drivers will see pending deliveries on their devices. (This is only available through TrackAbout Proof of Delivery.)
 
 If you would like to add any of these new features or have questions about how to use them please contact your TrackAbout Support team at [support@trackabout.com](mailto:support@trackabout.com)
