@@ -106,7 +106,8 @@ TrackAbout now also includes trip number information in the verified orders APIs
 Enhanced APIs:  
 <ul>
     <li> GET /orders/verified </li>
-    <li> GET /orders/verified/{OrderNumber} GET /orders/verified/new </li>
+    <li> GET /orders/verified/{OrderNumber} </li>
+    <li> GET /orders/verified/new </li>
 </ul>
 
 #### Rental Bill API Improvement
