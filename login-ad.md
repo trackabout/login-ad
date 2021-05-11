@@ -37,9 +37,11 @@ TrackAbout has enhanced the POD delivery receipt email to support the addition o
 
 #### Expanded Language Support
 TrackAbout has added support for the following languages in TAM7: 
-- Japanese 
-- Portuguese 
-- Updated existing Spanish translations
+<ul>
+<li> Japanese </li>
+<li> Portuguese </li>
+<li> Updated existing Spanish translations </li>
+</ul>
 
 #### Vendor Receive Now Supports Both Volume and Serial Number Collection
 Previously in TAM6, the Vendor Receive action allowed you to collect either the Serial Number or Volume. With the expanded screen space  in TAM7, we can now collect both SN and volume.
@@ -61,14 +63,16 @@ Lot Search reporting has also been updated to generally include NS assets, which
 
 #### Bulk Load Users Tool Enhancements
 TrackAbout has made enhancements to our bulk loading tool for bulk management of both Internal Users and Location Restricted Users, including:
-- Setting up New Users
-- Disabling / Enabling Existing Users
-- Updating Primary Locations for Users
-- Updating Restricted Locations for Users
-- Update Mobile Roles for Users
-- Bulk send Welcome email to establish credentials
-- Include images in the Welcome email used to establish login credentials
-- Adding limited visual cues to indicate which environment a user is logged into (Test vs Production) on TAM7
+<ul>
+    <li> Setting up New Users </li>
+    <li> Disabling / Enabling Existing Users </li>
+    <li> Updating Primary Locations for Users </li>
+    <li> Updating Restricted Locations for Users </li>
+    <li> Update Mobile Roles for Users </li>
+    <li> Bulk send Welcome email to establish credentials </li>
+    <li> Include images in the Welcome email used to establish login credentials </li>
+    <li> Adding limited visual cues to indicate which environment a user is logged into (Test vs Production) on TAM7 </li>
+</ul>
 
 #### Custom Asset Info Options Loader
 When new options need to be recorded for assets in existing TrackAbout actions, Support has always had to modify these option lists which can cause delays to updating actions.
@@ -77,27 +81,33 @@ For more information on how this page works, please contact TrackAbout Support.
 
 #### Audit Trail for TrackAbout Users Creation/Update/Deletion
 TrackAbout now displays audit trails for changes that were made to internal users from the Internal Users page. TrackAbout now logs changes for the following:
-- Login name
-- Email address
-- Location Access
-- Roles
-- Change Type (Created/Deleted)
-- Default Location
-- Password
+<ul>
+    <li> Login name </li>
+    <li> Email address </li>
+    <li> Location Access </li>
+    <li> Roles </li>
+    <li> Change Type (Created/Deleted) </li>
+    <li> Default Location </li>
+    <li> Password </li>
+</ul>
 To access all changes for users, click on "View Audit Trail" in the top right hand corner of the internal users page.
 
 ### TrackAbout API Changes
 #### Adding Shelf Life Days to Product Code API
 TrackAbout has made several enhancements to APIs over the last few releases: 
 Being able to bulk define product shelf lifes by product code in the below APIs.  Shelf life is defined as the number of days a product is valid after fill.    
-- POST /classifications/productCodes/batch  
-- POST /classifications/productCodes  
-- PATCH /classifications/productCodes/{TId}  
+<ul>
+    <li> POST /classifications/productCodes/batch </li> 
+    <li> POST /classifications/productCodes </li> 
+    <li> PATCH /classifications/productCodes/{TId} </li>  
+</ul>
 
 TrackAbout now also includes trip number information in the verified orders APIs, so that orders that do not yet exist in the accounting system can be associated with a trip number.  
 Enhanced APIs:  
-- GET /orders/verified 
-- GET /orders/verified/{OrderNumber} GET /orders/verified/new
+<ul>
+    <li> GET /orders/verified </li> 
+    <li> GET /orders/verified/{OrderNumber} GET /orders/verified/new </li> 
+</ul>
 
 #### Rental Bill API Improvement
 TrackAbout has improved the Rental Bill API so that it runs significantly faster.
@@ -105,7 +115,9 @@ TrackAbout has improved the Rental Bill API so that it runs significantly faster
 ### OpenData Enhancements
 #### Add Holder Servicing Locations to OpenData
 TrackAbout has made the following enhancements to OpenData: 
-- Customer (Holder) servicing locations have been added. For reference, a customer's servicing location is typically the primary plant or warehouse that supplies the customer with product.
-- Create a single OpenData view that shows which users are tied to which devices and what version of our software is being run.
-
+<ul>
+<li> Customer (Holder) servicing locations have been added. For reference, a customer's servicing location is typically the primary plant or warehouse that supplies the customer with product. </li>
+<li> Create a single OpenData view that shows which users are tied to which devices and what version of our software is being run. </li> 
+</ul>
+    
 If you would like to add any of these new features or have questions about how to use them please contact your TrackAbout Support team at [support@trackabout.com](mailto:support@trackabout.com)
