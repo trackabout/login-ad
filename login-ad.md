@@ -8,11 +8,11 @@ TrackAbout regularly puts out new features and improves existing ones. Here is a
 
 **Items may need subscriptions through separate modules*
 
-### New TrackAbout TAM6 (Windows) Features:
+### New TrackAbout TAM6 (Windows) Features
 #### Collect Trip Number for POD Milk Run orders
 In the previous version of TAM6, if an order was manually entered into the POD module during delivery, the order could not be associated with a trip. This made trip reconciliation difficult as the manually entered order would be orphaned and only viewable using the Verification screen. Now, when an order is manually entered, the driver can now select the trip to which the new order should be assigned.
 
-### New TrackAbout TAM7 (Android / iOS) features:
+### New TrackAbout TAM7 (Android / iOS) Features
 #### Wireless Alerts during Asset Lookup             
 TrackAbout has ported TAM6 functionality to display wireless alert notes on asset lookups and at the end of actions.  
 
@@ -53,7 +53,7 @@ For additional information about the work order fill process, please contact Tra
 #### New Device Certified: Honeywell EDA 50
 TrackAbout has certified the Honeywell EDA 50 device for use with TAM7.
 
-### TrackAbout Website Changes:
+### TrackAbout Website Changes
 #### Update Record Summary / Details page to how NS Lot Numbers for Fill
 TrackAbout now supports the filling of assets by product code and quantity on all types of filling in TAM7:  Fill with Work Order, Filling by Rack (operator fills by selecting a manifold and asset family), and Simple Fill (operator fills by selecting each product code being filled).
 In addition, TrackAbout has updated fill records to reflect those assets filled by product code and quantity.  TrackAbout supports filling both tagged and non-tagged assets at the same time:  this is helpful when filling both company-owned and customer-owned assets at the same time; when you've chosen to not tag customer-owned assets.
