@@ -23,9 +23,9 @@ During a POD delivery, if an order were manually entered on a TAM6 or TAM6 devic
 TrackAbout has enhanced the Vendor Receive action to be able to collect both serial number and volume information for products that require volume to be collected during delivery/receipt.
 
 #### Sort Trip : Warn Users that the Picked Asset has Already been Delivered
-Prior to this release during the Sort Trip/Picking action, if a user continues to add assets to a trip for loading later on a truck when some previously picked assets have already been delivered, TrackAbout recorded delivered assets as being brought back to the plant.  Now, the user is warned and can remove assets that have already been delivered from the trip prior to closing out a Sort Trip action. 
+Prior to this release during the Sort Trip/Picking action, if a user continues to add assets to a trip for loading later on a truck when some previously picked assets have already been delivered, TrackAbout recorded delivered assets as being brought back to the plant.  Now, the user is warned and can remove assets that have already been delivered from the trip prior to closing out a Sort Trip action.
 
-#### Bundle Registration 
+#### Bundle Registration
 This action is used for Bundle Registration in which frame information is gathered along with the number of cylinders in the bundle/pack. However, there is no unique tracking information entered for the cylinders in the bundle.
 This process is now available for our clients using TAM7 on Android and iOS.
 
@@ -36,7 +36,7 @@ TrackAbout has enhanced both Simple and POD Delivery View Details screens so tha
 TrackAbout has enhanced the POD delivery receipt email to support the addition of lot numbers for uniquely tagged assets.
 
 #### Expanded Language Support
-TrackAbout has added support for the following languages in TAM7: 
+TrackAbout has added support for the following languages in TAM7:
 <ul>
 <li> Japanese </li>
 <li> Portuguese </li>
@@ -94,19 +94,19 @@ To access all changes for users, click on "View Audit Trail" in the top right ha
 
 ### TrackAbout API Changes
 #### Adding Shelf Life Days to Product Code API
-TrackAbout has made several enhancements to APIs over the last few releases: 
+TrackAbout has made several enhancements to APIs over the last few releases:
 Being able to bulk define product shelf lifes by product code in the below APIs.  Shelf life is defined as the number of days a product is valid after fill.    
 <ul>
-    <li> POST /classifications/productCodes/batch </li> 
-    <li> POST /classifications/productCodes </li> 
+    <li> POST /classifications/productCodes/batch </li>
+    <li> POST /classifications/productCodes </li>
     <li> PATCH /classifications/productCodes/{TId} </li>  
 </ul>
 
 TrackAbout now also includes trip number information in the verified orders APIs, so that orders that do not yet exist in the accounting system can be associated with a trip number.  
 Enhanced APIs:  
 <ul>
-    <li> GET /orders/verified </li> 
-    <li> GET /orders/verified/{OrderNumber} GET /orders/verified/new </li> 
+    <li> GET /orders/verified </li>
+    <li> GET /orders/verified/{OrderNumber} GET /orders/verified/new </li>
 </ul>
 
 #### Rental Bill API Improvement
@@ -114,10 +114,10 @@ TrackAbout has improved the Rental Bill API so that it runs significantly faster
 
 ### OpenData Enhancements
 #### Add Holder Servicing Locations to OpenData
-TrackAbout has made the following enhancements to OpenData: 
+TrackAbout has made the following enhancements to OpenData:
 <ul>
 <li> Customer (Holder) servicing locations have been added. For reference, a customer's servicing location is typically the primary plant or warehouse that supplies the customer with product. </li>
-<li> Create a single OpenData view that shows which users are tied to which devices and what version of our software is being run. </li> 
+<li> Create a single OpenData view that shows which users are tied to which devices and what version of our software is being run. </li>
 </ul>
-    
+
 If you would like to add any of these new features or have questions about how to use them please contact your TrackAbout Support team at [support@trackabout.com](mailto:support@trackabout.com)
