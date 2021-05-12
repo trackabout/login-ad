@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="100%" src="https://lh3.googleusercontent.com/JUMbamFu9ZQjZ0ozsBze6QsBj_yetbHJmXZLPCG4qz7G2rnR1gIsWIQ1VnXJI0glxB_L7k4NVmFRWiWn4a2HK7-deDTTeNeovROfjdpbzSb-40LengiouCmdawWEJ45lPSMVEnC2" alt="Release Notes"/>
+    <img width="100%" src="https://static.trackabout.com/loginad/releasenotes-Q12021.png" alt="Release Notes"/>
 </div>
 <br />
 TrackAbout Release Notes - First Quarter 2021
@@ -13,8 +13,8 @@ TrackAbout regularly puts out new features and improves existing ones. Here is a
 In the previous version of TAM6, if an order was manually entered into the POD module during delivery, the order could not be associated with a trip. This made trip reconciliation difficult as the manually entered order would be orphaned and only viewable using the Verification screen. Now, when an order is manually entered, the driver can now select the trip to which the new order should be assigned.
 
 ### New TrackAbout TAM7 (Android / iOS) Features
-#### Wireless Alerts during Asset Lookup             
-TrackAbout has ported TAM6 functionality to display wireless alert notes on asset lookups and at the end of actions.  
+#### Wireless Alerts during Asset Lookup
+TrackAbout has ported TAM6 functionality to display wireless alert notes on asset lookups and at the end of actions.
 
 #### Collect Trip Number for POD Milk Run orders
 During a POD delivery, if an order were manually entered on a TAM6 or TAM6 device, the order could not be associated with a trip, making trip reconciliation difficult, as the manually entered order would be orphaned and only viewable using the Verification screen.  When manually entered an order, the driver can now select the trip the new order should be assigned to.
@@ -95,15 +95,15 @@ To access all changes for users, click on "View Audit Trail" in the top right ha
 ### TrackAbout API Changes
 #### Adding Shelf Life Days to Product Code API
 TrackAbout has made several enhancements to APIs over the last few releases:
-Being able to bulk define product shelf lifes by product code in the below APIs.  Shelf life is defined as the number of days a product is valid after fill.    
+Being able to bulk define product shelf lifes by product code in the below APIs.  Shelf life is defined as the number of days a product is valid after fill.
 <ul>
     <li> POST /classifications/productCodes/batch </li>
     <li> POST /classifications/productCodes </li>
-    <li> PATCH /classifications/productCodes/{TId} </li>  
+    <li> PATCH /classifications/productCodes/{TId} </li>
 </ul>
 
-TrackAbout now also includes trip number information in the verified orders APIs, so that orders that do not yet exist in the accounting system can be associated with a trip number.  
-Enhanced APIs:  
+TrackAbout now also includes trip number information in the verified orders APIs, so that orders that do not yet exist in the accounting system can be associated with a trip number.
+Enhanced APIs:
 <ul>
     <li> GET /orders/verified </li>
     <li> GET /orders/verified/{OrderNumber} </li>
