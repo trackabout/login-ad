@@ -26,7 +26,7 @@ Unmake Pack releases the assets in a pack so they can be handled as individual a
 
 ![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-3.jpg)
 
-To learn more about Make Pack and Unmake Pack, see the [TrackAbout Wiki](https://meta.trackabout.com/wiki/Welcome_to_the_TrackAbout_Wiki). 
+To learn more about bundles and packs, see [Bundles and Packs](https://meta.trackabout.com/wiki/Bundles_and_Packs) on the TrackAbout wiki. 
  
  
 ## <a id="bm2"></a>Vendor Receive/Third Party Fill
@@ -36,7 +36,7 @@ With Vendor Receive / Third Party Fill, you can record assets received from and/
 
 ![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-4.jpg)
 
-To learn more about using Vendor Receive, see the [TrackAbout Wiki](https://meta.trackabout.com/wiki/Welcome_to_the_TrackAbout_Wiki). 
+To learn more about Vendor Receive, see [Vendor Receive](https://meta.trackabout.com/wiki/Receive_from_Vendor_(Third_Party_Filling)) on the TrackAbout wiki. 
 
 
 ## <a id="bm3"></a>Remove from Lot / Blowdown
@@ -44,13 +44,15 @@ We’ve added TAM6’s Remove from Lot feature — aka Blow Down — feature to 
 
 Remove from Lot lets you remove an asset from a lot simply by scanning the asset, and at the same time capture the reason the asset is being blown down. 
 
-![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-5.jpg)
+![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-5.jpg)
  
-For details on how to use Remove from Lot, see the [TrackAbout Wiki](https://meta.trackabout.com/wiki/Welcome_to_the_TrackAbout_Wiki).
+For more information about, see [Blow Downs](https://meta.trackabout.com/wiki/Remove_From_Lot_(Blow_Down)) on the TrackAbout wiki.
 
 
-## <a id="bm4"></a>Prevent Wrong Customer Returns with POD
-The POD module now helps prevent assets from being returned from the wrong customer by showing drivers a warning on the Asset Entry screen when an asset at one customer scans as a return from a different customer. For more information, please contact [TrackAbout Support](support@trackabout.com).
+## <a id="bm4"></a>Prevent Wrong Customer Returns with POD 
+TrackAbout's [POD module](https://meta.trackabout.com/wiki/Proof_of_Delivery_(Paperless_Delivery)) (Proof of Delivery) now helps prevent assets from being returned from the wrong customer by showing drivers a warning on the Asset Entry screen when an asset at one customer scans as a return from a different customer. 
+
+The Paperless Delivery Module allow drivers and dock worker to record deliveries to customers without starting with a paper copy of the order. For more information, please contact [TrackAbout Support](mailto:support@trackabout.com).
 
 
 ## <a id="bm5"></a>Variable Volume Product Support in POD
@@ -72,7 +74,7 @@ TrackAbout Mobile 7 (TAM7) now supports Hindi and Vietnamese.
 ![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-RecID.jpg)
  
  - We’ve added CollisionAssets columns to the OpenData.CollisionAssets view. 
- - Rack Fills - We’ve added support for up to 10% overfills on mixed-type assets by individual product code. Users will get a pop-up warning when they enter an overfill amount but will still be able to save if the asset’s specifications allow for overfills. To learn more about this new functionality, please contact [TrackAbout Support](support@trackabout.com). 
+ - Rack Fills - We’ve added support for up to 10% overfills on mixed-type assets by individual product code. Users will get a pop-up warning when they enter an overfill amount but will still be able to save if the asset’s specifications allow for overfills. To learn more about this new functionality, please contact [TrackAbout Support](mailto:support@trackabout.com). 
 
 ![enter image description here](https://f.hubspotusercontent40.net/hub/5113190/hubfs/TA1221-7.jpg)
 
@@ -100,6 +102,6 @@ Calls that support setting the flags:
     PATCH /classifications/productcodes/{tid}
     POST /orders/pending/batch
 
-
-  
+For details about TrackAbout's API, see [API and Integration Points](https://meta.trackabout.com/wiki/TrackAbout_API_and_Integration_Points) in the TrackAbout wiki.
+ 
   
