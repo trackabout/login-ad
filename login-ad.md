@@ -46,7 +46,7 @@ Remove from Lot lets you remove an asset from a lot simply by scanning the asset
 
 ![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-5.jpg)
  
-For more information about, see [Blow Downs](https://meta.trackabout.com/wiki/Remove_From_Lot_(Blow_Down)) on the TrackAbout wiki.
+For more information, see [Remove from Lot](https://meta.trackabout.com/wiki/Remove_From_Lot_(Blow_Down)) on the TrackAbout wiki.
 
 
 ## <a id="bm4"></a>Prevent Wrong Customer Returns with POD 
@@ -73,8 +73,8 @@ TrackAbout Mobile 7 (TAM7) now supports Hindi and Vietnamese.
 
 ![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-RecID.jpg)
  
- - We’ve added CollisionAssets columns to the OpenData.CollisionAssets view. 
- - Rack Fills - We’ve added support for up to 10% overfills on mixed-type assets by individual product code. Users will get a pop-up warning when they enter an overfill amount but will still be able to save if the asset’s specifications allow for overfills. To learn more about this new functionality, please contact [TrackAbout Support](mailto:support@trackabout.com). 
+ - [OpenData](https://meta.trackabout.com/wiki/OpenData) - We’ve added CollisionAssets columns to the OpenData.CollisionAssets view.
+ - [Rack Fills](https://meta.trackabout.com/wiki/Rack_Filling) - We’ve added support for up to 10% overfills on mixed-type assets by individual product code. Users will get a pop-up warning when they enter an overfill amount but will still be able to save if the asset’s specifications allow for overfills. To learn more about this new functionality, please contact [TrackAbout Support](mailto:support@trackabout.com). 
 
 ![enter image description here](https://f.hubspotusercontent40.net/hub/5113190/hubfs/TA1221-7.jpg)
 
