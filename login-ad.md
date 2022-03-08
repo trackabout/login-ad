@@ -1,107 +1,76 @@
-## DECEMBER '21 Release Notes
+## FEBRUARY/MARCH 2022 Release Notes
+TrackAbout’s February/March 2022 update adds Gas Analysis to TrackAbout Mobile 7, support for fractional hardgoods quantities, and other enhancements.
 
-This latest update to the TrackAbout website and apps brings several highly requested TAM6 features to the TAM7 for iOS and Android. This update also includes quality-of-life improvements, added TrackAbout API functionality, and bug fixes.
 
 ## Highlights
-
- - [Make and Unmake Packs in TAM7](#bm1) 
- - [Vendor Receive / Third Party Fill in TAM7](#bm2)
- - [Remove from Lot / Blowdown in TAM7](#bm3)
- - [Prevent wrong customer returns with the POD module](#bm4) 
- - [Variable volume product support with the POD module](#bm5)
- - [Hindi and Vietnamese support in TAM7](#bm6)
- - [TrackAbout quality-of-life improvements](#bm7)
- - [TrackAbout API additions](#bm8)
+- [Gas Analysis in TrackAbout Mobile 7](#bm1) 
+- [Fractional hard good quantities support](#bm2) 
+- [Location-based hard good order limits](#bm3) 
+- [New not-scanned views in OpenData](#bm4) 
+- [Numerous quality-of-life improvements](#bm5) 
 
 
+## <a id="bm1"></a> Gas Analysis Support Added to TrackAbout Mobile 7
+TrackAbout’s [Gas Analysis](https://meta.trackabout.com/wiki/Gas_Analysis) module helps eliminate paperwork by validating, recording, and attaching analysis information to a production record using *TrackAbout Mobile 5*, *TrackAbout Mobile 6*, and new with this release, ***TrackAbout Mobile 7 for iOS and Android***. 
 
-## <a id="bm1"></a> TAM7: Make and Unmake Packs
-Previously only available in TAM6, you can now make packs (aka bundle build) and unmake/dismantle packs using TrackAbout Mobile 7 for iOS and Android smartphones. 
+![](https://f.hubspotusercontent40.net/hub/5113190/hubfs/03RN-1.png)
 
-With Make Pack (aka Bundle Build), you assign assets to a pack (or bundle), where they are treated as a single group asset with its own product code. 
- 
-![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-1.jpg)![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-2.jpg)
-
-Unmake Pack releases the assets in a pack so they can be handled as individual assets again.
-
-![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-3.jpg)
-
-To learn more about bundles and packs, see [Bundles and Packs](https://meta.trackabout.com/wiki/Bundles_and_Packs) on the TrackAbout wiki. 
- 
- 
-## <a id="bm2"></a>Vendor Receive/Third Party Fill
-TAM6’s Vendor Receive / Third Party Fill feature is now available in TrackAbout Mobile 7 (TAM7).
-
-With Vendor Receive / Third Party Fill, you can record assets received from and/or filled by a third-party, such as vendor-owned assets or assets you’ve sent out for cleaning, filling, or packaging.
-
-![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-4.jpg)
-
-To learn more about Vendor Receive, see [Vendor Receive](https://meta.trackabout.com/wiki/Receive_from_Vendor_(Third_Party_Filling)) on the TrackAbout wiki. 
+For more details about TrackAbout’s Gas Analysis module, including step-by-step instructions on how to set up the criteria and validations for analysis tests in your TrackAbout website and how to perform tests with a mobile device, please see [Gas Analysis](https://meta.trackabout.com/wiki/Gas_Analysis).
 
 
-## <a id="bm3"></a>Remove from Lot / Blowdown
-We’ve added TAM6’s Remove from Lot feature — aka Blow Down — feature to the TAM7 smartphone app. 
-
-Remove from Lot lets you remove an asset from a lot simply by scanning the asset, and at the same time capture the reason the asset is being blown down. 
-
-![](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-5.jpg)
- 
-For more information, see [Remove from Lot](https://meta.trackabout.com/wiki/Remove_From_Lot_(Blow_Down)) on the TrackAbout wiki.
+## <a id="bm2"></a> Recording Fractional Quantities of Hardgoods
+We’ve added decimal support for hardgoods to TrackAbout and TrackAbout Mobile 7, letting you record and track hardgoods that are traditionally delivered in partial quantities. By default, hardgoods can be recorded and tracked in quantities out to two decimal places (or hundredths). Other levels of precision are available to fit your specific needs — contact [TrackAbout Support](mailto:support@trackabout.com) for more information. 
 
 
-## <a id="bm4"></a>Prevent Wrong Customer Returns with POD 
-TrackAbout's [POD module](https://meta.trackabout.com/wiki/Proof_of_Delivery_(Paperless_Delivery)) (Proof of Delivery) now helps prevent assets from being returned from the wrong customer by showing drivers a warning on the Asset Entry screen when an asset at one customer scans as a return from a different customer. 
+## <a id="bm3"></a> Hardgoods Order Limits by Location
+TrackAbout administrators can now set a maximum quantity of any given hard good that can be ordered for a location. Limiting the amount of a hard good each location can order can help you keep a handle on inventory and enforce specific business rules.
 
-The Paperless Delivery Module allow drivers and dock worker to record deliveries to customers without starting with a paper copy of the order. For more information, please contact [TrackAbout Support](mailto:support@trackabout.com).
+To limit the order size of a specific hard good for a specific Location, the hard good must have a set maximum order quantity, and the locations the maximum will apply to must be flagged. Both can be done with assistance from [TrackAbout Support](mailto:support@trackabout.com). 
 
-
-## <a id="bm5"></a>Variable Volume Product Support in POD
-We’ve added support for volume collection to the POD module. 
-
-Drivers can now enter the delivered volume of variable volume products using the TrackAbout Mobile smartphone app (TAM7).
-
-![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-6.jpg)
- 
-
-## <a id="bm6"></a>Hindi and Vietnamese Language Support
-TrackAbout Mobile 7 (TAM7) now supports Hindi and Vietnamese.
+Once a maximum order quantity has been set for a hard good, users will not be able to enter an Ordered Quantity that exceeds the maximum for any location that’s been flagged to observe the limit, either manually or by using the API. 
+![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/03RN-2.png)
 
 
-## <a id="bm7"></a>TrackAbout Website Quality-of-Life Improvements
+## <a id="bm4"></a> New Not-Scanned Views in OpenData
+We’ve added three new views to OpenData, TrackAbout’s add-on modular feature that lets you access a simplified, read-only view of your TrackAbout SQL database.
 
- - We’ve added a Record ID column to the Integration Messages page that displays the ID of the record the message is for. You can filter the messages list by the new column and clicking a specific Record ID will open that record’s Record Summary page. 
+**opendata.RecAssetsNS** 
+Records the quantity and type of Not-Scanned assets attached to a given record, always involving a Holder (Customer), which impacts that holder's balance. 
 
-![enter image description here](https://f.hubspotusercontent40.net/hubfs/5113190/TA1221-RecID.jpg)
- 
- - [OpenData](https://meta.trackabout.com/wiki/OpenData) - We’ve added CollisionAssets columns to the OpenData.CollisionAssets view.
- - [Rack Fills](https://meta.trackabout.com/wiki/Rack_Filling) - We’ve added support for up to 10% overfills on mixed-type assets by individual product code. Users will get a pop-up warning when they enter an overfill amount but will still be able to save if the asset’s specifications allow for overfills. To learn more about this new functionality, please contact [TrackAbout Support](mailto:support@trackabout.com). 
+**opendata.RecAssetsFailedRNS** 
+Records the quantity of Returned Not-Scanned assets that could not be attached when the record was saved due to insufficient balance at the time of the attempt. 
 
-![enter image description here](https://f.hubspotusercontent40.net/hub/5113190/hubfs/TA1221-7.jpg)
+**opendata.RecNonHolderNSAssets** 
+For tracking quantities and types of not-scanned assets attached to records that do not involve a Holder (Customer).
 
- - Fixed a bug with the Lot Search page which caused incorrect results to be displayed under a specific combination of lot and location conditions.  
- - Trying to reclassify an asset during Sort Trip if the empty product code template uses custom asset information no longer causes an error. 
- - Duplicate delivery records are no longer created when two requests come in at the same time.
+For complete details on the columns included in these new views, see the [OpenData reference](https://meta.trackabout.com/wiki/OpenData#Not-Scanned_Assets_on_Records).
 
 
-## <a id="bm8"></a>TrackAbout API Additions
- - You can now save carrier tracking information in delivery records in POST /deliveries and POST /deliveries/interbranch requests with the new carrierInfo element. 
- - You can now identify hard goods by name in delivery records, using the hardGoods element’s new productCode {mId} property in POST /deliveries and POST /deliveries/interbranch requests.
- - You can now set lot number flags when creating a product code through the API. 
+## <a id="bm5"></a> Quality-of-Life Improvements
 
-Flags that can be set: 
+### TrackAbout
 
-    IsLotNumberRequired
-    IsLotNumberRequiredDuringPick
-    IsLotNumberRequiredDuringLoad
-    isLotNumberRequiredDuringUnload 
+ - Sorting and search results are more accurate on the Current Inventory page: 
+ -- The display can now be sorted by column, in ascending or descending order. 
+ -- Search results when searching All Locations no  longer shows inactive assets. 
+ -- Search results when searching by individual product code no longer shows only unclassified assets. 
+ - An issue that prevented the Custom Report page’s report filter from working has been corrected.
+ - Attach/Detach Hardgoods options are now available on Send/Receive records, for users with the appropriate permissions.
+ - The Sync Problems page now has a column indicating if a request is duplicated. 
+ - We’ve made it simpler to change the customer on a delivery on Record Edit and other pages by passing the search value to the Customer Search page, eliminating the need to search again.
 
-Calls that support setting the flags:
+### TrackAbout Mobile 7
 
-    POST/classifications/productCodes, 
-    POST /classifications/productCodes/batch
-    PATCH /classifications/productcodes/{tid}
-    POST /orders/pending/batch
+- Branch Transfer Send now records the truck location as the resulting location in records and asset history.
+- Branch Transfer Send and Branch Transfer Receive uses the default billing code for hardgoods in records.
+- The GET/orders/verified/{ordernumber} API call now returns the correct quantities when non-scanned assets are included in Branch Transfer Sends and Branch Transfer Receives. 
+- Sent products and quantity sent are now displayed when Auto-Receive is enabled. 
+- Rack Fills in TrackAbout Mobile 7 no longer fail with a “Empty
+- Product Code” error when using short descriptions in place of names and PC generation.
 
-For details about TrackAbout's API, see [API and Integration Points](https://meta.trackabout.com/wiki/TrackAbout_API_and_Integration_Points) in the TrackAbout wiki.
- 
-  
+### TrackAbout API
+
+ - You can now delete all pending orders in a trip with a [TrackAbout REST API](https://github.com/trackabout/API/wiki) call.
+
+> DELETE /locations/{LocationTId}/trips/{TripNumber}/orders/pending
+> DELETE /trips/{TripNumber}/orders/pending
