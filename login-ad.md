@@ -17,7 +17,7 @@ Scanning assets with TrackAbout Mobile 7 using your phone's built-in camera is f
 
 Handheld barcode and RFID scanners are widely available from numerous manufacturers, with models ranging from inexpensive on up, depending on features. Any basic scanner that Bluetooth scanner that supports HID communication and can pair with an Android phone should work with TrackAbout Mobile 7. However, due to the vast array of scanners out there, we can't guarantee that any particular make/model is 100% compatible with TrackAbout or meet your business needs.
 
-For more information about using Bluetooth barcode and RFID scanners with TrackAbout Mobile 7 (Android), see the full [October 2022 Release Notes](https://tbd.com).
+For more information about using Bluetooth barcode and RFID scanners with TrackAbout Mobile 7 (Android), see the full [October 2022 Release Notes](https://corp.trackabout.com/releasenotes/october-2022).
 
 
 ## <a id="Hide"> </a>Hide Invoice Quantity Information on the Record Summary and Verification Pages
