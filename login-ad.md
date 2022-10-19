@@ -1,6 +1,6 @@
 # What's New
 
-It's alive! The October 2022 update to TrackAbout adds support for [Bluetooth barcode and RFID scanners](#Bluetoot) to TrackAbout Mobile 7 (Android), as well as:
+It's aliiiive! The October 2022 update to TrackAbout adds support for [Bluetooth barcode and RFID scanners](#Bluetoot) to TrackAbout Mobile 7 (Android), as well as:
 
 *   [The ability to hide Invoiced Quantity from being displayed on the Record Summary and Verification pages](#Hide)
     
@@ -13,9 +13,9 @@ It's alive! The October 2022 update to TrackAbout adds support for [Bluetooth ba
 
 ## <a id="Bluetoot"> </a>Bluetooth Barcode and RFID Scanner Support
 
-Scanning assets with TrackAbout Mobile 7 using your phone's built-in camera is fast and reliable, but there are times when having another scanning method might fit your workflow better. That's why we've added support for hand-held barcode and RFID scanners to TrackAbout Mobile 7 (Android only).
+Scanning assets with TrackAbout Mobile 7 using your phone's built-in camera is fast and reliable, but there are times when having another scanning method might fit your workflow better. That's why we've added support for Bluetooth barcode and RFID scanners to TrackAbout Mobile 7 (Android only).
 
-Handheld barcode and RFID scanners are widely available from numerous manufacturers, with models ranging from inexpensive on up, depending on features. Any basic scanner that Bluetooth scanner that supports HID communication and can pair with an Android phone should work with TrackAbout Mobile 7. However, due to the vast array of scanners out there, we can't guarantee that any particular make/model is 100% compatible with TrackAbout or meet your business needs.
+Bluetooth barcode and RFID scanners are widely available from numerous manufacturers, with models ranging from inexpensive on up, depending on features. Any basic Bluetooth scanner that supports HID communication and can pair with an Android phone should work with TrackAbout Mobile 7. However, due to the vast array of scanners out there, we can't guarantee that any particular make/model is 100% compatible with TrackAbout or will meet your business needs.
 
 For more information about using Bluetooth barcode and RFID scanners with TrackAbout Mobile 7 (Android), see the full [October 2022 Release Notes](https://corp.trackabout.com/releasenotes/october-2022).
 
@@ -48,7 +48,7 @@ We've improved how Branch Transfer Send and Receive actions work with Epicor Pro
 
 ## <a id="TrackAbo"> </a>TrackAbout Mobile 7
 
-*   Remove from Lot (aka Blow Down) now sets the asset's location to the specific location where it was removed (aka blown down) instead of simply to in-house.
+*   Remove from Lot (aka Blow Down) now sets the asset's location to the specific location where it was removed (aka blown down) instead of simply to In-House.
     
 *   Scanning a container for picking no longer prevents it from being scanned again for the same trip.
     
@@ -57,4 +57,4 @@ We've improved how Branch Transfer Send and Receive actions work with Epicor Pro
 
 ## <a id="General"> </a>General
 
-*   TrackAbout now correctly recognizes that the value of an asset's Oxygen flag (Custom Asset Info Type 761) has been manually changed from Yes to No, letting you reclassify the asset without TrackAbout Support help.
+*   TrackAbout now correctly recognizes when the value of an asset's Oxygen flag (stored as a Custom Asset Info Type) has been manually changed from Yes to No, letting you reclassify the asset without TrackAbout Support help.
