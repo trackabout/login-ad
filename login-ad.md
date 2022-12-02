@@ -1,6 +1,6 @@
 # What's New
 
-The November 2022 Release of TrackAbout is live, adding the ability to take photos of assets using the Photo Feature and a variety of additional enhancements to trackabout.com and TrackAbout Mobile 7. Click a link below for the 4-1-1, as the kids say these days.
+The November 2022 Release of TrackAbout is live, adding the ability to take photos of assets using the Photo Feature and a variety of additional enhancements to TrackAbout.com and TrackAbout Mobile 7. Click a link below for the 4-1-1, as the kids say these days.
 
 -   [Full Release Notes](https://meta.trackabout.com/wiki/November_2022_Release_Notes)
 -   [Follow-On Tracking Is Now the Customer Tracking Portal](https://corp.trackabout.com/releasenotes/november-2022#FollowOnTracking)
