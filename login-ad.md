@@ -1,5 +1,5 @@
-# What's New
-The January 2023 release has landed. It adds several new features to both TrackAbout Web and TrackAbout Mobile 7 for iOS and Android. 
+# What's New for January 2023
+The latest release of TrackAbout Mobile 7 (iOS/Android) and the TrackAbout web app has landed. Here's the highlights: 
 
 *   [Physical Inventory comes to TrackAbout Mobile 7](https://meta.trackabout.com/wiki/January_2023_Release_Notes#Physical_Inventory_in_TrackAbout_Mobile_7)
     
@@ -12,3 +12,8 @@ The January 2023 release has landed. It adds several new features to both TrackA
 *   [TrackAbout Web App Quality of Life Improvements](https://meta.trackabout.com/wiki/January_2023_Release_Notes#TrackAbout_Web_App_Quality_of_Life_Improvements)
 
 See the [January 2023 Release Notes](https://meta.trackabout.com/wiki/January_2023_Release_Notes) for full details.
+
+
+
+
+
