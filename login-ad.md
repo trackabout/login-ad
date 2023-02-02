@@ -1,12 +1,19 @@
-# What's New
+# What's New for January 2023
+The latest release of TrackAbout Mobile 7 (iOS/Android) and the TrackAbout web app has landed. Here's the highlights: 
 
-The November 2022 Release of TrackAbout is live, adding the ability to take photos of assets using the Photo Feature and a variety of additional enhancements to the TrackAbout Application Web Site and TrackAbout Mobile 7. Click a link below for the 4-1-1, as the kids say these days.
+*   [Physical Inventory comes to TrackAbout Mobile 7](https://meta.trackabout.com/wiki/January_2023_Release_Notes#Physical_Inventory_in_TrackAbout_Mobile_7)
+    
+*   [Export order planning results to Excel](https://meta.trackabout.com/wiki/January_2023_Release_Notes#Export_Order_Planning_Results_to_Excel)
 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes" >Full Release Notes</a>
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#Follow-On_Tracking_is_Now_Customer_Portal/" >Follow-On Tracking Is Now the Customer Tracking Portal</a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#Photo_Feature">Take Photos of Assets Using the Photos Feature</a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#Bulk_Loading_Hard_Good_Product_Codes">Bulk Load Hard Good Product Codes</a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#Bulk_Edit_Custom_Properties">Bulk Edit Custom Properties</a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#TrackAbout.com">TrackAbout Application Web Site Enhancements </a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#TrackAbout_Mobile_7">TrackAbout Mobile 7 Enhancements and Fixes </a> 
--   <a target="_blank" href="https://meta.trackabout.com/wiki/November_2022_Release_Notes#API">API Additions</a> 
+*   [Reuse Lot Numbers while filling racks](https://meta.trackabout.com/wiki/January_2023_Release_Notes#Reuse_Lot_Numbers_While_Filling_Racks)
+    
+*   [New TrackAbout Mobile 7 (iOS and Android) features](https://meta.trackabout.com/wiki/January_2023_Release_Notes#New_TrackAbout_Mobile_7_eatures)
+    
+*   [TrackAbout Web App Quality of Life Improvements](https://meta.trackabout.com/wiki/January_2023_Release_Notes#TrackAbout_Web_App_Quality_of_Life_Improvements)
+
+See the [January 2023 Release Notes](https://meta.trackabout.com/wiki/January_2023_Release_Notes) for full details.
+
+
+
+
+
