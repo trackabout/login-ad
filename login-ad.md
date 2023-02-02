@@ -12,8 +12,3 @@ The January 2023 release has landed. It adds several new features to both TrackA
 *   [TrackAbout Web App Quality of Life Improvements](https://meta.trackabout.com/wiki/January_2023_Release_Notes#TrackAbout_Web_App_Quality_of_Life_Improvements)
 
 See the [January 2023 Release Notes](https://meta.trackabout.com/wiki/January_2023_Release_Notes) for full details.
-
-
-
-
-
