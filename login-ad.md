@@ -13,11 +13,10 @@
 
 *Customer Audits* on TrackAbout Mobile 7 can now include Not Scanned Assets in addition to scanned assets.
 
-**Note:** Not-Scanned assets are only supported when:
-- Customer Audits is in Online mode
-- Only a single customer location is being audited
+**Note:** Not-Scanned assets are only supported when: Customer Audits is in Online mode, and only a single customer location is being audited
 
 There are three options for how Customer Audits include Not Scanned Assets to choose from:
+
 - Customer Audits do not include Not Scanned Assets.
 - Customer Audits include all Not Scanned Assets.
 - Customer Audits include Not Scanned Assets that are not in a fully tracked asset family.
