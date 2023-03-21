@@ -8,7 +8,6 @@
 * [Fixes](#fixes)
 
 
-
 ## Not Scanned Asset Support added to Customer Audits
 
 *Customer Audits* on TrackAbout Mobile 7 can now include Not Scanned Assets in addition to scanned assets.
@@ -59,7 +58,3 @@ We've added a new option for actions which can be used to effectively pause gene
 * The Rental Bill Generation Progress bar not displaying correctly in some cases. (TrackAbout Web > Rental > Rental Billing Period Dashboard)
 * Signatures on delivery receipts too small to read when printed on 4-inch printers.
 * Lot lines on delivery receipts overlapping when printed on 4-inch printers.
-
-
-
-
