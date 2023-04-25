@@ -1,12 +1,6 @@
-# What's New: March 2023 
+# What's New: April 2023 
 
-   
-* [Not Scanned Asset Support added to Customer Audits](#not-scanned-asset-support-added-to-customer-audits)
-* [Clear Complaints using TrackAbout Mobile 7](#clear-complaints-using-trackabout-mobile-7)
-* [New Branch Transfer Verification Options](#new-branch-transfer-verification-options)
-* [Pause Generic Actions](#pause-generic-actions)
-* [Fixes](#fixes)
-
+ 
 
 ## Not Scanned Asset Support added to Customer Audits
 
