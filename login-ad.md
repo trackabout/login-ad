@@ -97,7 +97,3 @@ Fixes
 
 **Print Lot Labels (TrackAbout Mobile 7 Android)** Users are no longer erroneously asked for a reprint reason after selecting all remaining labels and then trying to print labels that have not been printed before.
 
-
-
-
-
