@@ -5,9 +5,9 @@ Authentication Changes
 
 TrackAbout has integrated technology from Auth0 to power our authentication system. Auth0 by Okta is the recognized industry leader for enterprise-level authentication and authorization backend services.
 
-Most of the changes that come with this move are behind the scenes, from improved basic login safety and security to the ability for us to soon offer [Multi-Factor Authentication](#Multi-Fa) and [Federated Identity / Single Sign-On](#Federate).
+Most of the changes that come with this move are behind the scenes, from improved basic login safety and security to the ability for us to soon offer Multi-Factor Authentication and Federated Identity / Single Sign-On.
 
-However, with this move [custom password complexity rules](#New2) or [custom session lengths](#End) are no longer supported.
+However, with this change custom password complexity rules and custom session lengths are no longer supported.
 
 #### New TrackAbout Password Complexity Rules
 
