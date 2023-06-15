@@ -5,9 +5,38 @@ Authentication Changes
 
 TrackAbout has integrated technology from Auth0 to power our authentication system. Auth0 by Okta is the recognized industry leader for enterprise-level authentication and authorization backend services.
 
-Most of the changes that come with this move are behind the scenes, from improved basic login safety and security to the ability for us to soon offer Multi-Factor Authentication and Federated Identity / Single Sign-On.
+Most of the changes that come with this move are behind the scenes, from improved basic login safety and security to the ability for us to soon offer Multi-Factor Authentication and Federated Identity / Single Sign-On. The most significant change users will experience immediately is that they will be prompted separately for their username and password when logging in to TrackAbout Web and TrackAbout Mobile 7. 
 
 However, with this change custom password complexity rules and custom session lengths are no longer supported.
+
+This move also comes with some critical information for your device and network administrators:
+
+Auth0 requires the following URLs for authentication:
+* For Production: trackabout.auth0.com and auth.trackabout.com
+* For ClientTest: trackabout-test.us.auth0.com
+These URLS must be allowed on the appropriate networks and devices for login to work.
+
+If you have devices managed by a mobile device management system, please note that Auth0 must launch a web browser in order to access the above authentication URLs. If the device browser is blocked in a user profile, the user will not be able to log into the TA Mobile 7 app.
+
+
+
+#### New TrackAbout Web Login
+TrackAbout Web and TrackAbout Mobile 7 users will now be prompted to enter their TrackAbout username or email alone, then after clicking “SIGN IN”, be prompted to enter their password.
+
+1. Enter your TrackAbout E-mail or Username, then click SIGN IN. You'll then be prompted to enter your password.
+2. Enter your password and click CONTINUE to sign-in.
+
+
+#### TrackAbout Mobile 7 Sign-In
+Similar to the website sign-in, users will now be prompted to enter their TrackAbout username or email first, then be prompted to enter their password.
+
+Users will only see these changes when their TA Mobile 7 app version updates to 7.339.xxx. TrackAbout employs a staggered rollout for mobile app updates which makes the updates available to users over a period of a few days instead of all at once.
+
+1. Enter your TrackAbout E-mail or Username, then click LOG IN. 
+2. You may be prompted to let TrackAbout use Auth0.com to sign in. Tap CONTINUE to allow it.
+3. When prompted, enter your password and tap CONTINUE to sign-in to TrackAbout.
+
+
 
 #### New TrackAbout Password Complexity Rules
 
