@@ -1,54 +1,130 @@
-# What's New: April 2023 
+# What's New
 
- 
+Authentication Changes
+----------------------
 
-## Not Scanned Asset Support added to Customer Audits
+TrackAbout has integrated technology from Auth0 to power our authentication system. Auth0 by Okta is the recognized industry leader for enterprise-level authentication and authorization backend services.
 
-*Customer Audits* on TrackAbout Mobile 7 can now include Not Scanned Assets in addition to scanned assets.
+Most of the changes that come with this move are behind the scenes, from improved basic login safety and security to the ability for us to soon offer Multi-Factor Authentication and Federated Identity / Single Sign-On. The most significant change users will experience immediately is that they will be prompted separately for their username and password when logging in to TrackAbout Web and TrackAbout Mobile 7. 
 
-**Note:** Not-Scanned assets are only supported when: Customer Audits is in Online mode, and only a single customer location is being audited
+However, with this change custom password complexity rules and custom session lengths are no longer supported.
 
-There are three options for how Customer Audits include Not Scanned Assets to choose from:
+This move also comes with some critical information for your device and network administrators:
 
-* Customer Audits do not include Not Scanned Assets.
-* Customer Audits include all Not Scanned Assets.
-* Customer Audits include Not Scanned Assets that are not in a fully tracked asset family.
+Auth0 requires the following URLs for authentication:
 
-Contact TrackAbout Support (support@trackabout.com) to change your current option. 
+*   For Production: trackabout.auth0.com and auth.trackabout.com
+*   For ClientTest: trackabout-test.us.auth0.com
 
+These URLs must be allowed on the appropriate networks and devices for login to work.
 
-## Clear Complaints using TrackAbout Mobile 7
-You can now clear complaints (aka blocks) on assets in maintenance straight from your smart device using TrackAbout Mobile 7.
-
-Removing a complaint / block on an asset in maintenance clears the asset to be put back into circulation. 
-
-The option to clear complaints / blocks is in TrackAbout Mobile 7's Maintenance action: 
-
-1. Tap an asset in *Maintenance* to select it, then tap NEXT to open *Maintenance to Perform*.
-
-2. On the *Maintenance to Perform* screen, tap *Clear Complaint / Block* in addition to any other action(s). 
-
-3. Tap NEXT to return to the main *Maintenance* screen.
-
-4. On the *Maintenance* screen, tap NEXT to remove the complaint / block from the asset and exit *Maintenance*.
+If you have devices managed by a mobile device management system, please note that Auth0 must launch a web browser in order to access the above authentication URLs. If the device browser is blocked in a user profile, the user will not be able to log into the TA Mobile 7 app.
 
 
-## New Branch Transfer Verification Options
-We've added new options for how Branch Transfers are verified.
 
-* *Ignore Both* — Deliver and return quantities don't have to match what's in the accounting system and are automatically approved.
-* *Delivers and Returns Match* — Transfers are approved only if both deliver and return quantities must match what's in the accounting system. 
-* *Delivers Match, Returns Ignored* — Transfers are approved only if deliver quantities match what's in the accounting system for approval. Return quantities don't have to match. 
-* *Returns Match, Delivers Ignored* — Transfers are approved only if return quantities match what's in the accounting system. Deliver quantities don't have to match.
+#### New TrackAbout Web Login
+TrackAbout Web and TrackAbout Mobile 7 users will now be prompted to enter their TrackAbout username or email alone, then after clicking “SIGN IN”, be prompted to enter their password.
 
-Interested in changing the option you use? Reach out to support@trackabout.com for assistance. 
+1. Enter your TrackAbout E-mail or Username, then click SIGN IN. You'll then be prompted to enter your password.
+2. Enter your password and click CONTINUE to sign-in.
 
 
-## Pause Generic Actions
-We've added a new option for actions which can be used to effectively pause generic actions to be completed at a later time or by another person. This can be useful for actions such as Maintenance, where work on an asset may be spread over days and different shifts/departments. For information on using this new option, contact TrackAbout Support (support@trackabout.com).
+#### TrackAbout Mobile 7 Sign-In
+Similar to the website sign-in, users will now be prompted to enter their TrackAbout username or email first, then be prompted to enter their password.
+
+Users will only see these changes when their TA Mobile 7 app version updates to 7.339.xxx. TrackAbout employs a staggered rollout for mobile app updates which makes the updates available to users over a period of a few days instead of all at once.
+
+1. Enter your TrackAbout E-mail or Username, then click LOG IN. 
+2. You may be prompted to let TrackAbout use Auth0.com to sign in. Tap CONTINUE to allow it.
+3. When prompted, enter your password and tap CONTINUE to sign-in to TrackAbout.
 
 
-## Fixes
-* The Rental Bill Generation Progress bar not displaying correctly in some cases. (TrackAbout Web > Rental > Rental Billing Period Dashboard)
-* Signatures on delivery receipts too small to read when printed on 4-inch printers.
-* Lot lines on delivery receipts overlapping when printed on 4-inch printers.
+
+#### New TrackAbout Password Complexity Rules
+
+TrackAbout no longer supports or enforces custom password complexity rules. All new or updated TrackAbout account passwords must adhere to the following rules.
+
+*   Passwords must be at least 8 characters
+    
+*   Passwords can contain ONLY the following characters:
+    
+    *   Lower case letters (**a**\-**z**)
+        
+    *   Upper case letters (**A**\-**Z**)
+        
+    *   Numbers **0** through **9**
+        
+    *   The special characters ! @ # $ % ^ &
+        
+*   Users can't reuse any of their last ten passwords
+    
+*   Passwords can't use the same character more than twice in a row
+    
+*   Passwords cannot include the user's First or Last name, username, or email address
+    
+*   Passwords cannot include "trackabout"
+    
+
+#### End of Support for Custom Session Lengths
+
+TrackAbout no longer supports custom session lengths.
+
+A session is the amount of time that before you are automatically logged out of a website of app and have to log back in.
+
+Any existing custom session lengths you may have are no longer recognized.
+
+
+Early Access: Federated Identity / Single Sign-On
+-------------------------------------------------
+
+TrackAbout will soon be making Federated Identity / Single Sign-On available to our customers at no additional charge, allowing their TrackAbout users to log in to TrackAbout Web and TrackAbout Mobile 7 (iOS and Android) with their corporate identity credentials.
+
+**SSO** lets users securely and safely log in to different websites and apps using one set of credentials (think username and password). If you've ever used your Google or Apple account to login to an app, you've used SSO.
+
+Before the full rollout, we're looking for a few customer organizations to participate in an early access beta program. As part of the beta, you'll work closely with TrackAbout Support to get Federated Identity SSO up and running — and get in the fast track for enjoying the benefits of Federated Identity SSO.
+
+If your organization has an enterprise identity system and is interested in joining our Federated Identity SSO early access beta, please reach out to TrackAbout Support (support@trackabout.com).
+
+
+Early Access: Multi-Factor Authentication
+-----------------------------------------
+
+TrackAbout will also soon be making Multi-Factor Authentication (MFA) available to our customers at no additional charge. MFA is a security process that requires more than one piece of evidence to verify a user's identity. If you've ever had to enter a TXT code as an extra step to log in to an account, you've used MFA.
+
+**MFA** makes it more difficult for attackers to gain access to accounts, even if they have stolen a user's password.
+
+Before we rollout MFA to everyone, we're looking for customers to help us test as part of an early access beta program.
+
+If your organization is interested in participating in the beta, please contact TrackAbout Support (support@trackabout.com) for more information.
+
+
+New Features
+------------
+
+**TrackAbout Web / Record Details > Change Asset Properties** Choosing a Product Code when changing asset properties is now optional.
+
+*   If you enter a Product Code, the Product Code of all the selected assets is automatically changed.
+    
+*   If you do not enter a Product Code, the Product Code of the individual assets are not changed.
+    
+
+
+**Delivery (TrackAbout Mobile 7 iOS/Android)** In situations where an asset is on one customer's balance but is scanned on an order for another related customer (that shares the same parent), we've added the option to ask the driver if the asset should be returned or transferred to the second customer.
+
+*   If the assets are being returned, their status is set to empty, as always.
+    
+*   If the assets are being transferred, their status is not changed.
+    
+
+This option can be enabled by request to TrackAbout Support (support@trackabout.com).
+
+
+
+**Customer Tracking Portal / TrackAbout Mobile 7** We've added the ability to select a customer in Customer Portal Enabled Generic Actions, and the ability to filter dynamic forms in Customer Portal actions based on customer.
+
+
+Fixes
+-----
+
+**Print Lot Labels (TrackAbout Mobile 7 Android)** Users are no longer erroneously asked for a reprint reason after selecting all remaining labels and then trying to print labels that have not been printed before.
+
