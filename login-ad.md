@@ -16,7 +16,7 @@ Auth0 requires the following URLs for authentication:
 *   For Production: trackabout.auth0.com and auth.trackabout.com
 *   For ClientTest: trackabout-test.us.auth0.com
 
-These URLS must be allowed on the appropriate networks and devices for login to work.
+These URLs must be allowed on the appropriate networks and devices for login to work.
 
 If you have devices managed by a mobile device management system, please note that Auth0 must launch a web browser in order to access the above authentication URLs. If the device browser is blocked in a user profile, the user will not be able to log into the TA Mobile 7 app.
 
