@@ -2,7 +2,6 @@
 
 ## TrackAbout Web
 
-* **Search Optimization** — We've fine-tuned a number of searches to improve large dataset query speeds and result display times. These performance optimizations are the first of an anticipated three rounds to improve searching across the TrackAbout web platform.
     
 * **Rental** — You now have the option to prevent rental bills being generated for deactivated cylinder rental customers. To enable this option, please contact TrackAbout Support.
     
