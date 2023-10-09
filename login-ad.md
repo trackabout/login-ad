@@ -21,14 +21,8 @@ The  _Owner Customer_  option lets you record the name of the owner as a field i
 
 ## TrackAbout Mobile 7
 
-*  **New Actions**  — TrackAbout Mobile 6's Sell Assets and Condemn Assets actions are now available on TrackAbout Mobile 7 for your iOS and Android smart device.
-    
-    *   **Sell Assets**  lets you mark an asset as sold (or being sold).
+*  **New Action: Condemn Assets**  — TrackAbout Mobile 6's Condemn Assets actions is now available on TrackAbout Mobile 7 for your iOS and Android smart device. Condemn Assets lets you mark an asset as condemned.
         
-    *   **Condemn Assets**  lets you mark an asset as condemned.
-        
-    
-
 *  **Third Party Fill (Receive from Vendor)**  — You can now scan to fill in the Purchase Order field.
     
 *  **Asset Search (aka Asset Lookup)**  — Commas now display properly when displaying decimal numbers for languages that use commas for decimals instead of periods.
