@@ -1,10 +1,10 @@
-# What's New
+# What's New for October 2023
 
 ## Bulk Delivery
 
 TrackAbout now supports multiple fill types for bulk tanks.
 
-Bulk tanks are often filled with different product depending on logistics demands, customer need, or time of year. But until this release, TrackAbout has been limited to assuming a tank is always filled with same product.
+Bulk tanks are often filled with different product depending on logistics demands, customer need, or time of year. But until this release, TrackAbout has been limited to assuming a tank is always filled with the same product.
 
 Now, TrackAbout lets you associate the same tank with multiple products, letting you fill the tank with any of the products associated with it and accurately track those fills and deliveries.
 
