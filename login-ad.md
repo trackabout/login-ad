@@ -1,31 +1,34 @@
-# What's New
+# What's New for October 2023
+
+## Bulk Delivery
+
+TrackAbout now supports multiple fill types for bulk tanks.
+
+Bulk tanks are often filled with different product depending on logistics demands, customer need, or time of year. But until this release, TrackAbout has been limited to assuming a tank is always filled with the same product.
+
+Now, TrackAbout lets you associate the same tank with multiple products, letting you fill the tank with any of the products associated with it and accurately track those fills and deliveries.
+
+Support for multiple products per bulk tank has been integrated into TrackAbout Web and TrackAbout Mobile 7.
 
 ## TrackAbout Web
 
+*  **Optimization**  — Search and site optimization continues with another round of under-the-hood improvements designed to improve search speed and overall site performance.
     
-* **Rental** — You now have the option to prevent rental bills being generated for deactivated cylinder rental customers. To enable this option, please contact TrackAbout Support.
-    
-
-* **Bulk Delivery Records** — Volume Delivered during Bulk Deliveries is now editable.
+*  **Owner Customer**  — If you fill assets owned by someone other than you or your customer, you now have the option to track who the owner of the asset is.
+The  _Owner Customer_  option lets you record the name of the owner as a field in the asset's record and generate reports containing the name. The Owner Customer field can be viewed and edited through the Asset History, Asset Search, and Current Inventory reports, as well as accessed directly through the TrackAbout API.
+ To enable this option, please contact TrackAbout Support ([support@trackabout.com](mailto:support@trackabout.com)).
     
 
 ## TrackAbout Mobile 7
 
-* **Sync** — We've improved the efficiency and speed of syncing large amounts of data with TrackAbout.
+*  **New Action: Condemn Assets**  — TrackAbout Mobile 6's Condemn Assets action is now available on TrackAbout Mobile 7 for your iOS and Android smart device. Condemn Assets lets you mark an asset as condemned.
+        
+*  **Third Party Fill (Receive from Vendor)**  — You can now scan to fill in the Purchase Order field.
     
-
-* **Unload Truck** — Assets scanned on a branch transfer record are no longer erroneously listed as being still on the truck when Unload Truck mode is set to Unload Truck like Picking.
+*  **Asset Search (aka Asset Lookup)**  — Commas now display properly when displaying decimal numbers for languages that use commas for decimals instead of periods.
     
+*  **Custom Actions**  — Custom actions can now return assets by Lost, Retired, or Junk status in addition to Active status.
 
-* **Wireless Lookup** — Category, Group, and Type are now displayed under "Class" in Asset Details.
-    
 
-*  **Generic Actions** — Generic Actions now support Not-Scanned assets and hard goods.
-    
 
-## Requirement Updates
-
-* **TrackAbout Mobile 7 for Android** now requires Android 7 or newer. Older versions of Android cannot download and install the latest version of TrackAbout Mobile 7, and TrackAbout Mobile 7 running on older versions of Android are not supported by TrackAbout Support.
-    
-* **TrackAbout Mobile 7 for iOS** now requires iOS 14.8.1 or newer. Older versions of iOS cannot download and install the latest version of TrackAbout Mobile 7, and TrackAbout Mobile 7 running on older versions of iOS are not supported by TrackAbout Support.
 
