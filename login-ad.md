@@ -13,4 +13,4 @@
 
 
 ## TrackAbout API
-* **API** — You can now set the customer email address for delivery receipts when sending orders through the TrackAbout API (POST /orders/pending/batch) and TrackAbout Legacy API (deliveries.asmx), using the new DeliveryReceiptEmail element. For more information, see https://trackabout.com/api/docs/#!/orders/postorderspendingbatch
+* **API** — You can now set the customer email address for delivery receipts when sending orders through the TrackAbout API (POST /orders/pending/batch) and TrackAbout Legacy API (deliveries.asmx), using the new DeliveryReceiptEmail element. 
