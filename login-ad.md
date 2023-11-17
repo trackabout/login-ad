@@ -1,34 +1,16 @@
-# What's New for October 2023
+# What's New for November 2023
 
-## Bulk Delivery
 
-TrackAbout now supports multiple fill types for bulk tanks.
+## TrackAbout Mobile 7 (iOS and Android)
+* **New Recent Deliveries Action** — The new Recent Deliveries action lets you view details about recent deliveries, as well as view and reprint delivery receipts from those deliveries. 
+* **Owner Customer** — If you have enabled the Owner Customer option, the owners available for selection in your Ownership list are now automatically the same as your Customer list. To add an owner to the Ownership list, simply add them as a Customer. You no longer need to create a separate entry in your Ownership list for each Customer. To enable this option, please contact TrackAbout Support.
+* **Ship and Return Totals** — Ship and return totals can now be displayed in Delivery with Integrated Order Sync. To enable this option, contact TrackAbout Support (support@trackabout.com).
 
-Bulk tanks are often filled with different product depending on logistics demands, customer need, or time of year. But until this release, TrackAbout has been limited to assuming a tank is always filled with the same product.
-
-Now, TrackAbout lets you associate the same tank with multiple products, letting you fill the tank with any of the products associated with it and accurately track those fills and deliveries.
-
-Support for multiple products per bulk tank has been integrated into TrackAbout Web and TrackAbout Mobile 7.
 
 ## TrackAbout Web
-
-*  **Optimization**  — Search and site optimization continues with another round of under-the-hood improvements designed to improve search speed and overall site performance.
-    
-*  **Owner Customer**  — If you fill assets owned by someone other than you or your customer, you now have the option to track who the owner of the asset is.
-The  _Owner Customer_  option lets you record the name of the owner as a field in the asset's record and generate reports containing the name. The Owner Customer field can be viewed and edited through the Asset History, Asset Search, and Current Inventory reports, as well as accessed directly through the TrackAbout API.
- To enable this option, please contact TrackAbout Support ([support@trackabout.com](mailto:support@trackabout.com)).
-    
-
-## TrackAbout Mobile 7
-
-*  **New Action: Condemn Assets**  — TrackAbout Mobile 6's Condemn Assets action is now available on TrackAbout Mobile 7 for your iOS and Android smart device. Condemn Assets lets you mark an asset as condemned.
-        
-*  **Third Party Fill (Receive from Vendor)**  — You can now scan to fill in the Purchase Order field.
-    
-*  **Asset Search (aka Asset Lookup)**  — Commas now display properly when displaying decimal numbers for languages that use commas for decimals instead of periods.
-    
-*  **Custom Actions**  — Custom actions can now return assets by Lost, Retired, or Junk status in addition to Active status.
+* **Skip Hydraulic Test Date Validation for Selected Asset Families and Asset Types** — We've added the option to skip Hydraulic Test date validation for assets in specific asset families and asset types when using star stamp or approval codes to validate test dates. When enabled, the option to skip becomes available on both the Asset Family and Asset Type pages.
+* **Hard Good Descriptions** — Add New Order and Edit Order now display descriptions for hard goods, if they are available.
 
 
-
-
+## TrackAbout API
+* **API** — You can now set the customer email address for delivery receipts when sending orders through the TrackAbout API (POST /orders/pending/batch) and TrackAbout Legacy API (deliveries.asmx), using the new DeliveryReceiptEmail element. 
