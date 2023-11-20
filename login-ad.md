@@ -17,8 +17,8 @@ These new features let drivers use TrackAbout Mobile 7's Delivery (with Integrat
 
 
 ## Fixes
-* **TrackAbout Mobile 7** — Photos taken by TrackAbout Mobile 7 on devices using Android 12 or higher now can be viewed in other apps. 
-* **TrackAbout Mobile 7** — Empty strings are no longer saved if a user does not make a selection during Bulk Deliveries.
+**TrackAbout Mobile 7** — Photos taken by TrackAbout Mobile 7 on devices using Android 12 or higher now can be viewed in other apps. 
+**TrackAbout Mobile 7** — Empty strings are no longer saved if a user does not make a selection during Bulk Deliveries.
 
 
 ## TrackAbout API
