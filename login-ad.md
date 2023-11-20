@@ -32,6 +32,7 @@ These new features let drivers use TrackAbout Mobile 7's Delivery (with Integrat
   
 
 
+
 ## TrackAbout API
 **Additions to Post: /trucks/{truckId}/assets/loadetat/{locationId}**
 
