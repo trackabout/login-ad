@@ -1,19 +1,52 @@
-# TrackAbout v342 Release Notes (Preliminary)
+# TrackAbout Test: November 2023
 
 
-## TrackAbout Mobile 7 (iOS and Android)
-* **New Recent Deliveries Action** — The new Recent Deliveries action lets you view details about recent deliveries, as well as view and reprint delivery receipts from those deliveries.
-  
-* **Owner Customer** — If you have enabled the Owner Customer option, the owners available for selection in your Ownership list are now automatically the same as your Customer list. To add an owner to the Ownership list, simply add them as a Customer. You no longer need to create a separate entry in your Ownership list for each Customer.
-  
-* **Ship and Return Totals** — Ship and return totals are now displayed in Delivery with Integrated Order Sync. 
+## Field Service Support
+We've added Field Service delivery support to TrackAbout and TrackAbout Mobile 7.
+
+**NOTE:** These optional features require the Delivery with Integrated Order Sync module. Some of the features require integration with Datacor ERP (or another ERP system) using the TrackAbout API for full functionality, as well as configuration and customization by TrackAbout. If you are interested in using these features, please contact TrackAbout Support.
+
+These new features let drivers use TrackAbout Mobile 7's Delivery (with Integrated Order Sync) action to:
+* Fulfill individual field service items as non-tracked assets, and record services performed during deliveries
+* Collect and record payments in the field in cash or by check
+* See field service line items alongside tracked assets, non-tracked assets, and hardgoods
+* See notes about open AR details as provided by your ERP
+* See clickable URLs in Notes
+* See default prices for field service items
+* Register the delivery of one of a field service item each time its lot number is scanned
 
 
-## TrackAbout Web
-* **Skip Hydraulic Test Date Validation for Selected Asset Families and Asset Types** — We've added the option to skip Hydraulic Test date validation for assets in specific asset families and asset types when using star stamp or approval codes. When enabled, the option to skip becomes available on both the Asset Family and Asset Type pages.
-If you're interested in enabling this option, contact TrackAbout Support.
-* **Hard Good Descriptions** — The Order details page now displays descriptions for hard goods.
+## Fixes
+* **TrackAbout Mobile 7** — Photos taken by TrackAbout Mobile 7 on devices using Android 12 or higher now can be viewed in other apps. 
+* **TrackAbout Mobile 7** — Empty strings are no longer saved if a user does not make a selection during Bulk Deliveries.
 
 
 ## TrackAbout API
-* **API** — You can now set the customer email address for delivery receipts when sending orders through the TrackAbout API (POST /orders/pending/batch) and TrackAbout Legacy API (deliveries.asmx), using the new DeliveryReceiptEmail element.
+**Additions to Post: /trucks/{truckId}/assets/loadetat/{locationId}**
+* *TripNumber* — The trip number associated with this load.
+* *SaveLotNumberPcMappings* — Indicates whether or not to save a lot number / PC mapping. A true value enables a feature with limited in scope and thus should remain false for better performance.
+
+For more details, see https://test.trackabout.com/api/docs/#!/trucks/posttruckstrucktidassetsloadedatlocationtid
+
+**Additions to POST /deliveries**
+* *RecordPayment* — Used to accept and save payment collection information.
+
+For more details, see https://test.trackabout.com/api/docs/#!/deliveries/postdeliveries
+
+**Additions to GET /orders/verified, GET /orders/verified/{ordernumber}, and GET /orders/verified/new**
+* *RecordServiceItem* —  Used to accept and save service item information.
+* *VerifiedOrderRecordPayment* — Used to add payment collection information to verified orders.
+* *VerifiedOrderServiceItem* — Used to add service information to Verified Orders.
+
+For more details, see:
+* https://test.trackabout.com/api/docs/#!/orders/getordersverified
+* https://test.trackabout.com/api/docs/#!/orders/getordersverifiedordernumber
+* https://test.trackabout.com/api/docs/#!/orders/getordersverifiednew
+
+**New POST /prices call for creating or updating default pricing and tax information**
+
+For more details, see https://test.trackabout.com/api/docs/#!/prices/postprices
+
+**New POST /trips/prices call for creating or updating the pricing and tax information for a given list of trips**
+
+For more details, see https://test.trackabout.com/api/docs/#!/trips/posttripsprices
