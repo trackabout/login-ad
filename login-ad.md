@@ -40,7 +40,7 @@ These new features let drivers use TrackAbout Mobile 7's Delivery (with Integrat
 
 * *SaveLotNumberPcMappings* — Indicates whether or not to save a lot number / PC mapping. A true value enables a feature with limited in scope and thus should remain false for better performance.
 
-For more details, click [here](https://trackabout.com/api/docs/#!/trucks/posttruckstrucktidassetsloadedatlocationtid)
+For more details, click [here](https://trackabout.com/api/docs/#!/trucks/posttruckstrucktidassetsloadedatlocationtid).
 
 **Additions to POST /deliveries**
 
