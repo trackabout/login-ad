@@ -69,3 +69,5 @@ For more details, click [here](https://trackabout.com/api/docs/#!/prices/postpri
 **New POST /trips/prices call for creating or updating the pricing and tax information for a given list of trips**
 
 For more details, click [here](https://trackabout.com/api/docs/#!/trips/posttripsprices).
+
+To view this and earlier release notes, visit the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Home.htm).
