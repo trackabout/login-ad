@@ -1,4 +1,4 @@
-# TrackAbout Test: November 2023
+# What's New: December 2023
 
 
 ## Field Service Support
@@ -40,13 +40,13 @@ These new features let drivers use TrackAbout Mobile 7's Delivery (with Integrat
 
 * *SaveLotNumberPcMappings* — Indicates whether or not to save a lot number / PC mapping. A true value enables a feature with limited in scope and thus should remain false for better performance.
 
-For more details, see https://test.trackabout.com/api/docs/#!/trucks/posttruckstrucktidassetsloadedatlocationtid
+For more details, click [here](https://trackabout.com/api/docs/#!/trucks/posttruckstrucktidassetsloadedatlocationtid)
 
 **Additions to POST /deliveries**
 
 *RecordPayment* — Used to accept and save payment collection information.
 
-For more details, see https://test.trackabout.com/api/docs/#!/deliveries/postdeliveries
+For more details, click [here](https://trackabout.com/api/docs/#!/deliveries/postdeliveries).
 
 **Additions to GET /orders/verified, GET /orders/verified/{ordernumber}, and GET /orders/verified/new**
 
@@ -56,16 +56,16 @@ For more details, see https://test.trackabout.com/api/docs/#!/deliveries/postdel
 
 For more details, see:
 
-* https://test.trackabout.com/api/docs/#!/orders/getordersverified
+* <https://trackabout.com/api/docs/#!/orders/getordersverified>
   
-* https://test.trackabout.com/api/docs/#!/orders/getordersverifiedordernumber
+* <https://trackabout.com/api/docs/#!/orders/getordersverifiedordernumber>
 
-* https://test.trackabout.com/api/docs/#!/orders/getordersverifiednew
+* <https://trackabout.com/api/docs/#!/orders/getordersverifiednew>
 
 **New POST /prices call for creating or updating default pricing and tax information**
 
-For more details, see https://test.trackabout.com/api/docs/#!/prices/postprices
+For more details, click [here](https://trackabout.com/api/docs/#!/prices/postprices).
 
 **New POST /trips/prices call for creating or updating the pricing and tax information for a given list of trips**
 
-For more details, see https://test.trackabout.com/api/docs/#!/trips/posttripsprices
+For more details, click [here](https://trackabout.com/api/docs/#!/trips/posttripsprices).
