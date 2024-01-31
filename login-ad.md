@@ -1,4 +1,4 @@
-# TrackAbout Test: January 2024
+# What's New for January 2024
 
 ## TrackAbout Mobile 7
 * **Add New** — We've added extra validation steps to help prevent users from accidentally creating an asset that has the same serial number as an existing asset, even if the user edits the serial number they entered during the registration process.
