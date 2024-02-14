@@ -1,5 +1,3 @@
-[![webinar](https://supportkb.trackabout.com/Content/webinar20240214.png)](https://datacor.zoom.us/webinar/register/WN_fRCgNAeUSaqS2opunb0xSA?__hstc=167555745.f55a17df79dae867d2d3caba4c337cd4.1707347376622.1707349366227.1707423146447.3&__hssc=167555745.4.1707423146447&__hsfp=1474170958&hsCtaTracking=d7fc5101-4e3e-440a-8a64-d6b13c0f21e3%7C17793865-5bdc-444f-a206-aa225a041c33#/registration)
-
 # TrackAbout Test: February  2024
 
 ## TrackAbout Web
