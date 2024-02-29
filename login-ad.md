@@ -1,20 +1,33 @@
 [![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
 
-# What's New for January 2024
+# New for February
 
-## TrackAbout Mobile 7
-* **Add New** — We've added extra validation steps to help prevent users from accidentally creating an asset that has the same serial number as an existing asset, even if the user edits the serial number they entered during the registration process.
-* **Delivery / Service** — Comments in orders are now collapsible.
-* **New Automatic Conversion on Scan Options**
-	* You now have the option to not automatically translate the letter "O" (either upper or lowercase) into a zero when scanning tracking and serial number barcodes. To enable this option, please contact TrackAbout support at support@trackabout.com.
-	* You now have the option to specify which characters should not be automatically removed from serial number barcodes when scanned. By default, only dash characters "-" are not automatically removed during scanning. To enable this option, please contact TrackAbout support at support@trackabout.com.
-	* You now have the option to stop TrackAbout Mobile 7 from automatically convert barcodes and serial numbers to uppercase when scanned. To enable this option, please contact TrackAbout support at support@trackabout.com.
-* **Maintenance** — The Maintenance action now allows empty bundles and packs.
 
 ## TrackAbout Web
-* **Rental** — The option to show a Delivery Invoice Number on the Asset Balance section of a rental bill is now available. 
-The REST API calls GET /rental/bills/readyforpickup and GET /rental/bills/readyforpickup/new also now include support for Delivery Invoice Number (delivoeryInvoiceNumber) as a new field in the assetBalances element.
-* **Branch Transfer Records** — The Attach/Detach Hard Goods option is now available when viewing branch transfer records.
 
-## API
-* **REST API** — You can now specify a Carrier Name and Carrier Tax ID when creating orders using the TrackAbout REST API calls /orders/pending/batch, /orders/pending/{OrderNumber}, /orders/verified/new, /orders/verified, and /orders/verified/{OrderNumber}.
+* **Mobile Unit Push Notifications** — You can now send announcements or other messages to all of your TrackAbout Mobile 7 users through the TrackAbout website. When sent, the message appears as a notification on the user’s Android or iOS device where they have TrackAbout Mobile 7 installed.
+  
+![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1433.png)
+
+Messages can be sent through the new [Mobile Units Push Notifications](https://supportkb.trackabout.com/Content/Source/TAdotCOM-UG/MobileUnits/MobileUnitsPushNotifications.htm) page (TrackAbout Web > Mobile Units).
+
+![mobile unit push page](https://supportkb.trackabout.com/Content/Resources/Images/image1422.png)
+
+Contact TrackAbout Support for assistance in turning on this feature.
+
+
+* **Customers** — The Reassign page has a new name, Change Customer Relationships, to better reflect its purpose and use.
+![enter image description here](https://supportkb.trackabout.com/Content/Resources/Images/image1420.png)
+
+* **Documentation** — The Help/Wiki link has been renamed Help and now opens the TrackAbout Knowledge Base instead of the deprecated TrackAbout Wiki. 
+* **Rental** — An issue that prevented barcodes of assets with a product code mapped to an empty product code from being shown on rental bills when returned has been fixed.
+* **Regular Maintenance** — Generic actions that are marked as not verifiable are no longer displayed in results on the Verification page.
+* **Rental** —  Bracketed Asset Type Specific Rental Rates now calculate correctly when running a rental.
+
+
+## TrackAbout Mobile 7
+
+* **Print Lot Labels** — Support has been added to print additional fields.
+* **Deliver / Service** — You can now print a summary of the payments you collected during the current day using TrackAbout Mobile 7 and a mobile printer. 
+* **Deliver / Service** — You can now print an order’s payment notes directly from TrackAbout Mobile 7 with a mobile printer. 
+* **Scanning** — A bug that caused an Error 1028 during scan has been squished. 
