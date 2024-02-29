@@ -21,4 +21,4 @@ Contact TrackAbout Support for assistance in turning on this feature.
 * **Deliver / Service** — You can now print an order’s payment notes directly from TrackAbout Mobile 7 with a mobile printer. 
 * **Scanning** — A bug that caused an Error 1028 during scan has been squished. 
 
-Read the full release notes [here](https://supportkb.trackabout.com/Content/Source/TAdotCOM-UG/MobileUnits/MobileUnitsPushNotifications.htm).
+Read the full release notes [here](https://supportkb.trackabout.com/Content/Source/RNs/RN-345-Content.htm).
