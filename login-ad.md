@@ -1,14 +1,31 @@
-# TrackAbout Test: February  2024
-
 ## TrackAbout Web
-* **Rental** — An issue that prevented barcodes of assets with a product code mapped to an empty product code from being shown on rental bills when returned has been fixed.
-* **Regular Maintenance** — Generic actions that are marked as not verifiable are no longer displayed in results on the Verification page.
-* **Customers** — The Reassign page has a new name, Change Customer Relationships, to better reflect its purpose and use.
-* **Documentation** — Links to the TrackAbout Wiki in the application now open the TrackAbout Knowledge Base. 
-* **Rental** —  Bracketed Asset Type Specific Rental Rates now calculate correctly when running a rental.
+
+* **Rental Rates** — Rental rates can now be set to a value greater than 200,000 up to a value of 10,000,000,000.0000 (ten billion out to four decimal places).
+  
+* **Rental Dashboard** — The Rental Balance report has a new name, Current Balance with Rental Information, that more accurately describes it.
+
+![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1449.png)
+
+
+
+
 
 ## TrackAbout Mobile 7
-* **Print Lot Labels** — Support has been added to print additional fields.
-* **Scanning** — A bug that caused an Error 1028 during scan has been squished. Error 1028: The added data capture modes have conflicting feature requirements and can not be used with the same context at the same time. 
-* **Deliver / Service** — You can now print a summary of the payments you collected during the current day using TrackAbout Mobile 7 and a mobile printer. 
-* **Deliver / Service** — You can now print an order’s payment notes directly from TrackAbout Mobile 7 with a mobile printer. 
+
+* **Android and iOS** — We’ve rebuilt TrackAbout Mobile 7 for iOS and Android to use Microsoft .Net 8, upgrading from .Net 6. Along with general improved performance, stability, and compatibility, the move to .Net 8 comes with an updated and improved signature screen, improved barcode scanning, and improved push notifications.
+
+* **Add New** — Option-based Key Fields now display correctly when using Save and Add More.
+  
+* **Push Notifications** — Spaces in trip numbers no longer prevent push notifications from being sent.
+
+* **Delivery with Integrated Order Sync** — Orders can now be sorted by how close the customer is to the mobile device TrackAbout 7 is running on.  For help setting up this feature, contact TrackAbout Support. NOTE: This feature requires the mobile device has location services enabled for TrackAbout Mobile 7, and that the customer’s GPS coordinates have been entered into TrackAbout manually or through ERP integration. 
+
+![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1460.png)
+
+
+ 
+[![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
+
+
+
+
