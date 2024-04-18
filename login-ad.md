@@ -20,10 +20,6 @@
   
 * **Push Notifications** — Spaces in trip numbers no longer prevent push notifications from being sent.
 
-* **Delivery with Integrated Order Sync** — Orders can now be sorted by how close the customer is to the mobile device TrackAbout 7 is running on.  For help setting up this feature, contact TrackAbout Support. NOTE: This feature requires the mobile device has location services enabled for TrackAbout Mobile 7, and that the customer’s GPS coordinates have been entered into TrackAbout manually or through ERP integration. 
-
-![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1460.png)
-
 
  
 [![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
