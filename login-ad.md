@@ -1,24 +1,35 @@
-[![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
-
-# New for February
+# New for April 
 
 ## TrackAbout Web
 
-* **Mobile Unit Push Notifications** — You can now send announcements or other messages to all of your TrackAbout Mobile 7 users through the TrackAbout website. When sent, the message appears as a notification on the user’s Android or iOS device where they have TrackAbout Mobile 7 installed.
-Messages can be sent through the new [Mobile Units Push Notifications](https://supportkb.trackabout.com/Content/Source/TAdotCOM-UG/MobileUnits/MobileUnitsPushNotifications.htm) page (TrackAbout Web > Mobile Units).
-Contact TrackAbout Support for assistance in turning on this feature.
-* **Customers** — The Reassign page has a new name, Change Customer Relationships, to better reflect its purpose and use.
-* **Documentation** — The Help/Wiki link has been renamed Help and now opens the TrackAbout Knowledge Base instead of the deprecated TrackAbout Wiki. 
-* **Rental** — An issue that prevented barcodes of assets with a product code mapped to an empty product code from being shown on rental bills when returned has been fixed.
-* **Regular Maintenance** — Generic actions that are marked as not verifiable are no longer displayed in results on the Verification page.
-* **Rental** —  Bracketed Asset Type Specific Rental Rates now calculate correctly when running a rental.
+* **Rental Rates** — Rental rates can now be set to a value greater than 200,000 up to a value of 10,000,000,000.0000 (ten billion out to four decimal places).
+  
+* **Rental Dashboard** — The Rental Balance report has a new name, Current Balance with Rental Information, that more accurately describes it.
+
+![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1449.png)
+
 
 
 ## TrackAbout Mobile 7
 
-* **Print Lot Labels** — Support has been added to print additional fields.
-* **Deliver / Service** — You can now print a summary of the payments you collected during the current day using TrackAbout Mobile 7 and a mobile printer. 
-* **Deliver / Service** — You can now print an order’s payment notes directly from TrackAbout Mobile 7 with a mobile printer. 
-* **Scanning** — A bug that caused an Error 1028 during scan has been squished. 
+* **Android and iOS** — We’ve rebuilt TrackAbout Mobile 7 for iOS and Android to use Microsoft .Net 8, upgrading from .Net 6. Along with general improved performance, stability, and compatibility, the move to .Net 8 comes with an updated and improved signature screen, improved barcode scanning, and improved push notifications.
 
-Read the full release notes [here](https://supportkb.trackabout.com/Content/Source/RNs/RN-345-Content.htm).
+* **Delivery with Integrated Order Sync** — Orders can now be sorted by how close the customer is to the mobile device TrackAbout 7 is running on.
+
+![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1460.png)
+
+NOTE: This feature requires the mobile device has location services enabled for TrackAbout Mobile 7, and that the customer’s GPS coordinates have been entered into TrackAbout manually or through ERP integration.
+
+For help setting up this feature, contact TrackAbout Support.
+
+* **Add New** — Option-based Key Fields now display correctly when using Save and Add More.
+  
+* **Push Notifications** — Spaces in trip numbers no longer prevent push notifications from being sent.
+
+
+ 
+[![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
+
+
+
+
