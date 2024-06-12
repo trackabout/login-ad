@@ -28,7 +28,7 @@ For help setting up this feature, contact TrackAbout Support.
 
 
  
-[![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/Customer-Roundtable-Talk_June-12-2024-.jpg)](https://datacor.zoom.us/meeting/register/tZYqde6rrT0uH9Te7XufOskezXDRVZBW4fdI?utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-9p3eup_NwBChZ6Yj5TC2FjaVOrQSRXLJEVt8YSjjBN99ZMX_mao2W8T890JVjYxlYH77UO#/registration)
+
 
 
 
