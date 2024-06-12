@@ -21,9 +21,4 @@
 * **Push Notifications** — Spaces in trip numbers no longer prevent push notifications from being sent.
 
 
- 
-[![interaxions](https://supportkb.trackabout.com/Content/Resources/Images/IAX%202024%20graphic.png)](https://datacor.swoogo.com/interaxions24/begin)
-
-
-
 
