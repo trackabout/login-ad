@@ -1,4 +1,4 @@
-# June 2024 Release Notes (Test)
+# [June 2024 Release Notes (Test)](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
 
 
 ## TrackAbout Web
@@ -6,9 +6,6 @@
 * **TrackAbout Config > Ownerships** — The default ownership  can now be edited. To change the default ownership, go to the Ownerships page, search for the current default ownership, and click EDIT.
 
 * **Regular Maintenance > Sync Problems** — The record type of a sync problem is now displayed in a new column, called *Action*. This new column is on by default. To switch it off, contact TrackAbout Support.
-
-![sync problems screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1588.png)
-
 
 
 ## TrackAbout Mobile 7 (iOS / Android)
@@ -21,15 +18,11 @@ Shown details include:
 Truck Inventory works whether or not TrackAbout Mobile 7 is connected to the internet.
 Truck Inventory must be enabled by TrackAbout Support.
 
-![screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1590.png)
-
 
 * **Delivery (with Integrated Order Sync)** — Delivery (with Integrated Order Sync) can now be set to show all orders for a trip regardless on their status: delivered, undelivered, or cancelled (i.e. pre-cancelled). 
 
 * **Delivery (with Integrated Order Sync)** — The total pre-tax customer price of all the items scanned or entered for a delivery can now be shown on the Delivery Items screen. The screen updates the total each time a new item is added. 
 To enable this option, contact TrackAbout Support.
-
-![screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1589.png)
 
 * **Generic Actions** — TrackAbout can now create generic actions that can be run while TrackAbout Mobile 7 is offline and the iOS/Android device is not connected to the internet. 
 
