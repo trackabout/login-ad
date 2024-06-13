@@ -1,4 +1,4 @@
-# [June 2024 Release Notes (Test)](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
+# [June 2024 Release Notes (Test)](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm){:target="_blank"}
 
 
 ## TrackAbout Web
