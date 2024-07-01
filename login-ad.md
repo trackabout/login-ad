@@ -1,35 +1,31 @@
-# New for April 
+# [What's New for July 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
+
 
 ## TrackAbout Web
 
-* **Rental Rates** — Rental rates can now be set to a value greater than 200,000 up to a value of 10,000,000,000.0000 (ten billion out to four decimal places).
-  
-* **Rental Dashboard** — The Rental Balance report has a new name, Current Balance with Rental Information, that more accurately describes it.
+* **TrackAbout Config > Ownerships** — The default ownership  can now be edited. To change the default ownership, go to the Ownerships page, search for the current default ownership, and click EDIT.
 
-![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1449.png)
+* **Regular Maintenance > Sync Problems** — The record type of a sync problem is now displayed in a new column, called *Action*. This new column is on by default. To switch it off, contact TrackAbout Support.
 
 
+## TrackAbout Mobile 7 (iOS / Android)
 
-## TrackAbout Mobile 7
-
-* **Android and iOS** — We’ve rebuilt TrackAbout Mobile 7 for iOS and Android to use Microsoft .Net 8, upgrading from .Net 6. Along with general improved performance, stability, and compatibility, the move to .Net 8 comes with an updated and improved signature screen, improved barcode scanning, and improved push notifications.
-
-* **Delivery with Integrated Order Sync** — Orders can now be sorted by how close the customer is to the mobile device TrackAbout 7 is running on.
-
-![push notification screenshot](https://supportkb.trackabout.com/Content/Resources/Images/image1460.png)
-
-NOTE: This feature requires the mobile device has location services enabled for TrackAbout Mobile 7, and that the customer’s GPS coordinates have been entered into TrackAbout manually or through ERP integration.
-
-For help setting up this feature, contact TrackAbout Support.
-
-* **Add New** — Option-based Key Fields now display correctly when using Save and Add More.
-  
-* **Push Notifications** — Spaces in trip numbers no longer prevent push notifications from being sent.
+ * **Truck Inventory** — The new Truck Inventory action gives drivers an up-to-date report about what’s on their truck while they’re on a trip. 
+Truck Inventory works once a truck has been loaded (using Load Truck), and shows details including  the number of unique tracked assets and not-scanned items which have  already been delivered during the trip, as well as the trips undelivered and pre-cancelled orders.
+Shown details include:
+	 * Empties and fulls 
+	 * Lot Numbers
+Truck Inventory works whether or not TrackAbout Mobile 7 is connected to the internet.
+Truck Inventory must be enabled by TrackAbout Support.
 
 
- 
+* **Delivery (with Integrated Order Sync)** — Delivery (with Integrated Order Sync) can now be set to show all orders for a trip regardless on their status: delivered, undelivered, or cancelled (i.e. pre-cancelled). 
 
+* **Delivery (with Integrated Order Sync)** — The total pre-tax customer price of all the items scanned or entered for a delivery can now be shown on the Delivery Items screen. The screen updates the total each time a new item is added. 
+To enable this option, contact TrackAbout Support.
 
+* **Generic Actions** — TrackAbout can now create generic actions that can be run while TrackAbout Mobile 7 is offline and the iOS/Android device is not connected to the internet.
 
+* **Delivery** —  Test date validation can now be added to assets being delivered. This validation is skipped for returning assets. 
 
-
+For the full release notes, see the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm).
