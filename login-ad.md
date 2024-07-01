@@ -1,4 +1,4 @@
-# [June 2024 Release Notes (Test)](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
+# [What's New for July 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
 
 
 ## TrackAbout Web
@@ -24,4 +24,8 @@ Truck Inventory must be enabled by TrackAbout Support.
 * **Delivery (with Integrated Order Sync)** — The total pre-tax customer price of all the items scanned or entered for a delivery can now be shown on the Delivery Items screen. The screen updates the total each time a new item is added. 
 To enable this option, contact TrackAbout Support.
 
+* **Generic Actions** — TrackAbout can now create generic actions that can be run while TrackAbout Mobile 7 is offline and the iOS/Android device is not connected to the internet.
 
+* **Delivery** —  Test date validation can now be added to assets being delivered. This validation is skipped for returning assets. 
+
+For the full release notes, see the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm).
