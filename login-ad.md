@@ -1,6 +1,18 @@
 # [What's New for July 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
 
 
+## Delivery and Customer Audit Receipt Email Customization
+Subject lines and body text in TrackAbout Delivery and Customer Audit receipt emails are now customizable to say what you want.
+
+* For Delivery Receipt Email subject lines and bodies, TrackAbout Support can set up templates that automatically insert your company name, the invoice number, customer number, and/or customer name into text you specify. Additionally, the text used by media links in email bodies can be customized.
+
+* For Customer Audit Emails subject lines and bodies, TrackAbout Support can set up templates that automatically insert your company name into text you specify. 
+
+To customize your Delivery and Customer Audit receipt emails, contact TrackAbout Support.
+
+## Delivery and Customer Audit Receipt Email Reply To Address Customization
+You can now specify the email address used as a reply-to address in Delivery and Customer Audit receipt emails. To make a change, contact TrackAbout Support.
+
 ## TrackAbout Web
 
 * **TrackAbout Config > Ownerships** — The default ownership  can now be edited. To change the default ownership, go to the Ownerships page, search for the current default ownership, and click EDIT.
