@@ -1,43 +1,62 @@
-# [What's New for July 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm)
+# [August 2024 Test Server Release Notes](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm)
 
 
-## Delivery and Customer Audit Receipt Email Customization
-Subject lines and body text in TrackAbout Delivery and Customer Audit receipt emails are now customizable to say what you want.
+## TrackAbout Mobile 7
 
-* For Delivery Receipt Email subject lines and bodies, TrackAbout Support can set up templates that automatically insert your company name, the invoice number, customer number, and/or customer name into text you specify. Additionally, the text used by media links in email bodies can be customized.
+**Minimum Operating System Version Requirements for TrackAbout Mobile 7**
+    
+With this release, the minimum version of operating system supported by TrackAbout Mobile 7 has changed.
+    
+   * iOS devices must be using iOS 15.8.2 or later.
+   * Android devices must be using Android 7.1 or later.
+        
+TrackAbout Mobile 7 on older operating systems is no longer supported. We recommend keeping iOS and Android devices updated with the latest version of their respective operating systems as soon as they become available for continued support and access to the latest TrackAbout Mobile 7 features.
 
-* For Customer Audit Emails subject lines and bodies, TrackAbout Support can set up templates that automatically insert your company name into text you specify. 
 
-To customize your Delivery and Customer Audit receipt emails, contact TrackAbout Support.
+**Set Expiration Date** — This new TrackAbout Mobile 7 action lets you set the expiration date of product contained in the asset. It was previously only available in TrackAbout Mobile 6.
 
-## Delivery and Customer Audit Receipt Email Reply To Address Customization
-You can now specify the email address used as a reply-to address in Delivery and Customer Audit receipt emails. To make a change, contact TrackAbout Support.
+**Delivery** — You now have the option to collect carrier information in both Delivery (Simple) and Delivery with Integrated Order Sync. This option was previously only available in TrackAbout Mobile 6. To enable Carrier selection, contact [TrackAbout Support](mailto:support@trackabout.com).
+
+**ASSET LOOKUP** — Units of Measure (UOMs) are now displayed for asset attributes like volume and pressure, if appropriate.
+
+**Delivery with Integrated Order Sync** — If using Electronic Guides (EG), Delivery can now automatically ask you to request a new EG from your guide number provisioning system when more assets are returned than were delivered. If a new EG is not immediately available from your provisioning system, you can enter a contingency (temporary) number to use so the delivery can be completed.
+
+
 
 ## TrackAbout Web
 
-* **TrackAbout Config > Ownerships** — The default ownership  can now be edited. To change the default ownership, go to the Ownerships page, search for the current default ownership, and click EDIT.
+**Favorites** — Users can now favorite TrackAbout Web pages for quick access later. Favorited pages are listed under _Favorites_ in the main menu. 
 
-* **Regular Maintenance > Sync Problems** — The record type of a sync problem is now displayed in a new column, called *Action*. This new column is on by default. To switch it off, contact TrackAbout Support.
+Individual users can add a page to their _Favorites_ by clicking “Mark as Favorite” when viewing the page. To remove a page they added from their _Favorites_, individual users can click “Remove from Favorites” when viewing the page.
+
+System Administrators can also add pages to everyone’s _Favorites_ as system default favorites by clicking “Mark as System Default Favorite” when viewing the page. System default favorites can be removed from everyone’s _Favorites_ by clicking “Remove from System Default Favorites” when viewing the page.
+
+**Record Detail**  — Assets are no longer all listed on the same page, but in a searchable, paged list.
+
+**Delivery Receipts**  — Lot number for grouped items can now be displayed in emailed delivery receipts. Contact TrackAbout Support for help customizing your delivery receipts.
+
+## OpenData
+OpenData now lets you see holder information for assets and containers, and user-entered customer audit names in ungrouped audit records.
+
+**opendata.Assets**
+    
+**OwnerHolderStr**  — If an asset ownership is marked as 'Customer-owned', this is the internal system ID of that customer. Join to Holders for the ownership customer details.
+    
+**OwnerHolderName**  — If an asset ownership is marked as 'Customer-owned', this is the Customer ID of that customer. Join to Holders for the ownership customer details.
+
+    
+**opendata.ContainerAssets**
+    
+**OwnerHolderStr**  — If an asset ownership is marked as 'Customer-owned', this is the internal system ID of that customer. Join to Holders for the ownership customer details.
+    
+**OwnerHolderName**  — If an asset ownership is marked as 'Customer-owned', this is the Customer ID of that customer. Join to Holders for the ownership customer details.
 
 
-## TrackAbout Mobile 7 (iOS / Android)
-
- * **Truck Inventory** — The new Truck Inventory action gives drivers an up-to-date report about what’s on their truck while they’re on a trip. 
-Truck Inventory works once a truck has been loaded (using Load Truck), and shows details including  the number of unique tracked assets and not-scanned items which have  already been delivered during the trip, as well as the trips undelivered and pre-cancelled orders.
-Shown details include:
-	 * Empties and fulls 
-	 * Lot Numbers
-Truck Inventory works whether or not TrackAbout Mobile 7 is connected to the internet.
-Truck Inventory must be enabled by TrackAbout Support.
+**opendata.CustomerAuditUserEnteredAuditNames**
+    
+**RecordId**  — System-generated unique ID for the record.
+    
+**UserEnteredCustAuditName**  — When a user saves a Customer Audit record on the mobile device, they enter a free text name. The admin uses these names to group records into a single Customer Audit.
 
 
-* **Delivery (with Integrated Order Sync)** — Delivery (with Integrated Order Sync) can now be set to show all orders for a trip regardless on their status: delivered, undelivered, or cancelled (i.e. pre-cancelled). 
-
-* **Delivery (with Integrated Order Sync)** — The total pre-tax customer price of all the items scanned or entered for a delivery can now be shown on the Delivery Items screen. The screen updates the total each time a new item is added. 
-To enable this option, contact TrackAbout Support.
-
-* **Generic Actions** — TrackAbout can now create generic actions that can be run while TrackAbout Mobile 7 is offline and the iOS/Android device is not connected to the internet.
-
-* **Delivery** —  Test date validation can now be added to assets being delivered. This validation is skipped for returning assets. 
-
-For the full release notes, see the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Source/RNs/RN-347-Content.htm).
+For the full release notes, see the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm).
