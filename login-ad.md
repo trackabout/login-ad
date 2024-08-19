@@ -1,4 +1,4 @@
-# [What's New: September 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm)
+# [What's New: August 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm)
 
 
 ## TrackAbout Mobile 7
