@@ -1,62 +1,81 @@
-# [What's New: August 2024](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm)
-
+# October 2024  Release Notes 
 
 ## TrackAbout Mobile 7
 
-**Minimum Operating System Version Requirements for TrackAbout Mobile 7**
-    
-With this release, the minimum version of operating system supported by TrackAbout Mobile 7 has changed.
-    
-   * iOS devices must be using iOS 15.8.2 or later.
-   * Android devices must be using Android 7.1 or later.
-        
-TrackAbout Mobile 7 on older operating systems is no longer supported. We recommend keeping iOS and Android devices updated with the latest version of their respective operating systems as soon as they become available for continued support and access to the latest TrackAbout Mobile 7 features.
+ - **CREATE ORDER Action Changes** — The Create Order action now automatically selects Order Type (Customer or Transfer) based on the customer you select,  and you’re no longer prompted to select an Order Type when the action starts. 
+
+	New configuration options are also available to further change how Create Order works. To enable any of the following options, contact TrackAbout Support for a configuration change.
+
+	- *Purchase Order Numbers* — By default, the purchase order number is optional. This behavior can be changed to show the purchase order number, hide the purchase order number, or make the purchase order number required.
+	
+	- *Return All Assets At Customer* —  By default, the user is not given the option to return all assets at a customer location during a delivery. This behavior can be changed to give the user that option.
+	
+	- *Avoid Weekend Default Delivery Dates* —  By default, weekends are ignored when planned delivery dates are calculated so that deliveries aren’t scheduled on weekends. This behavior can be changed to allow planned delivery dates on weekends.
+
+	- *Customer Product Code Filtering*  — By default, all the product codes that have been used at this customer at any time in the past are shown on the Product Search screen, including used empty product codes. The behavior can be changed to not show used empty product codes, or to show the whole product code list.
+
+- **SCANNING** — You can now adjust the size of the scan area for more precise scanning by using the zoom slider. Move the slider left to scan a broader area, right to scan a more focused  area.
+
+- **Continuous Scanning** — This new scanning option for Generic Actions lets you scan and record lists of barcodes/tracking IDs instead of scanning individual assets.  
+
+	While normal TrackAbout scanning doesn’t work if you try scanning two or more barcodes at the same time, Continuous Scan lets you record all the barcodes it can see, and keep recording as you sweep your camera over a list. This can make recording large numbers of assets more efficient.
+	
+	When enabled, just point your device’s camera at a list of asset barcodes and the scanner will scan in all it sees within the scan area (the orange box at the top of the scanning screen). 
+	
+	Continue sweeping the camera over barcodes to scan and record them, and tap DONE when finished.
+	
+	To enable this action, contact TrackAbout Support.
 
 
-**Set Expiration Date** — This new TrackAbout Mobile 7 action lets you set the expiration date of product contained in the asset. It was previously only available in TrackAbout Mobile 6.
+- **New Action: BATCH DELIVERY WITH INTEGRATED ORDER SYNC** — This new action has the same features as Delivery (with Integrated Order Sync) but adds Continuous Scanning to record lists of barcodes/tracking IDs instead of the barcodes attached the assets.
 
-**Delivery** — You now have the option to collect carrier information in both Delivery (Simple) and Delivery with Integrated Order Sync. This option was previously only available in TrackAbout Mobile 6. To enable Carrier selection, contact [TrackAbout Support](mailto:support@trackabout.com).
+- **MAINTENANCE** — An issue that prevented performing maintenance on multiple assets removed from a lot has been corrected.
+ 
+- **MAINTENANCE** — The warning when adding assets with conflicting maintenance flags has been removed.
 
-**ASSET LOOKUP** — Units of Measure (UOMs) are now displayed for asset attributes like volume and pressure, if appropriate.
+- **MAINTENANCE** — Having a Blow Down Reason Code no longer prevents an asset from being scanned in maintenance actions.
 
-**Delivery with Integrated Order Sync** — If using Electronic Guides (EG), Delivery can now automatically ask you to request a new EG from your guide number provisioning system when more assets are returned than were delivered. If a new EG is not immediately available from your provisioning system, you can enter a contingency (temporary) number to use so the delivery can be completed.
+- **GENERIC ACTIONS** — Continuous, point-and-scan scanning can now be used in Generic Actions.
+
+- **PUSH NOTIFICATIONS** — An issue that showed “Not Set” instead of the customer name in new order push notifications has been corrected.
+
+- **SYNCING** — Duplicate trip numbers no longer prevent syncing.
 
 
 
 ## TrackAbout Web
+- **Current Inventory** — Two new configuration options are available to change what assets are included in the search if you check Include assets at customers assigned to selected locations. 
 
-**Favorites** — Users can now favorite TrackAbout Web pages for quick access later. Favorited pages are listed under _Favorites_ in the main menu. 
+	By default, assets at customers assigned to the locations selected in the “Store” field are included in the search regardless of whether the location is a Primary Servicing Location for the customer or not when *Include assets at customers assigned to selected locations* is checked.
 
-Individual users can add a page to their _Favorites_ by clicking “Mark as Favorite” when viewing the page. To remove a page they added from their _Favorites_, individual users can click “Remove from Favorites” when viewing the page.
+	This behavior can be changed to one of the following:
 
-System Administrators can also add pages to everyone’s _Favorites_ as system default favorites by clicking “Mark as System Default Favorite” when viewing the page. System default favorites can be removed from everyone’s _Favorites_ by clicking “Remove from System Default Favorites” when viewing the page.
+	- Assets At Customers Assigned To Locations As Primary — Include assets at customers assigned to selected locations as primary servicing location.
 
-**Record Detail**  — Assets are no longer all listed on the same page, but in a searchable, paged list.
+	- Assets At Customer Delivered From Location — Include assets at customers that were delivered from the selected locations. Not recommended if you’re tracking more than 10,000 assets. 
 
-**Delivery Receipts**  — Lot number for grouped items can now be displayed in emailed delivery receipts. Contact TrackAbout Support for help customizing your delivery receipts.
+	If you are interested in changing this behavior from the default, contact TrackAbout Support for a configuration change.
+
+
+- **Favorites** — System admins can now make a page a favorite for specific user roles instead of a favorite for all users. 
+
+	When adding a page as a system favorite default by clicking System Favorite Defaults, you are prompted to make the page a favorite for everyone by selecting All Roles or make the page a favorite only for users with the selected role(s).  
+
+
+- **Records** — The option to change the source (origin) location on a Branch Transfer record is now available. (Requires Record Editing Options: Change Location User Access Control (UAC) permission.)
+
+- **Login** — If you are logged out due to inactivity, you are now returned to the page you were on when logging in again. 
+
+- **Dashboard** — An issue that caused the Collision count to be incorrectly displayed on the TrackAbout Dashboard has been fixed.
+
+- **Expiration Date** — An issue that prevented the expiration date from correctly printing on lot labels has been corrected.
+
 
 ## OpenData
-OpenData now lets you see holder information for assets and containers, and user-entered customer audit names in ungrouped audit records.
+- You can now get Escalating Rental tier minimum (TierMinimumDuration) and maximum duration (TierMaximumDuration) through the openData.RentalRates, openData.RentalRatesAudit, openData.RentaBillRateDetails views.
 
-**opendata.Assets**
-    
-**OwnerHolderStr**  — If an asset ownership is marked as 'Customer-owned', this is the internal system ID of that customer. Join to Holders for the ownership customer details.
-    
-**OwnerHolderName**  — If an asset ownership is marked as 'Customer-owned', this is the Customer ID of that customer. Join to Holders for the ownership customer details.
-
-    
-**opendata.ContainerAssets**
-    
-**OwnerHolderStr**  — If an asset ownership is marked as 'Customer-owned', this is the internal system ID of that customer. Join to Holders for the ownership customer details.
-    
-**OwnerHolderName**  — If an asset ownership is marked as 'Customer-owned', this is the Customer ID of that customer. Join to Holders for the ownership customer details.
+- Truck Number information (TruckId) is now available through the openData.Orders and openData.AllOrders views.
 
 
-**opendata.CustomerAuditUserEnteredAuditNames**
-    
-**RecordId**  — System-generated unique ID for the record.
-    
-**UserEnteredCustAuditName**  — When a user saves a Customer Audit record on the mobile device, they enter a free text name. The admin uses these names to group records into a single Customer Audit.
-
-
-For the full release notes, see the [TrackAbout Knowledge Base](https://supportkb.trackabout.com/Content/Source/RNs/RN-348-Content.htm).
+## API
+You can now include a parent customer name when creating a new order using the Orders (deliveries.asmx) call, using the new CustomerName element. 
