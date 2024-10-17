@@ -1,4 +1,5 @@
-# October 2024  Release Notes 
+# [October 2024  Release Notes](https://supportkb.trackabout.com/Content/Source/RNs/RN-349-Content.htm) 
+
 
 ## TrackAbout Mobile 7
 
