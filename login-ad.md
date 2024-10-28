@@ -1,6 +1,6 @@
-# TrackAbout v350 Release Notes (Test Environment)
+# October Test Environment Release Notes
 
-## Trackabout Mobile (iOS and Android)
+## Trackabout Mobile
 
 -   **TRUCK LOAD INVENTORY**  — Living Manifest is now fully integrated into the Truck Load Inventory action.
     
