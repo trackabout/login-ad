@@ -10,7 +10,7 @@
     
     -   Users can print a manifest from their Android mobile device (requires printer).
         
-    -   Users can easily adjust the inventory for a manifest without needing to scan all the assets again by manually changing the number of items in the manifest as well as add new items to the manifest,
+    -   Users can easily adjust the inventory for a manifest without needing to scan all the assets again by manually changing the number of items in the manifest as well as add new items to the manifest.
         
     -   You have the option to have TrackAbout prompt the user to open truck inventory and print a manifest after saving a delivery.
         
