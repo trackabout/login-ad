@@ -1,8 +1,8 @@
-# October Test Environment Release Notes
+# TrackAbout Release Notes (11/2024)
 
 ## Trackabout Mobile
 
--   **TRUCK LOAD INVENTORY**  — Living Manifest is now fully integrated into the Truck Load Inventory action.
+-   **TRUCK LOAD INVENTORY**  — Living Manifest is now fully integrated into the [Truck Load Inventory](https://supportkb.trackabout.com/Content/Source/TAM7-UG/Truck-Load-Inventory.htm) action.
     
     Living Manifest is an optional TrackAbout feature that includes everything needed to manage and print a DOT manifest from a mobile printer paired with an Android mobile device running TrackAbout Mobile 7.
     
@@ -31,7 +31,7 @@
 
 ## OpenData
 
-A new view is available to see an asset’s notes.
+A [new view](https://supportkb.trackabout.com/Content/Source/Mods/OpenData/OpenData_Records_and_Assets.htm) is available to see an asset’s notes.
 
 **opendata.AssetNotes**
 
