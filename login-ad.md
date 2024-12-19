@@ -1,46 +1,67 @@
-# TrackAbout Release Notes (11/2024)
-
-## Trackabout Mobile
-
--   **TRUCK LOAD INVENTORY**  — Living Manifest is now fully integrated into the [Truck Load Inventory](https://supportkb.trackabout.com/Content/Source/TAM7-UG/Truck-Load-Inventory.htm) action.
-    
-    Living Manifest is an optional TrackAbout feature that includes everything needed to manage and print a DOT manifest from a mobile printer paired with an Android mobile device running TrackAbout Mobile 7.
-    
-    With Living Manifest:
-    
-    -   Users can print a manifest from their Android mobile device (requires printer).
-        
-    -   Users can easily adjust the inventory for a manifest without needing to scan all the assets again by manually changing the number of items in the manifest as well as add new items to the manifest.
-        
-    -   You have the option to have TrackAbout prompt the user to open truck inventory and print a manifest after saving a delivery.
-        
-    
--   **Delivery (with Integrated Order Sync)**  — A new  _Online Mode_  option is available that enables real-time lookups and validations when your device is connected to the internet.
-    
-    By default, the Delivery (with Integrated Order Sync) action acts in  _Offline Mode_  and does not try to get additional information from TrackAbout even if your device is connected to the internet. Instead it relies solely on the limited set of TrackAbout data on your device since the last time it synced with TrackAbout. If more information is needed than is stored locally, you are prompted to provide the information.
-    
-    With Online Mode enabled, if internet service is available, Delivery (with Integrated Order Sync) connects to TrackAbout to get the information it needs first before prompting you to provide the information.
-    
-    To enable this option, contact TrackAbout Support.
-    
+# [TrackAbout Release Notes (12/2024)](https://supportkb.trackabout.com/Content/Source/RNs/RN-351-Prod.htm)
 
 ## TrackAbout Web
 
--   **TrackAbout Dashboard**  — An issue that caused inaccurate location-dependent item counts to be displayed on the dashboard after switching the location filter from a single location to all locations has been corrected.
+-   **Create / Edit User**— The new  [Clone User option](https://supportkb.trackabout.com/Content/Source/HowTo/copysettingsfromoneusertoanother.htm)  lets you copy one user’s mobile role settings and location permissions to another when creating a new user or editing an existing user.
+  
+    _Clone User_  copies the following from the original user:
+    
+    -   Location
+        
+    -   Language
+        
+    -   Web and Mobile Access
+        
+    -   Driver Indicator
+        
+    -   Working Location
+        
+    -   Inventory Location
+        
+    -   Route
+        
+    -   Mobile Profile
+        
+    -   Location Permissions
+        
+    -   Role Permissions
+        
+    
+    By default, the clone user option is not enabled for individual users. The option can be enabled for specific user roles by granting them “clone user” privileges through  _TrackAbout Config_ > _User Access Control > TrackAbout Config_.
+    
+-   **Current Inventory**  — Detailed results now sort correctly when sorted by  _Days at Location_.
+    
+-   **Audit Resolution Accounting Adjustment Records**  — An issue that caused the wrong number of surprise DNS finds to be recorded has been corrected.
+    
+-   **Integration Messages**  — Rapidly clicking "Verify" buttons for record verification or accounting adjustments no longer has the potential to create duplicate entries.
     
 
-## OpenData
+## TrackAbout Mobile 7 (Android/iOS)
 
-A [new view](https://supportkb.trackabout.com/Content/Source/Mods/OpenData/OpenData_Records_and_Assets.htm) is available to see an asset’s notes.
+-   **Collect Customer Based Ownership in Additional Actions**  — Previously available only in  _Add New_  (aka  _Register Asset_), you can now collect ownership in additional actions:
+    
+	 -  **Vendor Receive**  — Assign ownership when receiving items from vendors.
+    
+    - **Add New (Secondary and Non-Key Field modes)**  — Assign ownership when adding new assets.
+    
+    - **Pack**  — Assign ownership when creating new packs.
+    
+    - **Make Bundle**  — Assign ownership when registering new bundles.
+    
+    - **Add Container**  — Assign ownership when registering new containers.
+    
+    - **Add Bulk Tank**  — Assign ownership when adding new bulk tanks.
+    
+    To enable this option, [contact TrackAbout Support](https://supportkb.trackabout.com/Content/Source/MW/Contact_Us.htm).
+    
+-   **MAKE PACK**  — An issue that caused an error when saving while push record message integration is enabled has been corrected.
+    
 
-**opendata.AssetNotes**
+## API
 
-**AssetId**  — The asset to which this note applies, foreign key to the Assets table.
+-   **GET /orders/verified/orderNumber** and **GET /orders/verified/new**  — Now returns results faster thanks to optimization.
+    
+-   **GET /fills/new**  — The response has been updated to return the number of records specified by MaxRows even when the sending fills entered from the website option is disabled.
+    
+-   **GET /orders/verified/new**  — Delivery records containing two line items with the same Service Product code no longer cause the call to error.
 
-**EnterDate**  — The date this note was created.
-
-**UserId**  — The UserId of the user who created this note.
-
-**UserName**  — Denormalized and concatenated full username of the user who created this note.
-
-**Note**  — The actual user-entered note for the asset.
