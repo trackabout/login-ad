@@ -1,67 +1,96 @@
-# [TrackAbout Release Notes (12/2024)](https://supportkb.trackabout.com/Content/Source/RNs/RN-351-Prod.htm)
+# TrackAbout Test Release Notes (01/2025)
 
 ## TrackAbout Web
 
--   **Create / Edit User**— The new  [Clone User option](https://supportkb.trackabout.com/Content/Source/HowTo/copysettingsfromoneusertoanother.htm)  lets you copy one user’s mobile role settings and location permissions to another when creating a new user or editing an existing user.
-  
-    _Clone User_  copies the following from the original user:
+#### Enhancements
+
+-   **Override Date & Time**  — You now have the option to disable the user’s ability to change (override) the current date and time in various places around the app. Contact TrackAbout Support to disable the  _Override Date & Time_  option on any of the following:
     
-    -   Location
+    -   Create Fill Action
         
-    -   Language
+    -   Edit Asset / Add New Asset
         
-    -   Web and Mobile Access
+    -   Enter Invoice
         
-    -   Driver Indicator
+    -   Enter Maintenance
         
-    -   Working Location
+    -   Reclassify Assets
         
-    -   Inventory Location
+    -   Register Complaint / Recall/ Block
         
-    -   Route
+    -   Remove Assets From Lot
         
-    -   Mobile Profile
+    -   Set Asset Location
         
-    -   Location Permissions
+    -   Set Ownerships
         
-    -   Role Permissions
+    -   Set Serial Numbers
         
     
-    By default, the clone user option is not enabled for individual users. The option can be enabled for specific user roles by granting them “clone user” privileges through  _TrackAbout Config_ > _User Access Control > TrackAbout Config_.
+-   **Order Cancellation Reason Codes**  — This new page lets you manage your order cancellation codes. You can view and edit existing codes and add new ones, and activate or deactivate both new and existing codes.
     
--   **Current Inventory**  — Detailed results now sort correctly when sorted by  _Days at Location_.
-    
--   **Audit Resolution Accounting Adjustment Records**  — An issue that caused the wrong number of surprise DNS finds to be recorded has been corrected.
-    
--   **Integration Messages**  — Rapidly clicking "Verify" buttons for record verification or accounting adjustments no longer has the potential to create duplicate entries.
+    Access to the new page can be set by user permission (_Edit Order Cancellation Reason Codes_  and  _View Order Cancellation Reason Codes_).
     
 
-## TrackAbout Mobile 7 (Android/iOS)
+#### Fixes
 
--   **Collect Customer Based Ownership in Additional Actions**  — Previously available only in  _Add New_  (aka  _Register Asset_), you can now collect ownership in additional actions:
+-   **Production Record**  — No longer shows Palletise Empties actions other than the most recent.
     
-	 -  **Vendor Receive**  — Assign ownership when receiving items from vendors.
-    
-    - **Add New (Secondary and Non-Key Field modes)**  — Assign ownership when adding new assets.
-    
-    - **Pack**  — Assign ownership when creating new packs.
-    
-    - **Make Bundle**  — Assign ownership when registering new bundles.
-    
-    - **Add Container**  — Assign ownership when registering new containers.
-    
-    - **Add Bulk Tank**  — Assign ownership when adding new bulk tanks.
-    
-    To enable this option, [contact TrackAbout Support](https://supportkb.trackabout.com/Content/Source/MW/Contact_Us.htm).
-    
--   **MAKE PACK**  — An issue that caused an error when saving while push record message integration is enabled has been corrected.
+-   **Customer > Rental Dashboard**  — Duplicate balances are no longer erroneously displayed when using Tiered Rental methods.
     
 
-## API
+## TrackAbout Mobile 7
 
--   **GET /orders/verified/orderNumber** and **GET /orders/verified/new**  — Now returns results faster thanks to optimization.
+#### Enhancements
+
+-   **Locate**  — The user’s working location is now automatically selected as the default location. The user can select a different location if needed.
     
--   **GET /fills/new**  — The response has been updated to return the number of records specified by MaxRows even when the sending fills entered from the website option is disabled.
+-   **Customer Tracking Portal**  — You can now give your customers the ability to create and submit orders themselves using the new TrackAbout Mobile 7 Create Order action.
     
--   **GET /orders/verified/new**  — Delivery records containing two line items with the same Service Product code no longer cause the call to error.
+    Features:
+    
+    -   Choose Order Priority (Normal, High Urgent)
+        
+    -   Specify a Suggested Delivery Date
+        
+    -   Easier line item entry — Filter the list of available products to those used by the customer in the past, or scan an asset to add the product to the order
+        
+    -   Emails —Your customer receives an order submission confirmation and you receive an email notification when an order is submitted.
+        
+    -   Order Review — Viewable on the Order Search screens on TrackAbout Web, including information about who submitted the order.
+        
+    -   Integration — Orders can be integrated back to your business system using the TrackAbout API.
+        
+    
+-   **Delivery (with Integrated Order Sync)**  — The Product Codes used by the customer in recent past orders are now listed when selecting a Product Code while adding a line item (_Add Line Item > Select Product Codes_) or after scanning an unknown, not-listed asset.
+    
+    By default, all Product Codes (full or empty) are listed for selection, but the user can still search to select a different product code. To list all except empties or to not list any Product Codes, contact TrackAbout Support.
+    
+-   **Replace Barcode**  — Asset Classification is now shown on the asset details screen.
+    
+-   **Standard Delivery**  now supports RFID scans of multiple assets.
+    
+
+#### Fixes
+
+-   **Delivery**  — Carriers can now be selected without entering a tracking number.
+    
+-   **Delivery**  — Product and Lot number barcodes are now supported on the hard good lot number screen.
+    
+-   **Replace Barcode**  — The asset details screen now shows when a barcode is scanned at the beginning of the process.
+    
+-   **Simple Batch Delivery**  — Scanned assets are now assigned appropriately to the correct line when Continuous Scanning is enabled.
+    
+-   **Picking**  now displays container information. Users can see what assets are in scanned containers as part of  _Detail View_.
+    
+
+## OpenData
+
+A new field has been added that indicates what the customer’s bracketed rental rate is.
+
+**opendata.Holders**
+
+**BracketedRentalRateTableId**  — Indicates the bracketed rental rate for the customer.
+
+
 
