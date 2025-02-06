@@ -1,10 +1,11 @@
-# TrackAbout Test Release Notes (01/2025)
+# What's New (February 2025 Release Notes)
+
 
 ## TrackAbout Web
 
 #### Enhancements
 
--   **Override Date & Time**  — You now have the option to disable the user’s ability to change (override) the current date and time in various places around the app. Contact TrackAbout Support to disable the  _Override Date & Time_  option on any of the following:
+-   **Override Date & Time** — You now have the option to disable the user’s ability to change (override) the current date and time in various places around the app. Contact TrackAbout Support to disable the _Override Date & Time_ option on any of the following:
     
     -   Create Fill Action
         
@@ -27,25 +28,25 @@
     -   Set Serial Numbers
         
     
--   **Order Cancellation Reason Codes**  — This new page lets you manage your order cancellation codes. You can view and edit existing codes and add new ones, and activate or deactivate both new and existing codes.
+-   **Order Cancellation Reason Codes** — This new page lets you manage your order cancellation codes. You can view and edit existing codes and add new ones and activate or deactivate both new and existing codes.
     
-    Access to the new page can be set by user permission (_Edit Order Cancellation Reason Codes_  and  _View Order Cancellation Reason Codes_).
+    Access to the new page can be set by user permission (_Edit Order Cancellation Reason Codes_ and _View Order Cancellation Reason Codes_).
     
 
 #### Fixes
 
--   **Production Record**  — No longer shows Palletise Empties actions other than the most recent.
+-   **Production Record** — No longer shows Palletise Empties actions other than the most recent.
     
--   **Customer > Rental Dashboard**  — Duplicate balances are no longer erroneously displayed when using Tiered Rental methods.
+-   **Customer > Rental Dashboard** — Duplicate balances are no longer erroneously displayed when using Tiered Rental methods.
     
 
 ## TrackAbout Mobile 7
 
 #### Enhancements
 
--   **Locate**  — The user’s working location is now automatically selected as the default location. The user can select a different location if needed.
+-   **Locate** — The user’s working location is now automatically selected as the default location. The user can select a different location if needed.
     
--   **Customer Tracking Portal**  — You can now give your customers the ability to create and submit orders themselves using the new TrackAbout Mobile 7 Create Order action.
+-   **Customer Tracking Portal** — You can now give your customers the ability to create and submit orders themselves using the new TrackAbout Mobile 7 _Create Order (Customer Portal)_ action.
     
     Features:
     
@@ -68,20 +69,20 @@
     
 -   **Replace Barcode**  — Asset Classification is now shown on the asset details screen.
     
--   **Standard Delivery**  now supports RFID scans of multiple assets.
+-   **Standard Delivery** now supports HF and UHF RFID scanning, letting you collect asset information from multiple RFID tags at the same time.
     
 
 #### Fixes
 
--   **Delivery**  — Carriers can now be selected without entering a tracking number.
+-   **Delivery** — Carriers can now be selected without entering a tracking number.
     
--   **Delivery**  — Product and Lot number barcodes are now supported on the hard good lot number screen.
+-   **Delivery** — Product and Lot number barcodes are now supported on the hard good lot number screen.
     
--   **Replace Barcode**  — The asset details screen now shows when a barcode is scanned at the beginning of the process.
+-   **Replace Barcode** — The asset details screen now shows when a barcode is scanned at the beginning of the process.
     
--   **Simple Batch Delivery**  — Scanned assets are now assigned appropriately to the correct line when Continuous Scanning is enabled.
+-   **Simple Batch Delivery** — Scanned assets are now assigned appropriately to the correct line when Continuous Scanning is enabled.
     
--   **Picking**  now displays container information. Users can see what assets are in scanned containers as part of  _Detail View_.
+-   **Picking** now displays container information. Users can see what assets are in scanned containers as part of _Detail View_.
     
 
 ## OpenData
@@ -90,7 +91,7 @@ A new field has been added that indicates what the customer’s bracketed rental
 
 **opendata.Holders**
 
-**BracketedRentalRateTableId**  — Indicates the bracketed rental rate for the customer.
+**BracketedRentalRateTableId** — Indicates the bracketed rental rate for the customer.
 
 
 
