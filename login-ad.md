@@ -1,97 +1,45 @@
-# What's New (February 2025 Release Notes)
+# [March 2025 Test Environment Release Notes](https://datacor.clickhelp.co/articles/#!project-trackabout-kb/march-2025-test-environment-release-notes)
 
 
 ## TrackAbout Web
 
-#### Enhancements
+-   **Black Hole Finds** — The new Black Hole Finds Management Report shows you details about the missing assets TrackAbout has found as part of Black Hole Recovery.
 
--   **Override Date & Time** — You now have the option to disable the user’s ability to change (override) the current date and time in various places around the app. Contact TrackAbout Support to disable the _Override Date & Time_ option on any of the following:
-    
-    -   Create Fill Action
-        
-    -   Edit Asset / Add New Asset
-        
-    -   Enter Invoice
-        
-    -   Enter Maintenance
-        
-    -   Reclassify Assets
-        
-    -   Register Complaint / Recall/ Block
-        
-    -   Remove Assets From Lot
-        
-    -   Set Asset Location
-        
-    -   Set Ownerships
-        
-    -   Set Serial Numbers
-        
-    
--   **Order Cancellation Reason Codes** — This new page lets you manage your order cancellation codes. You can view and edit existing codes and add new ones and activate or deactivate both new and existing codes.
-    
-    Access to the new page can be set by user permission (_Edit Order Cancellation Reason Codes_ and _View Order Cancellation Reason Codes_).
-    
+    -   **Maintenance Work Orders** — Over the next few releases, we're rolling out support for Maintenance Work Orders in conjunction with Service Product Codes. With this release, you'll be able to setup and manage maintenance service codes used on Maintenance Orders and search Maintenance Work Orders attached to delivery/service records. Note: These features work best when integrated with your ERP/business system using the TrackAbout API, and may require an upcharge. Contact [TrackAbout Support](mailto:support@trackabout.com) for more.
 
-#### Fixes
+    -   **Maintenance Service Product Codes** — You can now create and manage maintenance work order service codes through the Service Product Codes page. Service Product Codes are used in Maintenance Work Orders and TrackAbout Mobile 7 service deliveries. When creating or editing a Service Product Code, in addition to a name and description, you can select the type of maintenance represented by the code.
 
--   **Production Record** — No longer shows Palletise Empties actions other than the most recent.
-    
--   **Customer > Rental Dashboard** — Duplicate balances are no longer erroneously displayed when using Tiered Rental methods.
-    
+    -   **Maintenance Work Order Search** — The new _Maintenance Work Order Search_ page lets you search for and view maintenance orders. It is accessible under _Orders > Maintenance Work Order Search_. 
 
+    -   **API** — A new API endpoint is available for sending Maintenance Work Orders to TrackAbout. See [POST /orders/maintenance/batch](https://test.trackabout.com/api/docs/#!/orders/MaintenanceOrderBatchmaintenancebatch_Post) for details.
+
+-   **Rental** — When using Escalating Rental, all Not-Scanned assets must have identities, and all returns must be fully reconciled for TrackAbout to correctly calculate how long the assets were with the customer. The new validation checks to make sure both conditions are true and notifies you if they aren't.
+
+-   **Asset Families** — TrackAbout now keeps an audit trail for additions, updates, and deletions of individual asset families. The audit trail can be viewed by clicking View Audit Trail on the Asset Families List and the Edit Asset Family page.
+
+-   **Records** — You can now detach duplicate hard goods line items (two or more line items with the same hard good product code).
+
+-   **Sync Problems** — The name of the user who created the record that resulted in the sync problem is now shown for TrackAbout Mobile 7 sync proble
+
+-   **Manifests** — The user’s location no longer overrides the departing location selected by the person who created the manifest when the manifest is printed.
+
+-   **Rental Dashboard** — An issue that caused duplicate balances to be displayed when using Rental Tiers has been fixed.
+
+-   **TrackAbout Dashboard** — The Accounting Adjustment count shown on the TrackAbout Dashboard now matches the count of accounting adjustments on the Accounting Adjustment page.
+
+  
 ## TrackAbout Mobile 7
 
-#### Enhancements
+-   **Delivery (with Integrated Order Sync)** — You can now attach photos when canceling (pre-cancelling) an order.
 
--   **Locate** — The user’s working location is now automatically selected as the default location. The user can select a different location if needed.
-    
--   **Customer Tracking Portal** — You can now give your customers the ability to create and submit orders themselves using the new TrackAbout Mobile 7 _Create Order (Customer Portal)_ action.
-    
-    Features:
-    
-    -   Choose Order Priority (Normal, High Urgent)
-        
-    -   Specify a Suggested Delivery Date
-        
-    -   Easier line item entry — Filter the list of available products to those used by the customer in the past, or scan an asset to add the product to the order
-        
-    -   Emails —Your customer receives an order submission confirmation and you receive an email notification when an order is submitted.
-        
-    -   Order Review — Viewable on the Order Search screens on TrackAbout Web, including information about who submitted the order.
-        
-    -   Integration — Orders can be integrated back to your business system using the TrackAbout API.
-        
-    
--   **Delivery (with Integrated Order Sync)**  — The Product Codes used by the customer in recent past orders are now listed when selecting a Product Code while adding a line item (_Add Line Item > Select Product Codes_) or after scanning an unknown, not-listed asset.
-    
-    By default, all Product Codes (full or empty) are listed for selection, but the user can still search to select a different product code. To list all except empties or to not list any Product Codes, contact TrackAbout Support.
-    
--   **Replace Barcode**  — Asset Classification is now shown on the asset details screen.
-    
--   **Standard Delivery** now supports HF and UHF RFID scanning, letting you collect asset information from multiple RFID tags at the same time.
-    
+-   **General** — Large records (those with more than a thousand records) now save and process faster.
 
-#### Fixes
+-   **Replace Barcode** — Now makes sure you can’t reuse a barcode that has been used before for another asset.
 
--   **Delivery** — Carriers can now be selected without entering a tracking number.
-    
--   **Delivery** — Product and Lot number barcodes are now supported on the hard good lot number screen.
-    
--   **Replace Barcode** — The asset details screen now shows when a barcode is scanned at the beginning of the process.
-    
--   **Simple Batch Delivery** — Scanned assets are now assigned appropriately to the correct line when Continuous Scanning is enabled.
-    
--   **Picking** now displays container information. Users can see what assets are in scanned containers as part of _Detail View_.
-    
+-   **Register Asset** — Rapidly tapping _Save_ or _Save and Add More_ can no longer accidentally register the same asset more than once.
 
+  
 ## OpenData
-
-A new field has been added that indicates what the customer’s bracketed rental rate is.
-
-**opendata.Holders**
-
-**BracketedRentalRateTableId** — Indicates the bracketed rental rate for the customer.
-
-
-
+-   **opendata.RecordWorkOrders** — This new view lets you see the Work Order Number used during filling.
+    
+  
