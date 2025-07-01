@@ -1,4 +1,4 @@
-# [What's New (Testing Environment - June 2025)](https://datacor.clickhelp.co/smart/project-trackabout-kb/july-2025-release-notes-355)
+# [What's New for July 2025](https://datacor.clickhelp.co/smart/project-trackabout-kb/july-2025-release-notes-355)
 
 TrackAbout's July 2025 update is out now, including a variety of enhancements and improvements.
 
