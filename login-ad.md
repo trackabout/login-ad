@@ -32,3 +32,4 @@
     
 -   **TrackAbout Mobile » Delivery** - An issue that intermittently prevented PDFs of HTML delivery receipts from being generated and emailed has been corrected.
 
+-   **TrackAbout Mobile » Delivery** - An issue that intermittently prevented PDFs of HTML delivery receipts from being generated and emailed has been corrected.
