@@ -31,5 +31,3 @@
 -   **TrackAbout Mobile 7 » Sort Container** - Assets now remain properly contained when other assets are detached from records.
     
 -   **TrackAbout Mobile » Delivery** - An issue that intermittently prevented PDFs of HTML delivery receipts from being generated and emailed has been corrected.
-
--   **TrackAbout Mobile » Delivery** - An issue that intermittently prevented PDFs of HTML delivery receipts from being generated and emailed has been corrected.
