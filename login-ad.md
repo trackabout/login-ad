@@ -28,6 +28,8 @@ Printing from Generic Actions works best when using templates to format the prin
   * Move to Another Delivery (on Handoff records)
   * Switch Use in Forecast (for Bulk Delivery records)
 
+
+
 * **TrackAbout Web » User Access Control** - The new *Set user passwords* permission lets designated users reset any user’s password. Users with only this permission can edit another user's password but not change any other user properties.
 * **TrackAbout Mobile » Traditional Chinese Language Support** - TrackAbout now supports Traditional Chinese (zh-Hant).
 * **TrackAbout Mobile » Maintenance with Work Orders** - Support for scanning a combination product and lot barcode has been added.  Scanning the same code repeatedly increments the quantities of the same product and lot.
