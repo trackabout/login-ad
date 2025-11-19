@@ -15,9 +15,9 @@
   * Dynamic Form Data
   * Asset Barcodes and Serial Numbers
 
-Printing from Generic Actions works best when using templates to format the printout. For help creating customized templates based on your use case, contact [TrackAbout Support](ta-support@datacor.com).
+Printing from Generic Actions works best when using templates to format the printout. For help creating customized templates based on your use case, contact TrackAbout Support.
 
-* **TrackAbout Mobile 7 » Editing Records** - Users can now be required to enter a reason when editing records. Reason fields for the activities listed below can now be made mandatory. 
+* **TrackAbout Mobile 7 » Editing Records** - Users can now be required to enter a reason when editing records. Reason fields for the activities listed below can now be made mandatory.
 
   * Delete Record
   * Change Record Date and Time
