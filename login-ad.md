@@ -1,4 +1,4 @@
-# What's New: [November 2025 Release Notes](https://datacor.clickhelp.co/articles/project-trackabout-kb/358-release-notes)
+# What's New: [December 2025 Release Notes](https://datacor.clickhelp.co/articles/project-trackabout-kb/358-release-notes)
 
 
 
