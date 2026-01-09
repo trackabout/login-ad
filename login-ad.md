@@ -1,49 +1,22 @@
-# What's New: [December 2025 Release Notes](https://datacor.clickhelp.co/articles/project-trackabout-kb/358-release-notes)
+# What's New: January 2026 Release Notes
 
 
 
 ### Enhancements
 
-* **TrackAbout Mobile 7 » Generic Actions** - We've added the ability to print (HTML and Thermal Printer) from Generic Actions. Information collected in the Generic Action can be included in the print-out, including:
+* **TrackAbout Mobile 7 and Web » Temporary Tags**: TrackAbout now supports Temporary Tags. Temporary Tags provide a controlled way to identify and track assets that are missing permanent barcodes at the time of operational handling. Instead of relying on Not-scanned (NS) assets, users can affix a short-lived temporary barcode, perform a minimal registration, and treat the item as a uniquely tracked asset until it is properly registered with a permanent tag. This feature is designed to improve traceability, reduce exceptions, and preserve asset history during delivery, return, maintenance, and related workflows. Temporary Tags are intentionally constrained. They are valid only within specific actions and must be replaced with a permanent barcode before the asset can participate in workflows that require full registration.
+* **TrackAbout Web 7 » Warning on Assets Near Expiration Date**: TrackAbout now displays a warning when an asset’s last test date is approaching its expiration date but is still within a configurable warning period. This warning allows users to plan retesting before the asset becomes invalid, while still permitting the asset to be added or used. Previously, TrackAbout enforced a hard stop only after an asset passed its retest expiration date. This enhancement introduces a non-blocking warning that appears before expiration, based on configurable warning-period rules.
+* **TrackAbout Mobile 7 » User Interface (UI) Improvements**: The TrackAbout Mobile 7 application UI has been refreshed to align with Datacor brand standards. Global UI colors have been updated to use the Datacor color palette, ensuring visual consistency with other Datacor products.
+* **TrackAbout Web » Customer Portal Users Page**: A new Customer Portal Users page is now available for Customer Service Representatives (CSRs) who manage multiple customers with Customer Portal access. This page provides a single, consolidated view of all Customer Portal users across customers, eliminating the need to open individual customer records to find or manage users. From this page, CSRs can both review and edit Customer Portal users directly.
+* **TrackAbout Web » Ownership Type Filter**: The Asset List and Asset Balance customer reports now include an Ownership Type filter to help you focus on the assets and balances that matter to you. The Ownership Type dropdown list is available with the following options:
 
-  * Ownership
-  * Product Code
-  * Use State
-  * Location
-  * Customer
-  * Lot Number
-  * Dynamic Form Data
-  * Asset Barcodes and Serial Numbers
+  * **All Types (default)**: Includes all assets, including those without a mapped ownership type and not-scanned assets, subject to existing filters.
+  * **Company Owned**: Assets with this ownership are excluded. Not-scanned assets are excluded from balance calculations and results.
+  * **Non Company Owned**: Assets with this ownership are excluded. Not-scanned assets are excluded from balance calculations and results.
 
-Printing from Generic Actions works best when using templates to format the printout. For help creating customized templates based on your use case, contact TrackAbout Support.
-
-* **TrackAbout Mobile 7 » Editing Records** - Users can now be required to enter a reason when editing records. Reason fields for the activities listed below can now be made mandatory.
-
-  * Delete Record
-  * Change Record Date and Time
-  * Detach Assets
-  * Attach Known Assets
-  * Change Lot Number (on Fill records and other records that can set the lot number)
-  * Change Truck Load / Unload (on Load Truck and Unload Truck records)
-  * Move to Another Delivery (on Handoff records)
-  * Switch Use in Forecast (for Bulk Delivery records)
-
-To set up this feature, contact TrackAbout Support.
-
-* **TrackAbout Web » User Access Control** - The new *Set user passwords* permission lets designated users reset any user’s password. Users with only this permission can edit another user's password but not change any other user properties.
-* **TrackAbout Mobile » Traditional Chinese Language Support** - TrackAbout now supports Traditional Chinese (zh-Hant).
-* **TrackAbout Mobile » Maintenance with Work Orders** - Support for scanning a combination product and lot barcode has been added.  Scanning the same code repeatedly increments the quantities of the same product and lot.
-* **TrackAbout Mobile » Delivery (with Integrated Order Sync)** - The ability to register complaints through Delivery (with Integrated Order Sync) can now be disabled. By default, users can select to register complaints from the menu in Delivery (with Integrated Order Sync). Disabling this ability removes that ability. To change the default, contact TrackAbout Support.
-* **TrackAbout Web » Web Service Credentials** - Users can now add or update their web service credentials directly in TrackAbout Web instead of depending on TrackAbout Support. Access to this functionality is optional and can be enabled by TrackAbout Support.
-* **Introducing Push APIs for Real-Time Data Delivery and Event Notifications** - To enhance real-time data delivery and reduce the need for frequent update requests, TrackAbout is introducing Push APIs. Unlike traditional REST APIs, which require applications to request updates at regular intervals, Push APIs enable TrackAbout systems to send updates automatically as events occur, in real time. This approach improves efficiency and ensures users receive the most current information without making repeated requests. The following Push APIs are included in this release:
-
-  * **API » Push API for Mark Lost Records** - Triggers when the lost status of an asset has changed.
-  * **API » Push API for Delivered Orders** - Triggers when a delivery is verified.
-  * **API » Push API for Use State and Location Change Events** - Triggers when an asset’s location or use state changes.
-
-
+* **TrackAbout Mobile 7 » "Is Fully Tracked" Flag**: TrackAbout now supports bypassing the **Is Fully Tracked** asset family requirement on a per-location basis. Previously, when an asset family was marked as fully tracked, mobile workflows such as Delivery, Sort Trip, and Fill required all assets to be scanned. This blocked locations from going live if some assets were not yet registered. With this update, administrators can configure specific branch locations to bypass the fully tracked requirement.
 
 ### Fixes
 
-* **TrackAbout Mobile » Fill** - Assets that have a test date expiration on the first day of the month can now be scanned throughout the day on the last day of the previous month.
-* **TrackAbout Web » Record Summary** - Records with lines having more than one difference reason code now display correctly in the summary.
+* **TrackAbout Mobile 7 » Notes Field**: The Notes field now displays all of the notes entered into the field without them being cut off by the onscreen keyboard.4
+* **TrackAbout Web » Black Hole Finds Report**: Improvements were made on how the Black Hole Finds report was sorting and displaying results.
