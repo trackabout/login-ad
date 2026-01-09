@@ -18,5 +18,5 @@
 
 ### Fixes
 
-* **TrackAbout Mobile 7 » Service Notes Field**: The **Service** **Notes** field now displays all of the notes entered into the field without them being cut off by the onscreen keyboard.4
+* **TrackAbout Mobile 7 » Service Notes Field**: The **Service** **Notes** field now displays all of the notes entered into the field without them being cut off by the onscreen keyboard.
 * **TrackAbout Web » Black Hole Finds Report**: Improvements were made on how the Black Hole Finds report was sorting and displaying results.
