@@ -1,4 +1,4 @@
-# What's New: [January 2026 Release Notes](https://datacor.clickhelp.co/smart/project-trackabout-kb/january-2026-release-notes-359)
+# What's New: [January 2026 Release Notes](https://datacor.clickhelp.co/articles/trackabout-help-center/january-2026-release-notes-359)
 
 
 
