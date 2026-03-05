@@ -9,27 +9,27 @@
   * **TrackAbout Mobile 7**: Users can pause a POD-Style Delivery (POD) during asset scanning. The delivery is saved and can be resumed later.
   * **TrackAbout Web**: This feature now supports visibility and integration for paused deliveries.
 
-		• **Order Planning**: Paused delivery orders are visible in the Order Planning page, allowing administrators to plan and schedule deliveries that span multiple days.
+			• **Order Planning**: Paused delivery orders are visible in the Order Planning page, allowing administrators to plan and schedule deliveries that span multiple days.
 
-&nbsp;		• **Verified Orders API**: Integrations can now optionally receive paused delivery records through the Verified Orders APIs, providing visibility into incomplete deliveries when required.
+&nbsp;			• **Verified Orders API**: Integrations can now optionally receive paused delivery records through the Verified Orders APIs, providing visibility into incomplete deliveries when required.
 
 * **Certificate of Analysis (COA) and Certificate of Conformance (COC) Enhancements:** TrackAbout now provides expanded flexibility for generating, grouping, and distributing Certificates of Analysis (COA) and Certificates of Conformance (COC). These updates support multiple approval workflows and simplify certificate management.
 
 	**• TrackAbout Mobile 7**:
 
-&nbsp;		• **Instrument Selection Updates:** Available analytic instruments during Analysis are based on the analyte rule for that product and location.
+&nbsp;			• **Instrument Selection Updates:** Available analytic instruments during Analysis are based on the analyte rule for that product and location.
 
 	• **TrackAbout Web:** Users can generate and manage COAs and COCs directly from the appropriate system records.
 
-&nbsp;		• **Manual COA Generation**: Allows COAs to be generated from Analysis, Approval, and Delivery records. 
+&nbsp;			• **Manual COA Generation**: Allows COAs to be generated from Analysis, Approval, and Delivery records. 
 
-&nbsp;		• **Manual COC Generation:** Allows COCs to be generated from Fill and Delivery records.
+&nbsp;			• **Manual COC Generation:** Allows COCs to be generated from Fill and Delivery records.
 
- 		• **Expanded COA and COC Template Support:** Added expanded support for COA and COC templates to better meet client documentation needs.
+ 			• **Expanded COA and COC Template Support:** Added expanded support for COA and COC templates to better meet client documentation needs.
 
-        	• **Automatic Emailing:** Enables automatic emailing of COAs and COCs to customers during Delivery.
+        		• **Automatic Emailing:** Enables automatic emailing of COAs and COCs to customers during Delivery.
 
-        	• **Automatic COA Generation:** Enables automatic COA generation based on lot approval requirements.
+        		• **Automatic COA Generation:** Enables automatic COA generation based on lot approval requirements.
 
 * **TrackAbout Mobile 7 » Delivery » Proof of Delivery (POD) - Direction Switching:** TrackAbout now allows drivers to switch assets from delivered to return and vice versa during a delivery in TrackAbout Mobile7 from the Review Items screen.
 * **TrackAbout Mobile 7 » Delivery » Online POD Receipt Details:** Online Lookup for Delivery with Integrated Order Sync now supports retrieval of all values required for a true and accurate receipt to be printed including Lot Number, Volume, etc.
