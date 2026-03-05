@@ -1,22 +1,56 @@
-# What's New: January 2026 Release Notes
+# What's New: March 2026 Release Notes
 
 
+
+### New Feature
+
+* **TrackAbout Mobile and Web Pausing Deliveries:** TrackAbout now supports pausing and resuming deliveries that are completed over multiple visits or days.
+
+  * **TrackAbout Mobile 7**: Users can pause a POD-Style Delivery (POD) during asset scanning. The delivery is saved and can be resumed later.
+  * **TrackAbout Web**: This feature now supports visibility and integration for paused deliveries.
+
+ 		- **Order Planning**: Paused delivery orders are visible in the Order Planning page, allowing administrators to
+
+          plan and schedule deliveries that span multiple days.
+
+ 		- **Verified Orders API**: Integrations can now optionally receive paused delivery records through the Verified
+
+          Orders APIs, providing visibility into incomplete deliveries when required.
+
+* **Certificate of Analysis (COA) and Certificate of Conformance (COC) Enhancements:** TrackAbout now provides expanded flexibility for generating, grouping, and distributing Certificates of Analysis (COA) and Certificates of Conformance (COC). These updates support multiple approval workflows and simplify certificate management.
+
+  * **TrackAbout Mobile 7**:
+
+      		- **Instrument Selection Updates:** Available analytic instruments during Analysis are based on the analyte rule for that product and location.
+
+* **TrackAbout Web:** Users can generate and manage COAs and COCs directly from the appropriate system records.
+
+ 		- **Manual COA Generation**: Allows COAs to be generated from Analysis, Approval, and Delivery records. 
+
+ 		- **Manual COC Generation:** Allows COCs to be generated from Fill and Delivery records.
+
+ 		- **Expanded COA and COC Template Support:** Added expanded support for COA and COC templates to better meet client documentation needs.
+
+        	- **Automatic Emailing:** Enables automatic emailing of COAs and COCs to customers during Delivery.
+
+        	- **Automatic COA Generation:** Enables automatic COA generation based on lot approval requirements.
+
+* **TrackAbout Mobile 7 » Delivery » Proof of Delivery (POD) - Direction Switching:** TrackAbout now allows drivers to switch assets from delivered to return and vice versa during a delivery in TrackAbout Mobile7 from the Review Items screen.
+
+ 		- **TrackAbout Mobile 7 » Delivery » Online POD Receipt Details:** Online Lookup for Delivery with Integrated Order Sync now supports retrieval of all values required for a true and accurate receipt to be printed including Lot Number, Volume, etc.
+
+        	- **TrackAbout Mobile 7 » Delivery » Online POD Use State Validation:** Online Lookup for Delivery with Integrated Order Sync now supports full asset use state validation. Assets in blocked or otherwise invalid use states are rejected when scanned, preventing them from being added to a delivery and helping maintain proper asset control.
 
 ### Enhancements
 
-* **TrackAbout Mobile 7 and Web » Temporary Tags**: TrackAbout now supports Temporary Tags. Temporary Tags provide a controlled way to identify and track assets that are missing permanent barcodes at the time of operational handling. Instead of relying on Not-scanned (NS) assets, users can affix a short-lived temporary barcode, perform a minimal registration, and treat the item as a uniquely tracked asset until it is properly registered with a permanent tag. This feature is designed to improve traceability, reduce exceptions, and preserve asset history during delivery, return, maintenance, and related workflows. Temporary Tags are intentionally constrained. They are valid only within specific actions and must be replaced with a permanent barcode before the asset can participate in workflows that require full registration.
-* **TrackAbout Web 7 » Warning on Assets Near Expiration Date**: TrackAbout now displays a warning when an asset’s last test date is approaching its expiration date but is still within a configurable warning period. This warning allows users to plan retesting before the asset becomes invalid, while still permitting the asset to be added or used. Previously, TrackAbout enforced a hard stop only after an asset passed its retest expiration date. This enhancement introduces a non-blocking warning that appears before expiration, based on configurable warning-period rules.
-* **TrackAbout Mobile 7 » User Interface (UI) Improvements**: The TrackAbout Mobile 7 application UI has been refreshed to align with Datacor brand standards. Global UI colors have been updated to use the Datacor color palette, ensuring visual consistency with other Datacor products.
-* **TrackAbout Web » Customer Portal Users Page**: A new Customer Portal Users page is now available for Customer Service Representatives (CSRs) who manage multiple customers with Customer Portal access. This page provides a single, consolidated view of all Customer Portal users across customers, eliminating the need to open individual customer records to find or manage users. From this page, CSRs can both review and edit Customer Portal users directly.
-* **TrackAbout Web » Ownership Type Filter**: The Asset List and Asset Balance customer reports now include an Ownership Type filter to help you focus on the assets and balances that matter to you. The Ownership Type dropdown list is available with the following options:
-
-  * **All Types (default)**: Includes all assets, including those without a mapped ownership type and not-scanned assets, subject to existing filters.
-  * **Company Owned**: Assets with this ownership are excluded. Not-scanned assets are excluded from balance calculations and results.
-  * **Non Company Owned**: Assets with this ownership are excluded. Not-scanned assets are excluded from balance calculations and results.
-
-* **TrackAbout Mobile 7 » "Is Fully Tracked" Flag**: TrackAbout now supports bypassing the **Is Fully Tracked** asset family requirement on a per-location basis. Previously, when an asset family was marked as fully tracked, mobile workflows such as Delivery, Sort Trip, and Fill required all assets to be scanned. This blocked locations from going live if some assets were not yet registered. With this update, administrators can configure specific branch locations to bypass the fully tracked requirement.
+* **TrackAbout Mobile 7 » Delivery** **> Delivery Receipt Email Screen:** TrackAbout now allows drivers to select which email addresses receive a delivery receipt when completing a delivery. When enabled, delivery receipt email addresses configured for the customer are displayed individually and selected by default. Drivers can deselect optional email addresses before sending the receipt. Email addresses required by the organization remain selected and can’t be removed.
+* **TrackAbout Verified Orders API » Optional Pricing Information:** The TrackAbout Verified Orders API has been enhanced to optionally include pricing information with verified order data. When enabled, API responses can return a pricing summary for each order, including pre-tax totals, tax, total amount, and currency. Pricing details are also organized by item type, such as products, hard goods, and service items, making it easier for integrations to consume and present order cost information. This enhancement applies to all Verified Orders API endpoints and is fully backward compatible. Existing integrations will continue to function as before unless pricing information is explicitly requested.
+* **TrackAbout Mobile » Delivery:** TrackAbout now allows drivers to adjust line-item unit prices during deliveries when enabled by the organization. A **Unit Price** field appears on the **Enter Quantity** screen for eligible planned and ad hoc deliveries, allowing drivers to override the original price. Adjusted prices are reflected in delivery totals, the confirmation screen, and POD receipts, and are visually indicated in the line-item list. This is controlled by the new field called IsPriceAdjustmentAllowed in the POST/orders/pending/batch API.
+* **TrackAbout Web and APIs » Verified Orders API Enhancement-Difference Reason Codes:** The Verified Orders APIs now include Difference Reason Codes in the response. When a verified order contains a discrepancy between the ordered and delivered quantities, the reason selected during delivery is returned through the API. This allows integrators to pass clear and consistent discrepancy details to ERP and other downstream systems. This enhancement is available to all clients using the Verified Orders APIs.
+* **Rental » Currency Display Across Rental Pages:** TrackAbout now supports a localized currency display across rental pages. This is controlled by configuration rather than the user's language settings, ensuring consistent formatting.
+* **Customer Audits – Auto-Grouping \& Audit Page Performance Improvements:** Auto-grouping of Customer Audit records has been restored to help manage high audit volumes. When enabled for your organization, an audit will automatically join an existing group only if there is an exact 1:1 match between the customers in the group and the customer selected for the audit (applies to clients not using departments). The Audit page has also been optimized to improve load times and responsiveness when working with a large number of grouped audits, resulting in a faster and more efficient reconciliation experience.
 
 ### Fixes
 
-* **TrackAbout Mobile 7 » Notes Field**: The Notes field now displays all of the notes entered into the field without them being cut off by the onscreen keyboard.4
-* **TrackAbout Web » Black Hole Finds Report**: Improvements were made on how the Black Hole Finds report was sorting and displaying results.
+* **TrackAbout Web » Order Search > Planned Delivery Date Filter:** An issue was resolved on the **Order Search** page where the Planned Delivery Date End filter in Advanced Search was not applied correctly unless an Ordered Date End was also entered. This could result in incomplete or unexpected search results when filtering by Planned Delivery Date alone. The Planned Delivery Date range now works independently, and search results are correctly filtered based on the entered Planned Delivery Start and End dates.
+* **TrackAbout Web » Current Inventory > Summary Mode Filtering**: An issue was resolved on the **Current Inventory** page when the Summary (Sum by Product Code) mode is selected and the option to include assets at customers delivered from selected locations is enabled.
