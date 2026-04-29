@@ -1,0 +1,29 @@
+# What's New: April 2026 Release Notes
+
+
+
+### New Features
+
+* **TrackAbout Mobile » Picking » Asset Content Expiration Validation During Picking:** TAM7 now validates product content expiration dates when drivers scan assets during Picking. This can be configured with a warning or a hard stop based on the product and the time until expiration. 
+* **Verified Orders API » Delivery Photos and Documents Can Now Be Exported via API:** The Verified Orders API now supports returning photos and documents captured during delivery.
+* **Setup » Test Date Validation Rules » Retest Periods Can Now Be Configured Based on Asset Properties:** Test date validation can now take more parameters into account including attributes such as Manufacture Date, product, etc. Contact TrackAbout Support for more information.
+* **TrackAbout Web » OpenData:** Media IDs are now exposed in OpenData, allowing you to report on records with media attached.
+
+### Enhancements
+
+* **TrackAbout Web » Temporary Tags » Visual Indicators in the Site:** TrackAbout Web now displays an orange clock icon next to temporary tags. This icon will be displayed in:
+
+  * Record Details
+  * Asset History
+  * Asset Search
+  * Current Inventory (Unique Assets)
+* **TrackAbout Web » Certificate of Analysis » Export to FTP:** TrackAbout now supports the automatic export of Certificate of Analysis (COA) PDF documents to a configured FTP location whenever a COA is generated. When enabled, each COA is placed in the configured FTP folder using a structured filename that identifies the lot, product, and asset, making files easy to match to records without opening the document. A date-stamped archive copy is also saved automatically.
+* **TrackAbout Web » Expiration Date Rules » Manage Rules from the Web**: Expiration date rules can now be managed directly from the TrackAbout web interface. Rules can now also be assigned to **All Locations**, acting as a default when no location-specific rule exists.
+* **TrackAbout Mobile » Hard Good Barcode Scanning »** **Scan Hard Good Barcodes Without a Lot Number**. Hard good product codes can now be scanned directly in Picking, Load Truck, and Delivery workflows without requiring a lot number embedded in the barcode. Barcodes in standard symbologies including UPC-A, UPC-E, EAN-8, EAN-13, and Code 128 are supported.
+* **TrackAbout  »  Manual COA Generation from Analysis Records:** TrackAbout now allows users to manually generate Certificates of Analysis (COA) directly from a Post-Fill Analysis record. Operators can now select the **Generate Certificate of Analysis** link on the **Assets** section of the **Record Summary page** for Post-Fill Analysis records, which opens a popup displaying all lot assets with check boxes pre-selected. Operators can select or deselect specific assets, optionally search for and enter a customer using the **Search** button to include customer information on the certificate. Generated COAs are attached to the selected assets and respect the configured grouping mode (Per Asset, Per Lot, or Per Product Code). This enables drivers to carry printed certificates for hand-delivery to customers at time of delivery.
+
+### Fixes
+
+* **TrackAbout Mobile » Rental Bill » Serialized Asset Balance Delivered Date Now Reflects Headquarters Local Date:** TrackAbout Mobile now correctly displays the local delivery date in the **Delivered** column of the **Serialized Asset Balance** section on rental bills.
+* **TrackAbout Mobile » Physical Inventory » Found Asset Count Now Reflects Unique Assets Only:** TrackAbout now correctly displays the Found count during a Physical Inventory audit on TAM7.
+
