@@ -1,0 +1,13 @@
+{
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "deny": [
+      "Bash(gh pr merge:*)",
+      "Bash(gh pr review:*)",
+      "Bash(gh pr ready:*)",
+      "Bash(git merge:*)",
+      "Bash(git push* --force*)",
+      "Bash(git push* -f*)"
+    ]
+  }
+}
