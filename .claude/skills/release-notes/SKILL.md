@@ -17,7 +17,7 @@ non-technical language and explain each step as you do it.
 ## Golden rules (do not break these)
 
 1. **Every action ends in a pull request.** Never commit directly to `draft`, `test`, or `master`.
-   The "Change" actions create a short-lived working branch and open a PR into the target branch.
+   The "Overwrite" actions create a short-lived working branch and open a PR into the target branch.
 2. **Never merge or approve anything.** Do not run `gh pr merge`, `gh pr review`, `gh pr ready`, or
    `gh pr create --auto`. (These are also blocked by `.claude/settings.json`.) Your job ends when
    the PR is open — a human reviews and merges it in GitHub.
@@ -38,7 +38,7 @@ non-technical language and explain each step as you do it.
 |--------------------------------------------|-------------------------------------|
 | Repo                                       | `trackabout/login-ad`               |
 | Content file                               | `login-ad.md`                       |
-| Default source file (for "Change" actions) | `%USERPROFILE%\Desktop\login-ad.md` |
+| Default source file (for "Overwrite" actions) | `%USERPROFILE%\Desktop\login-ad.md` |
 
 Branch → environment → cache timing:
 
@@ -60,19 +60,38 @@ Reviewers (GitHub handles, both repo collaborators):
 1. Make sure you're in the repo working tree. Run `git -C <repo> rev-parse --show-toplevel` and use
    that path for all git commands. Confirm `gh auth status` shows the user is logged in.
 2. Refresh remote state: `git fetch origin --prune`.
-3. Present the menu below and let the editor choose.
+3. Present the menu below as a **two-step** selection (pick a category, then the specific action)
+   and let the editor choose.
 
 ## The menu
 
-Show these five options (use the AskUserQuestion tool, one selection):
+There are **five** actions. Present them as **two** `AskUserQuestion` selections — one step at a
+time — never as a single five-way list. (`AskUserQuestion` allows at most **4** options per
+question, so a single five-option menu would silently drop one — historically the
+promote-to-Production action — making it unreachable.)
 
-| # | Menu label                            | What it does                                                     | PR base  | PR head                         |
-|---|---------------------------------------|------------------------------------------------------------------|----------|---------------------------------|
-| 1 | Change Staging Release Notes          | Put your edited file on Staging for proofing                     | `draft`  | new working branch off `draft`  |
-| 2 | Change Test Release Notes             | Update the ClientTest copy (also keeps `draft` aligned)          | `test`   | new working branch off `test`   |
-| 3 | Change Production Release Notes       | Update the Production copy (also keeps `test` + `draft` aligned) | `master` | new working branch off `master` |
-| 4 | Push Staging Release Notes to Test    | Promote the Staging copy to ClientTest                           | `test`   | `draft`                         |
-| 5 | Push Test Release Notes to Production | Promote the ClientTest copy to Production                        | `master` | `test`                          |
+**Step 1 — "What would you like to do?"** (2 options):
+
+- **Overwrite release notes** — replace the copy on one environment with your edited file.
+- **Promote release notes** — move an existing copy downstream to a more public environment.
+
+**Step 2 — depends on Step 1:**
+
+- If **Overwrite** → ask **"Which environment?"** (3 options): **Staging** → action 1 /
+  **Test** → action 2 / **Production** → action 3.
+- If **Promote** → ask **"Which promotion?"** (2 options): **Staging → Test** → action 4 /
+  **Test → Production** → action 5.
+
+Each selection resolves to one of the five actions below; everything downstream keys off the action
+number, which is unchanged:
+
+| # | Action label                            | What it does                                                     | PR base  | PR head                         |
+|---|-----------------------------------------|------------------------------------------------------------------|----------|---------------------------------|
+| 1 | Overwrite Staging Release Notes         | Put your edited file on Staging for proofing                     | `draft`  | new working branch off `draft`  |
+| 2 | Overwrite Test Release Notes            | Update the ClientTest copy (also keeps `draft` aligned)          | `test`   | new working branch off `test`   |
+| 3 | Overwrite Production Release Notes      | Update the Production copy (also keeps `test` + `draft` aligned) | `master` | new working branch off `master` |
+| 4 | Push Staging Release Notes to Test      | Promote the Staging copy to ClientTest                           | `test`   | `draft`                         |
+| 5 | Push Test Release Notes to Production   | Promote the ClientTest copy to Production                        | `master` | `test`                          |
 
 ## Shared rule — sprint, milestone, reviewer
 
@@ -83,7 +102,7 @@ Apply this for whichever action is chosen. Let **base** = the PR's target branch
   1. **Which sprint is this for?** (e.g. `363`). Accept a whole number; re-ask if it's anything else.
   2. **Is this a patch?** If yes, ask for the patch part and use `<N>.<p>` (e.g. `361.1`); if no,
      use the whole number `<N>` (e.g. `363`).
-  The resulting value goes in the PR title and (for "Change" actions) the working-branch name.
+  The resulting value goes in the PR title and (for "Overwrite" actions) the working-branch name.
 - **Milestone** — always, for every action (all five options, including `draft`):
   - Check if a milestone titled `<N>` exists:
     `gh api repos/trackabout/login-ad/milestones --jq '.[].title'`.
@@ -105,9 +124,9 @@ Apply this for whichever action is chosen. Let **base** = the PR's target branch
 
 | Action                   | Title                                           |
 |--------------------------|-------------------------------------------------|
-| 1 Change Staging         | `Edit Staging release notes - Sprint <N>`       |
-| 2 Change Test            | `Edit ClientTest release notes - Sprint <N>`    |
-| 3 Change Production      | `Edit Production release notes - Sprint <N>`    |
+| 1 Overwrite Staging      | `Edit Staging release notes - Sprint <N>`       |
+| 2 Overwrite Test         | `Edit ClientTest release notes - Sprint <N>`    |
+| 3 Overwrite Production   | `Edit Production release notes - Sprint <N>`    |
 | 4 Push Staging → Test    | `Promote Staging -> ClientTest - Sprint <N>`    |
 | 5 Push Test → Production | `Promote ClientTest -> Production - Sprint <N>` |
 
@@ -115,7 +134,7 @@ Apply this for whichever action is chosen. Let **base** = the PR's target branch
 
 Write the PR body yourself by looking at the diff and **summarizing the additions only**:
 
-- For "Change" actions (1–3): `git diff origin/<base>...<work-branch> -- login-ad.md`.
+- For "Overwrite" actions (1–3): `git diff origin/<base>...<work-branch> -- login-ad.md`.
 - For "Push" actions (4–5): `git diff origin/<base>..origin/<head> -- login-ad.md`.
 
 Read the **added** lines (new or updated release-note items) and write a few concise, high-level
@@ -158,7 +177,7 @@ sprint `<N>` and edited file from the primary action:
 The skill never previews or confirms alignment PRs — each is opened automatically and still goes
 through human review/merge in GitHub.
 
-## Actions 1–3 — "Change … Release Notes"
+## Actions 1–3 — "Overwrite … Release Notes"
 
 Let `B` = the target branch (`draft` / `test` / `master`) and `env` = `staging` / `test` /
 `production`.
@@ -212,12 +231,6 @@ Option 4 = `draft` → `test`; option 5 = `test` → `master`. Let `head` and `b
    Capture the PR URL it prints, then open it: `gh pr view <pr-url> --web`.
 4. **Report:** give the PR URL, note you've opened it in the browser, and remind them
    ClientTest/Production updates within ~10 minutes after a human merges it.
-
-## Optional — "status"
-
-If the editor asks where things stand, show, for `login-ad.md`, how `origin/draft`, `origin/test`,
-and `origin/master` differ (e.g. `git log --oneline origin/master..origin/test`), and list open PRs:
-`gh pr list --repo trackabout/login-ad`.
 
 ## If something goes wrong
 
