@@ -4,12 +4,7 @@
 
 ### New Features
 
-* **TrackAbout Mobile » Scan Assets:**  TrackAbout Mobile now supports scanning and performing maintenance on containers, **provided the container is empty**. 
-
-  * You can scan a container barcode in a maintenance action to perform maintenance on the container itself.
-  * If the container is empty, maintenance proceeds and a record is created for that container.
-  * If the container has assets inside, the scan is rejected: "Container must be empty to perform maintenance."
-  * Container maintenance records are visible in \*\*Record Search \*\*and reporting, like any other maintenance record.
+* **TrackAbout Mobile » Scan Assets:**  TrackAbout Mobile now supports scanning and performing maintenance on containers, provided the container is empty. When the **Allow maintenance on empty containers** setting is enabled, you can scan and record maintenance on a container asset directly from the TrackAbout Mobile app. Containers that currently hold one or more assets cannot be maintained until they are emptied.
 * **Customer Portal » Asset History Page:** The **Asset History** page lets your customers view their assets and asset activity. Your customer can see assets that they own that are physically at your facility, such as customer-owned cylinders being tested, filled, or serviced before return. This gives them a complete picture of their fleet, not just the assets currently in their possession.
 * **Customer Portal » Portal Inventory Page:** The **Portal Inventory** page gives portal users a comprehensive view of their full asset fleet, including assets sitting in-house at the vendor's facility for service. Previously, Customer Portal users could view asset and balance reports for assets at their own locations but had no way to see customer-owned assets being serviced at the vendor's facility, and lacked the grouping and roll-up options available to internal users.
 * **TrackAbout Web » Maintenance » AI-Assisted Collision Resolution:** TrackAbout now provides several AI-assisted collision resolution features, which can be enabled for your organization.
@@ -31,3 +26,4 @@
 ### Bug Fixes
 
 * **TrackAbout Web » Configured Jobs**: We resolved an issue where the Auto Renew Asset Agreements job did not renew agreements in certain scenarios when the job was configured to match the renewed agreement quantity to the customer's current rental balance.
+
